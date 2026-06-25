@@ -19,10 +19,20 @@ const activeCategoryLabel = document.querySelector("#activeCategoryLabel");
 const countLabel = document.querySelector("#countLabel");
 
 async function loadCatalog() {
-  const response = await fetch("data/catalogo-web.json", { cache: "no-store" });
+  // En GitHub Pages deberia estar en /data/catalogo-web.json.
+  // Dejo tambien una segunda opcion por si se prueba localmente con el JSON al lado del index.html.
+  let response = await fetch("data/catalogo-web.json", { cache: "no-store" });
+  if (!response.ok) {
+    response = await fetch("catalogo-web.json", { cache: "no-store" });
+  }
+  if (!response.ok) {
+    throw new Error(`No se encontro catalogo-web.json. Estado HTTP: ${response.status}`);
+  }
+
   const catalog = await response.json();
   state.categories = Array.isArray(catalog.categories) ? catalog.categories : [];
   state.products = Array.isArray(catalog.products) ? catalog.products : [];
+
   renderDesktopCategories();
   renderMobileCategories();
   renderProducts();
@@ -31,10 +41,14 @@ async function loadCatalog() {
 function childrenOf(parentId) {
   return state.categories
     .filter(category => (category.parentId ?? null) === (parentId ?? null))
-    .sort((a, b) => (a.sortOrder - b.sortOrder) || a.name.localeCompare(b.name, "es"));
+    .sort((a, b) =>
+      ((a.sortOrder ?? 9999) - (b.sortOrder ?? 9999)) ||
+      String(a.name || "").localeCompare(String(b.name || ""), "es")
+    );
 }
 
 function renderDesktopCategories() {
+  if (!desktopCategories) return;
   desktopCategories.replaceChildren(...childrenOf(null).map(category => createDesktopCategory(category)));
 }
 
@@ -42,7 +56,7 @@ function createDesktopCategory(category) {
   const children = childrenOf(category.id);
   const item = document.createElement("div");
   item.className = `category-item${children.length ? " has-children" : ""}`;
-  item.textContent = category.name;
+  item.textContent = category.name || "Categoria";
   item.dataset.id = category.id;
   item.addEventListener("click", event => {
     event.stopPropagation();
@@ -60,6 +74,7 @@ function createDesktopCategory(category) {
 }
 
 function renderMobileCategories() {
+  if (!mobileCategories) return;
   mobileCategories.replaceChildren(...childrenOf(null).map(category => createMobileCategory(category)));
 }
 
@@ -71,10 +86,15 @@ function createMobileCategory(category) {
   const button = document.createElement("button");
   button.className = "mobile-category-button";
   button.type = "button";
-  button.innerHTML = `<span>${escapeHtml(category.name)}</span><span>${children.length ? "+" : ""}</span>`;
-  button.addEventListener("click", () => {
-    selectCategory(category.id);
-    if (children.length) item.classList.toggle("expanded");
+  button.innerHTML = `<span>${escapeHtml(category.name || "Categoria")}</span><span>${children.length ? "+" : ""}</span>`;
+  button.addEventListener("click", event => {
+    event.stopPropagation();
+    if (children.length) {
+      item.classList.toggle("expanded");
+    } else {
+      selectCategory(category.id);
+      closeMobilePanel();
+    }
   });
   item.appendChild(button);
 
@@ -89,6 +109,8 @@ function createMobileCategory(category) {
 }
 
 function renderProducts() {
+  if (!productsGrid || !template) return;
+
   const search = normalize(state.search);
   const allowedCategoryIds = state.categoryId ? descendantIds(state.categoryId) : null;
   const products = state.products.filter(product => {
@@ -106,10 +128,13 @@ function renderProducts() {
   });
 
   productsGrid.replaceChildren();
-  countLabel.textContent = `${products.length} productos`;
-  activeCategoryLabel.textContent = state.categoryId
-    ? state.categories.find(category => category.id === state.categoryId)?.name || "Categoria"
-    : "Todas las categorias";
+
+  if (countLabel) countLabel.textContent = `${products.length} productos`;
+  if (activeCategoryLabel) {
+    activeCategoryLabel.textContent = state.categoryId
+      ? state.categories.find(category => category.id === state.categoryId)?.name || "Categoria"
+      : "Todas las categorias";
+  }
 
   for (const product of products) {
     const node = template.content.firstElementChild.cloneNode(true);
@@ -129,7 +154,7 @@ function descendantIds(categoryId) {
   while (changed) {
     changed = false;
     for (const category of state.categories) {
-      if (category.parentId !== null && ids.has(category.parentId) && !ids.has(category.id)) {
+      if ((category.parentId ?? null) !== null && ids.has(category.parentId) && !ids.has(category.id)) {
         ids.add(category.id);
         changed = true;
       }
@@ -140,11 +165,11 @@ function descendantIds(categoryId) {
 
 function selectCategory(categoryId) {
   state.categoryId = categoryId;
-  closeMobilePanel();
   renderProducts();
 }
 
 function renderImage(container, product) {
+  if (!container) return;
   if (!product.image) {
     container.textContent = "Sin imagen";
     return;
@@ -157,6 +182,7 @@ function renderImage(container, product) {
 }
 
 function renderPrice(container, product) {
+  if (!container) return;
   if (product.price === null || product.price === undefined || product.price === "") {
     container.remove();
     return;
@@ -166,6 +192,7 @@ function renderPrice(container, product) {
 }
 
 function renderAttributes(container, attributes) {
+  if (!container) return;
   for (const [name, value] of Object.entries(attributes)) {
     const term = document.createElement("dt");
     const description = document.createElement("dd");
@@ -190,33 +217,48 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
-searchInput.addEventListener("input", event => {
-  state.search = event.target.value;
-  renderProducts();
-});
-
-clearFiltersButton.addEventListener("click", () => {
-  state.search = "";
-  state.categoryId = null;
-  searchInput.value = "";
-  renderProducts();
-});
-
 function openMobilePanel() {
-  mobileOverlay.hidden = false;
-  mobilePanel.hidden = false;
+  if (mobileOverlay) mobileOverlay.hidden = false;
+  if (mobilePanel) mobilePanel.hidden = false;
 }
 
 function closeMobilePanel() {
-  mobileOverlay.hidden = true;
-  mobilePanel.hidden = true;
+  if (mobileOverlay) mobileOverlay.hidden = true;
+  if (mobilePanel) mobilePanel.hidden = true;
 }
 
-mobileCategoriesButton.addEventListener("click", openMobilePanel);
-closeMobileCategoriesButton.addEventListener("click", closeMobilePanel);
-mobileOverlay.addEventListener("click", closeMobilePanel);
+if (searchInput) {
+  searchInput.addEventListener("input", event => {
+    state.search = event.target.value;
+    renderProducts();
+  });
+}
+
+if (clearFiltersButton) {
+  clearFiltersButton.addEventListener("click", () => {
+    state.search = "";
+    state.categoryId = null;
+    if (searchInput) searchInput.value = "";
+    closeMobilePanel();
+    renderProducts();
+  });
+}
+
+if (mobileCategoriesButton) {
+  mobileCategoriesButton.addEventListener("click", openMobilePanel);
+}
+
+if (closeMobileCategoriesButton) {
+  closeMobileCategoriesButton.addEventListener("click", closeMobilePanel);
+}
+
+if (mobileOverlay) {
+  mobileOverlay.addEventListener("click", closeMobilePanel);
+}
 
 loadCatalog().catch(error => {
-  productsGrid.textContent = "No se pudo cargar el catalogo.";
+  if (productsGrid) {
+    productsGrid.textContent = "No se pudo cargar el catalogo: " + error.message;
+  }
   console.error(error);
 });
