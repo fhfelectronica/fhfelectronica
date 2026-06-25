@@ -1,17 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>FHF Electrónica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FHF Electronica</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>FHF Electrónica</h1>
-  <p>Componentes electrónicos, Arduino, módulos, sensores, robótica e insumos técnicos.</p>
+  <header class="topbar">
+    <div>
+      <h1>FHF Electronica</h1>
+      <p>Catalogo de productos</p>
+    </div>
+    <input id="searchInput" type="search" placeholder="Buscar productos">
+  </header>
 
-  <p>
-    <a href="https://fhfelectronica.mitiendanube.com" target="_blank">
-      Ver tienda online
-    </a>
-  </p>
+  <main>
+    <section class="filters">
+      <select id="categoryFilter">
+        <option value="">Todas las categorias</option>
+      </select>
+      <span id="countLabel"></span>
+    </section>
+    <section id="productsGrid" class="products"></section>
+  </main>
+
+  <template id="productTemplate">
+    <article class="product">
+      <div class="product-image"></div>
+      <div class="product-body">
+        <div class="sku"></div>
+        <h2></h2>
+        <p class="description"></p>
+        <div class="price"></div>
+        <dl class="attributes"></dl>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
 </body>
 </html>

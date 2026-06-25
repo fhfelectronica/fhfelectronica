@@ -1,0 +1,160 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2933;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f4f6f8;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px clamp(16px, 4vw, 42px);
+  background: #ffffff;
+  border-bottom: 1px solid #dbe2ea;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.topbar p {
+  margin: 4px 0 0;
+  color: #607080;
+}
+
+input,
+select {
+  height: 38px;
+  border: 1px solid #cbd5df;
+  border-radius: 6px;
+  padding: 0 12px;
+  background: #ffffff;
+  color: #1f2933;
+  font: inherit;
+}
+
+#searchInput {
+  width: min(360px, 100%);
+}
+
+main {
+  width: min(1180px, calc(100% - 32px));
+  margin: 22px auto 40px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+#countLabel {
+  color: #607080;
+  font-size: 14px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.product {
+  background: #ffffff;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.product-image {
+  aspect-ratio: 4 / 3;
+  background: #e8edf3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #728197;
+  font-size: 14px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.product-body {
+  padding: 14px;
+}
+
+.sku {
+  color: #607080;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.description {
+  color: #435160;
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+
+.price {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.attributes {
+  display: grid;
+  grid-template-columns: minmax(90px, auto) 1fr;
+  gap: 6px 10px;
+  margin: 0;
+  font-size: 13px;
+}
+
+dt {
+  color: #607080;
+}
+
+dd {
+  margin: 0;
+}
+
+@media (max-width: 680px) {
+  .topbar,
+  .filters {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  #searchInput,
+  select {
+    width: 100%;
+  }
+}
