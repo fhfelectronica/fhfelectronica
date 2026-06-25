@@ -12,18 +12,38 @@
       <h1>FHF Electronica</h1>
       <p>Catalogo de productos</p>
     </div>
-    <input id="searchInput" type="search" placeholder="Buscar productos">
+    <div class="searchbar">
+      <button id="mobileCategoriesButton" type="button">Categorias</button>
+      <input id="searchInput" type="search" placeholder="Buscar por SKU, nombre o caracteristica">
+    </div>
   </header>
 
-  <main>
-    <section class="filters">
-      <select id="categoryFilter">
-        <option value="">Todas las categorias</option>
-      </select>
-      <span id="countLabel"></span>
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-title">Categorias</div>
+      <nav id="desktopCategories" class="category-menu"></nav>
+    </aside>
+
+    <section class="catalog">
+      <div class="catalog-toolbar">
+        <div>
+          <div id="activeCategoryLabel" class="active-category">Todas las categorias</div>
+          <span id="countLabel"></span>
+        </div>
+        <button id="clearFiltersButton" type="button">Limpiar</button>
+      </div>
+      <section id="productsGrid" class="products"></section>
     </section>
-    <section id="productsGrid" class="products"></section>
   </main>
+
+  <div id="mobileOverlay" class="mobile-overlay" hidden></div>
+  <aside id="mobileCategoriesPanel" class="mobile-panel" hidden>
+    <div class="mobile-panel-header">
+      <strong>Categorias</strong>
+      <button id="closeMobileCategoriesButton" type="button">Cerrar</button>
+    </div>
+    <nav id="mobileCategories" class="mobile-categories"></nav>
+  </aside>
 
   <template id="productTemplate">
     <article class="product">
