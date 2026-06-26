@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-26T10:47:06.4135741-03:00",
-  "productCount": 508,
+  "generatedAt": "2026-06-26T19:28:05.1362292-03:00",
+  "productCount": 501,
   "categories": [
     {
       "id": 1,
@@ -116,8 +116,8 @@
     },
     {
       "sku": "3A002",
-      "title": "Display Full Graphic  con cables de 60cm",
-      "description": "Display Full Graphic  con cables de 60cm",
+      "title": "Display Full Graphic",
+      "description": "Display Full Graphic RepRapDiscount 12864  con cables de 60cm",
       "category": "",
       "image": "media/3A002.jpg",
       "categoryIds": [
@@ -129,8 +129,8 @@
       ],
       "attributes": {
         "SKU": "3A002",
-        "Nombre": "Display Full Graphic  con cables de 60cm",
-        "Descripcion": "Display Full Graphic  con cables de 60cm"
+        "Nombre": "Display Full Graphic",
+        "Descripcion": "Display Full Graphic RepRapDiscount 12864  con cables de 60cm"
       },
       "media": [
         {
@@ -142,8 +142,8 @@
     },
     {
       "sku": "3A003",
-      "title": "Display Texto 2004 con cables",
-      "description": "Display Texto 2004 con cables",
+      "title": "Display Texto 2004 RepRapDiscount",
+      "description": "Display Texto RepRapDiscount 2004 azul, con cables",
       "category": "",
       "image": "media/3A003.jpg",
       "categoryIds": [
@@ -153,8 +153,8 @@
       ],
       "attributes": {
         "SKU": "3A003",
-        "Nombre": "Display Texto 2004 con cables",
-        "Descripcion": "Display Texto 2004 con cables"
+        "Nombre": "Display Texto 2004 RepRapDiscount",
+        "Descripcion": "Display Texto RepRapDiscount 2004 azul, con cables"
       },
       "media": [
         {
@@ -166,14 +166,14 @@
     },
     {
       "sku": "3A005",
-      "title": "A4988 Verde 2A (Chip Original) con disipador",
+      "title": "A4988 Verde Original con disipador",
       "description": "A4988 Verde 2A (Chip Original) con disipador",
       "category": "",
       "image": "media/3A005.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A005",
-        "Nombre": "A4988 Verde 2A (Chip Original) con disipador",
+        "Nombre": "A4988 Verde Original con disipador",
         "Descripcion": "A4988 Verde 2A (Chip Original) con disipador"
       },
       "media": [
@@ -186,14 +186,14 @@
     },
     {
       "sku": "3A006",
-      "title": "DRV8825 Violeta 2,5A (Chip original) con disipador",
+      "title": "DRV8825 Violeta Original con disipador",
       "description": "DRV8825 Violeta 2,5A (Chip original) con disipador",
       "category": "",
       "image": "media/3A006.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A006",
-        "Nombre": "DRV8825 Violeta 2,5A (Chip original) con disipador",
+        "Nombre": "DRV8825 Violeta Original con disipador",
         "Descripcion": "DRV8825 Violeta 2,5A (Chip original) con disipador"
       },
       "media": [
@@ -206,14 +206,14 @@
     },
     {
       "sku": "3A007",
-      "title": "disipador de aluminio 9x9x5mm con pegamento para drivers A4988, DRV8825, etc",
+      "title": "disipador Aluminio 9x9x5mm",
       "description": "disipador de aluminio 9x9x5mm con pegamento para drivers A4988, DRV8825, etc",
       "category": "",
       "image": "media/3A007-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A007",
-        "Nombre": "disipador de aluminio 9x9x5mm con pegamento para drivers A4988, DRV8825, etc",
+        "Nombre": "disipador Aluminio 9x9x5mm",
         "Descripcion": "disipador de aluminio 9x9x5mm con pegamento para drivers A4988, DRV8825, etc"
       },
       "media": [
@@ -236,14 +236,14 @@
     },
     {
       "sku": "3A011",
-      "title": "KS42STH34-1504A Motor Nema17 34mm Rated Current 1.5A resistance:1.5? Holding Torque: 0.22N.m",
+      "title": "KS42STH34-1504A",
       "description": "KS42STH34-1504A Motor Nema17 34mm Rated Current 1.5A resistance:1.5? Holding Torque: 0.22N.m",
       "category": "",
       "image": "media/3A011-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A011",
-        "Nombre": "KS42STH34-1504A Motor Nema17 34mm Rated Current 1.5A resistance:1.5? Holding Torque: 0.22N.m",
+        "Nombre": "KS42STH34-1504A",
         "Descripcion": "KS42STH34-1504A Motor Nema17 34mm Rated Current 1.5A resistance:1.5? Holding Torque: 0.22N.m"
       },
       "media": [
@@ -261,14 +261,14 @@
     },
     {
       "sku": "3A012",
-      "title": "KS42STH40-1204A Motor Nema17 40mm Rated Current 1.2A resistance:1.7? Holding Torque: 0.4N.m",
+      "title": "KS42STH40-1204A",
       "description": "KS42STH40-1204A Motor Nema17 40mm Rated Current 1.2A resistance:1.7? Holding Torque: 0.4N.m",
       "category": "",
       "image": "media/3A012-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A012",
-        "Nombre": "KS42STH40-1204A Motor Nema17 40mm Rated Current 1.2A resistance:1.7? Holding Torque: 0.4N.m",
+        "Nombre": "KS42STH40-1204A",
         "Descripcion": "KS42STH40-1204A Motor Nema17 40mm Rated Current 1.2A resistance:1.7? Holding Torque: 0.4N.m"
       },
       "media": [
@@ -286,14 +286,14 @@
     },
     {
       "sku": "3A013",
-      "title": "KS42STH48-1684A Motor Nema17 48mm Rated Current 1.68A resistance:1.65? Holding Torque: \u00B30.5N.m",
+      "title": "KS42STH48-1684A",
       "description": "KS42STH48-1684A Motor Nema17 48mm Rated Current 1.68A resistance:1.65? Holding Torque: \u00B30.5N.m",
       "category": "",
       "image": "media/3A013-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A013",
-        "Nombre": "KS42STH48-1684A Motor Nema17 48mm Rated Current 1.68A resistance:1.65? Holding Torque: \u00B30.5N.m",
+        "Nombre": "KS42STH48-1684A",
         "Descripcion": "KS42STH48-1684A Motor Nema17 48mm Rated Current 1.68A resistance:1.65? Holding Torque: \u00B30.5N.m"
       },
       "media": [
@@ -339,7 +339,7 @@
       "title": "Cinta Kapton 100mm",
       "description": "Cinta Kapton 100mm",
       "category": "",
-      "image": "media/3A029.jpg",
+      "image": "media/3A029_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A029",
@@ -348,9 +348,9 @@
       },
       "media": [
         {
-          "fileName": "media/3A029.jpg",
+          "fileName": "media/3A029_2.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
@@ -359,7 +359,7 @@
       "title": "Cinta Kapton 20mm",
       "description": "Cinta Kapton 20mm",
       "category": "",
-      "image": "media/3A030.jpg",
+      "image": "media/3A030_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A030",
@@ -368,7 +368,7 @@
       },
       "media": [
         {
-          "fileName": "media/3A030.jpg",
+          "fileName": "media/3A030_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -379,7 +379,7 @@
       "title": "Cinta Kapton 10mm",
       "description": "Cinta Kapton 10mm",
       "category": "",
-      "image": "media/3A031.jpg",
+      "image": "media/3A031_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A031",
@@ -388,7 +388,7 @@
       },
       "media": [
         {
-          "fileName": "media/3A031.jpg",
+          "fileName": "media/3A031_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -399,7 +399,7 @@
       "title": "Cinta Kapton 5mm",
       "description": "Cinta Kapton 5mm",
       "category": "",
-      "image": "media/3A032.jpg",
+      "image": "media/3A032_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A032",
@@ -408,7 +408,7 @@
       },
       "media": [
         {
-          "fileName": "media/3A032.jpg",
+          "fileName": "media/3A032_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -417,18 +417,18 @@
     {
       "sku": "3A034",
       "title": "Fin de carrera mecanico",
-      "description": "Fin de carrera mecanico",
+      "description": "Fin de carrera mecanico con cable",
       "category": "",
-      "image": "media/3A034.jpg",
+      "image": "media/3A034.png",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A034",
         "Nombre": "Fin de carrera mecanico",
-        "Descripcion": "Fin de carrera mecanico"
+        "Descripcion": "Fin de carrera mecanico con cable"
       },
       "media": [
         {
-          "fileName": "media/3A034.jpg",
+          "fileName": "media/3A034.png",
           "role": "image",
           "isPrimary": false
         }
@@ -437,18 +437,18 @@
     {
       "sku": "3A036",
       "title": "Fin de carrera optico",
-      "description": "Fin de carrera optico",
+      "description": "Fin de carrera optico con cable",
       "category": "",
-      "image": "media/3A036.jpg",
+      "image": "media/3A036.png",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A036",
         "Nombre": "Fin de carrera optico",
-        "Descripcion": "Fin de carrera optico"
+        "Descripcion": "Fin de carrera optico con cable"
       },
       "media": [
         {
-          "fileName": "media/3A036.jpg",
+          "fileName": "media/3A036.png",
           "role": "image",
           "isPrimary": false
         }
@@ -459,7 +459,7 @@
       "title": "Fin de carrera mecanico con rueda",
       "description": "Fin de carrera mecanico con rueda",
       "category": "",
-      "image": "media/3A037.jpg",
+      "image": "media/3A037.png",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A037",
@@ -468,7 +468,7 @@
       },
       "media": [
         {
-          "fileName": "media/3A037.jpg",
+          "fileName": "media/3A037.png",
           "role": "image",
           "isPrimary": false
         }
@@ -479,7 +479,7 @@
       "title": "Fin de carrera SS-5GL OMRON",
       "description": "Fin de carrera SS-5GL OMRON",
       "category": "",
-      "image": "media/3A038.jpg",
+      "image": "media/3A038.png",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A038",
@@ -488,7 +488,7 @@
       },
       "media": [
         {
-          "fileName": "media/3A038.jpg",
+          "fileName": "media/3A038.png",
           "role": "image",
           "isPrimary": false
         }
@@ -496,19 +496,19 @@
     },
     {
       "sku": "3A044",
-      "title": "Espiral para cables 8mm bolsa de 100 gramos aproximadamente 10 metros",
+      "title": "Espiral para cables 8mm",
       "description": "Espiral para cables 8mm bolsa de 100 gramos aproximadamente 10 metros",
       "category": "",
-      "image": "media/3A044.jpg",
+      "image": "media/3A044_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A044",
-        "Nombre": "Espiral para cables 8mm bolsa de 100 gramos aproximadamente 10 metros",
+        "Nombre": "Espiral para cables 8mm",
         "Descripcion": "Espiral para cables 8mm bolsa de 100 gramos aproximadamente 10 metros"
       },
       "media": [
         {
-          "fileName": "media/3A044.jpg",
+          "fileName": "media/3A044_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -516,19 +516,19 @@
     },
     {
       "sku": "3A046",
-      "title": "Espiral para cables 10mm bolsa de 100 gramos aproximadamente 8 metros",
+      "title": "Espiral para cables 10mm",
       "description": "Espiral para cables 10mm bolsa de 100 gramos aproximadamente 8 metros",
       "category": "",
-      "image": "media/3A046.jpg",
+      "image": "media/3A046_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A046",
-        "Nombre": "Espiral para cables 10mm bolsa de 100 gramos aproximadamente 8 metros",
+        "Nombre": "Espiral para cables 10mm",
         "Descripcion": "Espiral para cables 10mm bolsa de 100 gramos aproximadamente 8 metros"
       },
       "media": [
         {
-          "fileName": "media/3A046.jpg",
+          "fileName": "media/3A046_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -536,22 +536,17 @@
     },
     {
       "sku": "3A050",
-      "title": "42BYGHW811 Motor Nema17 48mm con cable de 72cm",
+      "title": "42BYGHW811",
       "description": "42BYGHW811 Motor Nema17 48mm con cable de 72cm",
       "category": "",
-      "image": "media/3A050-2.jpg",
+      "image": "media/3A050.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A050",
-        "Nombre": "42BYGHW811 Motor Nema17 48mm con cable de 72cm",
+        "Nombre": "42BYGHW811",
         "Descripcion": "42BYGHW811 Motor Nema17 48mm con cable de 72cm"
       },
       "media": [
-        {
-          "fileName": "media/3A050-2.jpg",
-          "role": "image",
-          "isPrimary": false
-        },
         {
           "fileName": "media/3A050.jpg",
           "role": "image",
@@ -581,15 +576,15 @@
     },
     {
       "sku": "3A073",
-      "title": "cable para motor 72 cm",
-      "description": "cable para motor 72 cm",
+      "title": "cable para motor PAP 72 cm",
+      "description": "cable para motor PAP 72 cm",
       "category": "",
       "image": "media/3A073.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A073",
-        "Nombre": "cable para motor 72 cm",
-        "Descripcion": "cable para motor 72 cm"
+        "Nombre": "cable para motor PAP 72 cm",
+        "Descripcion": "cable para motor PAP 72 cm"
       },
       "media": [
         {
@@ -601,15 +596,15 @@
     },
     {
       "sku": "3A074",
-      "title": "cable para motor 100 cm",
-      "description": "cable para motor 100 cm",
+      "title": "cable para motor PAP 100 cm",
+      "description": "cable para motor PAP 100 cm",
       "category": "",
       "image": "media/3A074.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A074",
-        "Nombre": "cable para motor 100 cm",
-        "Descripcion": "cable para motor 100 cm"
+        "Nombre": "cable para motor PAP 100 cm",
+        "Descripcion": "cable para motor PAP 100 cm"
       },
       "media": [
         {
@@ -621,14 +616,14 @@
     },
     {
       "sku": "3A083",
-      "title": "LJ12A3-4-Z/BY PNP NO Sensor Inductivo 4mm",
+      "title": "LJ12A3-4-Z/BY",
       "description": "LJ12A3-4-Z/BY PNP NO Sensor Inductivo 4mm",
       "category": "",
       "image": "media/3A083.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A083",
-        "Nombre": "LJ12A3-4-Z/BY PNP NO Sensor Inductivo 4mm",
+        "Nombre": "LJ12A3-4-Z/BY",
         "Descripcion": "LJ12A3-4-Z/BY PNP NO Sensor Inductivo 4mm"
       },
       "media": [
@@ -641,14 +636,14 @@
     },
     {
       "sku": "3A084",
-      "title": "LJ18A3-8-Z/BX Sensor Inductivo 8mm",
+      "title": "LJ18A3-8-Z/BX",
       "description": "LJ18A3-8-Z/BX Sensor Inductivo 8mm",
       "category": "",
       "image": "media/3A084.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A084",
-        "Nombre": "LJ18A3-8-Z/BX Sensor Inductivo 8mm",
+        "Nombre": "LJ18A3-8-Z/BX",
         "Descripcion": "LJ18A3-8-Z/BX Sensor Inductivo 8mm"
       },
       "media": [
@@ -681,14 +676,14 @@
     },
     {
       "sku": "3A109",
-      "title": "Precintos 3mm x 100mm Negros (chicos para cables) (bolsa de 500 unidades)",
+      "title": "Precintos 3mm x 100mm Negros",
       "description": "Precintos 3mm x 100mm Negros (chicos para cables) (bolsa de 500 unidades)",
       "category": "",
       "image": "media/3A109.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A109",
-        "Nombre": "Precintos 3mm x 100mm Negros (chicos para cables) (bolsa de 500 unidades)",
+        "Nombre": "Precintos 3mm x 100mm Negros",
         "Descripcion": "Precintos 3mm x 100mm Negros (chicos para cables) (bolsa de 500 unidades)"
       },
       "media": [
@@ -701,14 +696,14 @@
     },
     {
       "sku": "3A110",
-      "title": "Precintos 3mm x 100mm Blancos (chicos para cables) (bolsa de 500 unidades)",
+      "title": "Precintos 3mm x 100mm",
       "description": "Precintos 3mm x 100mm Blancos (chicos para cables) (bolsa de 500 unidades)",
       "category": "",
       "image": "media/3A110.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A110",
-        "Nombre": "Precintos 3mm x 100mm Blancos (chicos para cables) (bolsa de 500 unidades)",
+        "Nombre": "Precintos 3mm x 100mm",
         "Descripcion": "Precintos 3mm x 100mm Blancos (chicos para cables) (bolsa de 500 unidades)"
       },
       "media": [
@@ -721,14 +716,14 @@
     },
     {
       "sku": "3A115",
-      "title": "A4988 Rojo 1.5A (Chip Chino) con disipador",
+      "title": "A4988 Chip Chino",
       "description": "A4988 Rojo 1.5A (Chip Chino) con disipador",
       "category": "",
       "image": "media/3A115.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A115",
-        "Nombre": "A4988 Rojo 1.5A (Chip Chino) con disipador",
+        "Nombre": "A4988 Chip Chino",
         "Descripcion": "A4988 Rojo 1.5A (Chip Chino) con disipador"
       },
       "media": [
@@ -744,7 +739,7 @@
       "title": "Cinta Kapton 50mm",
       "description": "Cinta Kapton 50mm",
       "category": "",
-      "image": "media/3A119.jpg",
+      "image": "media/3A119_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A119",
@@ -752,6 +747,11 @@
         "Descripcion": "Cinta Kapton 50mm"
       },
       "media": [
+        {
+          "fileName": "media/3A119_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3A119.jpg",
           "role": "image",
@@ -761,14 +761,14 @@
     },
     {
       "sku": "3A122",
-      "title": "LJ12A3-4-Z/BX-5V M12 4mm DC 5V NPN NO Sensor inductivo 4mm",
+      "title": "LJ12A3-4-Z/BX-5V",
       "description": "LJ12A3-4-Z/BX-5V M12 4mm DC 5V NPN NO Sensor inductivo 4mm",
       "category": "",
       "image": "media/3A122.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A122",
-        "Nombre": "LJ12A3-4-Z/BX-5V M12 4mm DC 5V NPN NO Sensor inductivo 4mm",
+        "Nombre": "LJ12A3-4-Z/BX-5V",
         "Descripcion": "LJ12A3-4-Z/BX-5V M12 4mm DC 5V NPN NO Sensor inductivo 4mm"
       },
       "media": [
@@ -841,14 +841,14 @@
     },
     {
       "sku": "3A129",
-      "title": "Resorte Amarillo Alto 25 mm Ancho 8 mm centro 4 mm",
+      "title": "Resorte Amarillo",
       "description": "Resorte Amarillo Alto 25 mm Ancho 8 mm centro 4 mm",
       "category": "",
       "image": "media/3A129.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A129",
-        "Nombre": "Resorte Amarillo Alto 25 mm Ancho 8 mm centro 4 mm",
+        "Nombre": "Resorte Amarillo",
         "Descripcion": "Resorte Amarillo Alto 25 mm Ancho 8 mm centro 4 mm"
       },
       "media": [
@@ -861,41 +861,41 @@
     },
     {
       "sku": "3A134",
-      "title": "Termistor  NTC 100K hasta 350 grados con cable 1 metro y ficha",
+      "title": "Termistor NTC 100K 350 grados 1 metro",
       "description": "Termistor  NTC 100K hasta 350 grados con cable 1 metro y ficha",
       "category": "",
-      "image": "media/3A134.jpg",
+      "image": "media/3A134_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A134",
-        "Nombre": "Termistor  NTC 100K hasta 350 grados con cable 1 metro y ficha",
+        "Nombre": "Termistor NTC 100K 350 grados 1 metro",
         "Descripcion": "Termistor  NTC 100K hasta 350 grados con cable 1 metro y ficha"
       },
       "media": [
         {
-          "fileName": "media/3A134.jpg",
+          "fileName": "media/3A134_2.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
     {
       "sku": "3A135",
-      "title": "Termistor  NTC 100K hasta 350 grados con cable 2 metros y ficha",
+      "title": "Termistor NTC 100K 350 grados 2 metros",
       "description": "Termistor  NTC 100K hasta 350 grados con cable 2 metros y ficha",
       "category": "",
-      "image": "media/3A135.jpg",
+      "image": "media/3A135_3.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A135",
-        "Nombre": "Termistor  NTC 100K hasta 350 grados con cable 2 metros y ficha",
+        "Nombre": "Termistor NTC 100K 350 grados 2 metros",
         "Descripcion": "Termistor  NTC 100K hasta 350 grados con cable 2 metros y ficha"
       },
       "media": [
         {
-          "fileName": "media/3A135.jpg",
+          "fileName": "media/3A135_3.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
@@ -921,14 +921,14 @@
     },
     {
       "sku": "3A164",
-      "title": "disipador de aluminio para driver drv8825, A4988, A4983, TMC2100, etc",
+      "title": "disipador de aluminio 9x9x12",
       "description": "disipador de aluminio para driver drv8825, A4988, A4983, TMC2100, etc",
       "category": "",
       "image": "media/3A164.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A164",
-        "Nombre": "disipador de aluminio para driver drv8825, A4988, A4983, TMC2100, etc",
+        "Nombre": "disipador de aluminio 9x9x12",
         "Descripcion": "disipador de aluminio para driver drv8825, A4988, A4983, TMC2100, etc"
       },
       "media": [
@@ -944,20 +944,27 @@
       "title": "Placa externa drivers MKS",
       "description": "Placa externa drivers MKS",
       "category": "",
+      "image": "media/3A165.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A165",
         "Nombre": "Placa externa drivers MKS",
         "Descripcion": "Placa externa drivers MKS"
       },
-      "media": []
+      "media": [
+        {
+          "fileName": "media/3A165.jpg",
+          "role": "image",
+          "isPrimary": false
+        }
+      ]
     },
     {
       "sku": "3A196",
       "title": "Fin de carrera Optico A",
       "description": "Fin de carrera Optico A",
       "category": "",
-      "image": "media/3A196.jpg",
+      "image": "media/3A196b.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A196",
@@ -966,7 +973,17 @@
       },
       "media": [
         {
+          "fileName": "media/3A196b.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
+        {
           "fileName": "media/3A196.jpg",
+          "role": "image",
+          "isPrimary": false
+        },
+        {
+          "fileName": "media/3A196.png",
           "role": "image",
           "isPrimary": false
         }
@@ -974,15 +991,15 @@
     },
     {
       "sku": "3A201",
-      "title": "JK42HS34-1304A-01F Motor Nema17 34mm 1.8\u00BC",
-      "description": "JK42HS34-1304A-01F Motor Nema17 34mm 1.8\u00BC",
+      "title": "JK42HS34-1304A-01F",
+      "description": "JK42HS34-1304A-01F Motor Nema17 34mm 1.8",
       "category": "",
       "image": "media/3A201-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A201",
-        "Nombre": "JK42HS34-1304A-01F Motor Nema17 34mm 1.8\u00BC",
-        "Descripcion": "JK42HS34-1304A-01F Motor Nema17 34mm 1.8\u00BC"
+        "Nombre": "JK42HS34-1304A-01F",
+        "Descripcion": "JK42HS34-1304A-01F Motor Nema17 34mm 1.8"
       },
       "media": [
         {
@@ -999,14 +1016,14 @@
     },
     {
       "sku": "3A202",
-      "title": "JK42HS34-1334 Motor Nema17 34mm",
+      "title": "JK42HS34-1334",
       "description": "JK42HS34-1334 Motor Nema17 34mm",
       "category": "",
       "image": "media/3A202-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A202",
-        "Nombre": "JK42HS34-1334 Motor Nema17 34mm",
+        "Nombre": "JK42HS34-1334",
         "Descripcion": "JK42HS34-1334 Motor Nema17 34mm"
       },
       "media": [
@@ -1024,14 +1041,14 @@
     },
     {
       "sku": "3A203",
-      "title": "JK42HS40-1304F Motor Nema17 40mm con cable de 1 metro",
+      "title": "JK42HS40-1304F",
       "description": "JK42HS40-1304F Motor Nema17 40mm con cable de 1 metro",
       "category": "",
       "image": "media/3A203-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A203",
-        "Nombre": "JK42HS40-1304F Motor Nema17 40mm con cable de 1 metro",
+        "Nombre": "JK42HS40-1304F",
         "Descripcion": "JK42HS40-1304F Motor Nema17 40mm con cable de 1 metro"
       },
       "media": [
@@ -1049,14 +1066,14 @@
     },
     {
       "sku": "3A204",
-      "title": "JK42HS40-1704-13A Motor Nema17 40mm con cable de 1 metro",
+      "title": "JK42HS40-1704-13A",
       "description": "JK42HS40-1704-13A Motor Nema17 40mm con cable de 1 metro",
       "category": "",
       "image": "media/3A204-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A204",
-        "Nombre": "JK42HS40-1704-13A Motor Nema17 40mm con cable de 1 metro",
+        "Nombre": "JK42HS40-1704-13A",
         "Descripcion": "JK42HS40-1704-13A Motor Nema17 40mm con cable de 1 metro"
       },
       "media": [
@@ -1074,14 +1091,14 @@
     },
     {
       "sku": "3A206",
-      "title": "JK42HS48-1684-08AF  Motor Nema17 48mm con cable de 1 metro 2.8 V, 1.68 A, static torque 5.0k g.c m",
+      "title": "JK42HS48-1684-08AF",
       "description": "JK42HS48-1684-08AF  Motor Nema17 48mm con cable de 1 metro 2.8 V, 1.68 A, static torque 5.0k g.c m",
       "category": "",
       "image": "media/3A206-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A206",
-        "Nombre": "JK42HS48-1684-08AF  Motor Nema17 48mm con cable de 1 metro 2.8 V, 1.68 A, static torque 5.0k g.c m",
+        "Nombre": "JK42HS48-1684-08AF",
         "Descripcion": "JK42HS48-1684-08AF  Motor Nema17 48mm con cable de 1 metro 2.8 V, 1.68 A, static torque 5.0k g.c m"
       },
       "media": [
@@ -1099,14 +1116,14 @@
     },
     {
       "sku": "3A224",
-      "title": "LJC18A3-H-Z/BY Sensor Capacitivo 8mm",
+      "title": "LJC18A3-H-Z/BY",
       "description": "LJC18A3-H-Z/BY Sensor Capacitivo 8mm",
       "category": "",
       "image": "media/3A224.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A224",
-        "Nombre": "LJC18A3-H-Z/BY Sensor Capacitivo 8mm",
+        "Nombre": "LJC18A3-H-Z/BY",
         "Descripcion": "LJC18A3-H-Z/BY Sensor Capacitivo 8mm"
       },
       "media": [
@@ -1119,14 +1136,14 @@
     },
     {
       "sku": "3A225",
-      "title": "Resorte Azul Alto 25 mm Ancho 8 mm Centro 4 mm",
+      "title": "Resorte Azul",
       "description": "Resorte Azul Alto 25 mm Ancho 8 mm Centro 4 mm",
       "category": "",
       "image": "media/3A225.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A225",
-        "Nombre": "Resorte Azul Alto 25 mm Ancho 8 mm Centro 4 mm",
+        "Nombre": "Resorte Azul",
         "Descripcion": "Resorte Azul Alto 25 mm Ancho 8 mm Centro 4 mm"
       },
       "media": [
@@ -1159,14 +1176,14 @@
     },
     {
       "sku": "3A230",
-      "title": "TMC2208 con disipador",
+      "title": "TMC2208",
       "description": "TMC2208 con disipador",
       "category": "",
       "image": "media/3A230.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A230",
-        "Nombre": "TMC2208 con disipador",
+        "Nombre": "TMC2208",
         "Descripcion": "TMC2208 con disipador"
       },
       "media": [
@@ -1178,28 +1195,15 @@
       ]
     },
     {
-      "sku": "3A253",
-      "title": "KFB 2.0",
-      "description": "KFB 2.0",
-      "category": "",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3A253",
-        "Nombre": "KFB 2.0",
-        "Descripcion": "KFB 2.0"
-      },
-      "media": []
-    },
-    {
       "sku": "3A254",
-      "title": "TB67S109 pololu",
+      "title": "TB67S109",
       "description": "TB67S109 pololu",
       "category": "",
       "image": "media/3A254.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A254",
-        "Nombre": "TB67S109 pololu",
+        "Nombre": "TB67S109",
         "Descripcion": "TB67S109 pololu"
       },
       "media": [
@@ -1232,17 +1236,27 @@
     },
     {
       "sku": "3A260",
-      "title": "DRV8825 Violeta 2.5A (Chip Chino) con disipador",
+      "title": "DRV8825 chip Chino",
       "description": "DRV8825 Violeta 2.5A (Chip Chino) con disipador",
       "category": "",
-      "image": "media/3A260.jpg",
+      "image": "media/3A260a.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A260",
-        "Nombre": "DRV8825 Violeta 2.5A (Chip Chino) con disipador",
+        "Nombre": "DRV8825 chip Chino",
         "Descripcion": "DRV8825 Violeta 2.5A (Chip Chino) con disipador"
       },
       "media": [
+        {
+          "fileName": "media/3A260a.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
+        {
+          "fileName": "media/3A260_2.jpg",
+          "role": "image",
+          "isPrimary": false
+        },
         {
           "fileName": "media/3A260.jpg",
           "role": "image",
@@ -1252,14 +1266,14 @@
     },
     {
       "sku": "3A263",
-      "title": "TL-Smoother DFORCE Vibration Pattern Filter with Cable Eight Chip",
+      "title": "TL-Smoother DFORCE",
       "description": "TL-Smoother DFORCE Vibration Pattern Filter with Cable Eight Chip",
       "category": "",
       "image": "media/3A263.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A263",
-        "Nombre": "TL-Smoother DFORCE Vibration Pattern Filter with Cable Eight Chip",
+        "Nombre": "TL-Smoother DFORCE",
         "Descripcion": "TL-Smoother DFORCE Vibration Pattern Filter with Cable Eight Chip"
       },
       "media": [
@@ -1271,24 +1285,11 @@
       ]
     },
     {
-      "sku": "3A267",
-      "title": "KFB 3.0",
-      "description": "KFB 3.0",
-      "category": "",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3A267",
-        "Nombre": "KFB 3.0",
-        "Descripcion": "KFB 3.0"
-      },
-      "media": []
-    },
-    {
       "sku": "3A282",
       "title": "Fin de carrera Mecanico horizontal",
       "description": "Fin de carrera Mecanico horizontal",
       "category": "",
-      "image": "media/3A282.jpg",
+      "image": "media/3A282.png",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A282",
@@ -1297,7 +1298,7 @@
       },
       "media": [
         {
-          "fileName": "media/3A282.jpg",
+          "fileName": "media/3A282.png",
           "role": "image",
           "isPrimary": false
         }
@@ -1305,14 +1306,14 @@
     },
     {
       "sku": "3A283",
-      "title": "LJ8A3-2-Z/BX M8 NPN Sensor Inductivo",
+      "title": "LJ8A3-2-Z/BX",
       "description": "LJ8A3-2-Z/BX M8 NPN Sensor Inductivo",
       "category": "",
       "image": "media/3A283.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3A283",
-        "Nombre": "LJ8A3-2-Z/BX M8 NPN Sensor Inductivo",
+        "Nombre": "LJ8A3-2-Z/BX",
         "Descripcion": "LJ8A3-2-Z/BX M8 NPN Sensor Inductivo"
       },
       "media": [
@@ -1368,20 +1369,13 @@
       "title": "Rejilla para Cooler 60mm",
       "description": "Rejilla para Cooler 60mm",
       "category": "",
-      "image": "media/3B067.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B067",
         "Nombre": "Rejilla para Cooler 60mm",
         "Descripcion": "Rejilla para Cooler 60mm"
       },
-      "media": [
-        {
-          "fileName": "media/3B067.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
+      "media": []
     },
     {
       "sku": "3B129",
@@ -1545,19 +1539,19 @@
     },
     {
       "sku": "3B159",
-      "title": "Tubo de tefl\u2014n 2x3",
-      "description": "Tubo de tefl\u2014n 2x3",
+      "title": "Tubo de teflon 2x3",
+      "description": "Tubo de teflon 2x3",
       "category": "",
-      "image": "media/3B159.jpg",
+      "image": "media/3B159_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B159",
-        "Nombre": "Tubo de tefl\u2014n 2x3",
-        "Descripcion": "Tubo de tefl\u2014n 2x3"
+        "Nombre": "Tubo de teflon 2x3",
+        "Descripcion": "Tubo de teflon 2x3"
       },
       "media": [
         {
-          "fileName": "media/3B159.jpg",
+          "fileName": "media/3B159_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -1565,19 +1559,19 @@
     },
     {
       "sku": "3B160",
-      "title": "Tubo de tefl\u2014n 2x4 (Rollo aproximadamente 2Kgr - 100metros) pedir multiplos de 100",
-      "description": "Tubo de tefl\u2014n 2x4 (Rollo aproximadamente 2Kgr - 100metros) pedir multiplos de 100",
+      "title": "Tubo de teflon 2x4",
+      "description": "Tubo de teflon 2x4",
       "category": "",
-      "image": "media/3B160.jpg",
+      "image": "media/3B160_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B160",
-        "Nombre": "Tubo de tefl\u2014n 2x4 (Rollo aproximadamente 2Kgr - 100metros) pedir multiplos de 100",
-        "Descripcion": "Tubo de tefl\u2014n 2x4 (Rollo aproximadamente 2Kgr - 100metros) pedir multiplos de 100"
+        "Nombre": "Tubo de teflon 2x4",
+        "Descripcion": "Tubo de teflon 2x4"
       },
       "media": [
         {
-          "fileName": "media/3B160.jpg",
+          "fileName": "media/3B160_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -1585,15 +1579,15 @@
     },
     {
       "sku": "3B164",
-      "title": "Cartucho calefactor 12V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)",
-      "description": "Cartucho calefactor 12V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)",
+      "title": "Cartucho calefactor 12V",
+      "description": "Cartucho calefactor 12V diametro 6mm - Largo 20mm",
       "category": "",
       "image": "media/3B164.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B164",
-        "Nombre": "Cartucho calefactor 12V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)",
-        "Descripcion": "Cartucho calefactor 12V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)"
+        "Nombre": "Cartucho calefactor 12V",
+        "Descripcion": "Cartucho calefactor 12V diametro 6mm - Largo 20mm"
       },
       "media": [
         {
@@ -1605,15 +1599,15 @@
     },
     {
       "sku": "3B165",
-      "title": "Cartucho calefactor 24V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)",
-      "description": "Cartucho calefactor 24V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)",
+      "title": "Cartucho calefactor 24V",
+      "description": "Cartucho calefactor 24V diametro 6mm - Largo 20mm",
       "category": "",
       "image": "media/3B165.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B165",
-        "Nombre": "Cartucho calefactor 24V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)",
-        "Descripcion": "Cartucho calefactor 24V diametro 6mm - Largo 20mm (vienen en bolsas de 50u)"
+        "Nombre": "Cartucho calefactor 24V",
+        "Descripcion": "Cartucho calefactor 24V diametro 6mm - Largo 20mm"
       },
       "media": [
         {
@@ -1645,15 +1639,15 @@
     },
     {
       "sku": "3B169",
-      "title": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 5",
-      "description": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 5",
+      "title": "Conector Neumatico Racor M5",
+      "description": "Conector Neumatico Racor Rosca Metrica 5",
       "category": "",
       "image": "media/3B169.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B169",
-        "Nombre": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 5",
-        "Descripcion": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 5"
+        "Nombre": "Conector Neumatico Racor M5",
+        "Descripcion": "Conector Neumatico Racor Rosca Metrica 5"
       },
       "media": [
         {
@@ -1665,15 +1659,15 @@
     },
     {
       "sku": "3B170",
-      "title": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
-      "description": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
+      "title": "Conector Neumatico Racor M6",
+      "description": "Conector neumatico Racor Rosca Metrica 6",
       "category": "",
       "image": "media/3B170.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B170",
-        "Nombre": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
-        "Descripcion": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6"
+        "Nombre": "Conector Neumatico Racor M6",
+        "Descripcion": "Conector neumatico Racor Rosca Metrica 6"
       },
       "media": [
         {
@@ -1685,34 +1679,34 @@
     },
     {
       "sku": "3B172",
-      "title": "Conector neum\u2021tico Racor Rosca 3/8",
-      "description": "Conector neum\u2021tico Racor Rosca 3/8",
+      "title": "Conector neumatico Racor 3/8",
+      "description": "Conector neumatico Racor Rosca 3/8",
       "category": "",
-      "image": "media/3B172.jpg",
+      "image": "media/3B172_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B172",
-        "Nombre": "Conector neum\u2021tico Racor Rosca 3/8",
-        "Descripcion": "Conector neum\u2021tico Racor Rosca 3/8"
+        "Nombre": "Conector neumatico Racor 3/8",
+        "Descripcion": "Conector neumatico Racor Rosca 3/8"
       },
       "media": [
         {
-          "fileName": "media/3B172.jpg",
+          "fileName": "media/3B172_2.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
     {
       "sku": "3B173",
-      "title": "Engranaje para filamento Acero 40 Dientes Diametro externo 12mm Diametro eje 5mm Largo 11mm",
+      "title": "Engranaje Acero 40D 12mm",
       "description": "Engranaje para filamento Acero 40 Dientes Diametro externo 12mm Diametro eje 5mm Largo 11mm",
       "category": "",
       "image": "media/3B173.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B173",
-        "Nombre": "Engranaje para filamento Acero 40 Dientes Diametro externo 12mm Diametro eje 5mm Largo 11mm",
+        "Nombre": "Engranaje Acero 40D 12mm",
         "Descripcion": "Engranaje para filamento Acero 40 Dientes Diametro externo 12mm Diametro eje 5mm Largo 11mm"
       },
       "media": [
@@ -1725,15 +1719,15 @@
     },
     {
       "sku": "3B174",
-      "title": "Engranaje para filamento Bronce 26 Dientes D12 L11",
-      "description": "Engranaje para filamento Bronce 26 Dientes D12 L11",
+      "title": "Engranaje Bronce 26D 12mm",
+      "description": "Engranaje para filamento Bronce 26 Dientes Diametro 12mm Largo 11mm",
       "category": "",
       "image": "media/3B174.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B174",
-        "Nombre": "Engranaje para filamento Bronce 26 Dientes D12 L11",
-        "Descripcion": "Engranaje para filamento Bronce 26 Dientes D12 L11"
+        "Nombre": "Engranaje Bronce 26D 12mm",
+        "Descripcion": "Engranaje para filamento Bronce 26 Dientes Diametro 12mm Largo 11mm"
       },
       "media": [
         {
@@ -1745,14 +1739,14 @@
     },
     {
       "sku": "3B175",
-      "title": "Engranaje para filamento MK7",
+      "title": "Engranaje MK7",
       "description": "Engranaje para filamento MK7",
       "category": "",
       "image": "media/3B175.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B175",
-        "Nombre": "Engranaje para filamento MK7",
+        "Nombre": "Engranaje MK7",
         "Descripcion": "Engranaje para filamento MK7"
       },
       "media": [
@@ -1765,14 +1759,14 @@
     },
     {
       "sku": "3B176",
-      "title": "Engranaje para filamento MK8",
+      "title": "Engranaje MK8",
       "description": "Engranaje para filamento MK8",
       "category": "",
       "image": "media/3B176.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B176",
-        "Nombre": "Engranaje para filamento MK8",
+        "Nombre": "Engranaje MK8",
         "Descripcion": "Engranaje para filamento MK8"
       },
       "media": [
@@ -1945,35 +1939,35 @@
     },
     {
       "sku": "3B204",
-      "title": "Termistor NTC 100K con cable y ficha para MK8 con encapsulado de cobre",
+      "title": "Termistor NTC 100K MK8 capsula cobre",
       "description": "Termistor NTC 100K con cable y ficha para MK8 con encapsulado de cobre",
       "category": "",
-      "image": "media/3B204.jpg",
+      "image": "media/3B204_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B204",
-        "Nombre": "Termistor NTC 100K con cable y ficha para MK8 con encapsulado de cobre",
+        "Nombre": "Termistor NTC 100K MK8 capsula cobre",
         "Descripcion": "Termistor NTC 100K con cable y ficha para MK8 con encapsulado de cobre"
       },
       "media": [
         {
-          "fileName": "media/3B204.jpg",
+          "fileName": "media/3B204_2.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
     {
       "sku": "3B208",
-      "title": "Barrel E3D Versi\u2014n 5",
-      "description": "Barrel E3D Versi\u2014n 5",
+      "title": "Barrel E3D Version 5",
+      "description": "Barrel E3D Version 5",
       "category": "",
       "image": "media/3B208.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B208",
-        "Nombre": "Barrel E3D Versi\u2014n 5",
-        "Descripcion": "Barrel E3D Versi\u2014n 5"
+        "Nombre": "Barrel E3D Version 5",
+        "Descripcion": "Barrel E3D Version 5"
       },
       "media": [
         {
@@ -2005,15 +1999,15 @@
     },
     {
       "sku": "3B210",
-      "title": "Barrel E3D V6 Sin Tefl\u2014n",
-      "description": "Barrel E3D V6 Sin Tefl\u2014n",
+      "title": "Barrel E3D V6 Sin Teflon",
+      "description": "Barrel E3D V6 Sin Teflon",
       "category": "",
       "image": "media/3B210.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B210",
-        "Nombre": "Barrel E3D V6 Sin Tefl\u2014n",
-        "Descripcion": "Barrel E3D V6 Sin Tefl\u2014n"
+        "Nombre": "Barrel E3D V6 Sin Teflon",
+        "Descripcion": "Barrel E3D V6 Sin Teflon"
       },
       "media": [
         {
@@ -2025,15 +2019,15 @@
     },
     {
       "sku": "3B211",
-      "title": "Barrel E3D V6 sin Teflon 3.0mm",
-      "description": "Barrel E3D V6 sin Teflon 3.0mm",
+      "title": "Barrel E3D V6 Sin Teflon 3.0mm",
+      "description": "Barrel E3D V6 Sin Teflon 3.0mm",
       "category": "",
       "image": "media/3B211.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B211",
-        "Nombre": "Barrel E3D V6 sin Teflon 3.0mm",
-        "Descripcion": "Barrel E3D V6 sin Teflon 3.0mm"
+        "Nombre": "Barrel E3D V6 Sin Teflon 3.0mm",
+        "Descripcion": "Barrel E3D V6 Sin Teflon 3.0mm"
       },
       "media": [
         {
@@ -2045,39 +2039,19 @@
     },
     {
       "sku": "3B212",
-      "title": "Barrel MK8 26mm con tefl\u2014n (todo rosca)",
-      "description": "Barrel MK8 26mm con tefl\u2014n (todo rosca)",
+      "title": "Barrel MK8 26mm con teflon (todo rosca)",
+      "description": "Barrel MK8 26mm con teflon (todo rosca)",
       "category": "",
       "image": "media/3B212.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B212",
-        "Nombre": "Barrel MK8 26mm con tefl\u2014n (todo rosca)",
-        "Descripcion": "Barrel MK8 26mm con tefl\u2014n (todo rosca)"
+        "Nombre": "Barrel MK8 26mm con teflon (todo rosca)",
+        "Descripcion": "Barrel MK8 26mm con teflon (todo rosca)"
       },
       "media": [
         {
           "fileName": "media/3B212.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "sku": "3B214",
-      "title": "Hobbed Bolt M8 - 26mm",
-      "description": "Hobbed Bolt M8 - 26mm",
-      "category": "",
-      "image": "media/3B214.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3B214",
-        "Nombre": "Hobbed Bolt M8 - 26mm",
-        "Descripcion": "Hobbed Bolt M8 - 26mm"
-      },
-      "media": [
-        {
-          "fileName": "media/3B214.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -2105,28 +2079,35 @@
     },
     {
       "sku": "3B219",
-      "title": "Engranaje para filamento Acero 38 Dientes Diametro externo 11mm Diametro eje 5mm Largo 12mm",
+      "title": "Engranaje Acero 38D 11mm",
       "description": "Engranaje para filamento Acero 38 Dientes Diametro externo 11mm Diametro eje 5mm Largo 12mm",
       "category": "",
+      "image": "media/3B219.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B219",
-        "Nombre": "Engranaje para filamento Acero 38 Dientes Diametro externo 11mm Diametro eje 5mm Largo 12mm",
+        "Nombre": "Engranaje Acero 38D 11mm",
         "Descripcion": "Engranaje para filamento Acero 38 Dientes Diametro externo 11mm Diametro eje 5mm Largo 12mm"
       },
-      "media": []
+      "media": [
+        {
+          "fileName": "media/3B219.jpg",
+          "role": "image",
+          "isPrimary": false
+        }
+      ]
     },
     {
       "sku": "3B223",
-      "title": "Barrel MK8 26mm con tefl\u2014n (con rebaje central)",
-      "description": "Barrel MK8 26mm con tefl\u2014n (con rebaje central)",
+      "title": "Barrel MK8 26mm con teflon (con rebaje central)",
+      "description": "Barrel MK8 26mm con teflon (con rebaje central)",
       "category": "",
       "image": "media/3B223.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B223",
-        "Nombre": "Barrel MK8 26mm con tefl\u2014n (con rebaje central)",
-        "Descripcion": "Barrel MK8 26mm con tefl\u2014n (con rebaje central)"
+        "Nombre": "Barrel MK8 26mm con teflon (con rebaje central)",
+        "Descripcion": "Barrel MK8 26mm con teflon (con rebaje central)"
       },
       "media": [
         {
@@ -2161,7 +2142,7 @@
       "title": "Bloque Volcano",
       "description": "Bloque Volcano",
       "category": "",
-      "image": "media/3B237.jpg",
+      "image": "media/3B237_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B237",
@@ -2169,6 +2150,11 @@
         "Descripcion": "Bloque Volcano"
       },
       "media": [
+        {
+          "fileName": "media/3B237_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3B237.jpg",
           "role": "image",
@@ -2337,66 +2323,6 @@
       ]
     },
     {
-      "sku": "3B262",
-      "title": "Agujas para Nozzle 0.2mm x5u",
-      "description": "Agujas para Nozzle 0.2mm x5u",
-      "category": "",
-      "image": "media/3B262.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3B262",
-        "Nombre": "Agujas para Nozzle 0.2mm x5u",
-        "Descripcion": "Agujas para Nozzle 0.2mm x5u"
-      },
-      "media": [
-        {
-          "fileName": "media/3B262.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "sku": "3B264",
-      "title": "Agujas para Nozzle 0.3mm x5u",
-      "description": "Agujas para Nozzle 0.3mm x5u",
-      "category": "",
-      "image": "media/3B261.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3B264",
-        "Nombre": "Agujas para Nozzle 0.3mm x5u",
-        "Descripcion": "Agujas para Nozzle 0.3mm x5u"
-      },
-      "media": [
-        {
-          "fileName": "media/3B261.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "sku": "3B265",
-      "title": "Agujas para Nozzle 0.4mm x5u",
-      "description": "Agujas para Nozzle 0.4mm x5u",
-      "category": "",
-      "image": "media/3B265.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3B265",
-        "Nombre": "Agujas para Nozzle 0.4mm x5u",
-        "Descripcion": "Agujas para Nozzle 0.4mm x5u"
-      },
-      "media": [
-        {
-          "fileName": "media/3B265.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
       "sku": "3B266",
       "title": "Barrel MK8 rosca M6 largo 30mm",
       "description": "Barrel MK8 rosca M6 largo 30mm",
@@ -2439,18 +2365,18 @@
     {
       "sku": "3B268",
       "title": "Barrel M6 pasante 30mm",
-      "description": "Barrel M6 pasante 30mm",
+      "description": "Barrel M6 pasante 30mm centro 4mm",
       "category": "",
-      "image": "media/3B268.jpg",
+      "image": "media/3B268_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B268",
         "Nombre": "Barrel M6 pasante 30mm",
-        "Descripcion": "Barrel M6 pasante 30mm"
+        "Descripcion": "Barrel M6 pasante 30mm centro 4mm"
       },
       "media": [
         {
-          "fileName": "media/3B268.jpg",
+          "fileName": "media/3B268_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -2461,7 +2387,7 @@
       "title": "MK8 Kit para extrusor Izquierdo amarillo",
       "description": "MK8 Kit para extrusor Izquierdo amarillo",
       "category": "",
-      "image": "media/3B276.jpg",
+      "image": "media/3B276_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B276",
@@ -2469,6 +2395,11 @@
         "Descripcion": "MK8 Kit para extrusor Izquierdo amarillo"
       },
       "media": [
+        {
+          "fileName": "media/3B276_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3B276.jpg",
           "role": "image",
@@ -2481,7 +2412,7 @@
       "title": "MK8 Kit para extrusor Derecho amarillo",
       "description": "MK8 Kit para extrusor Derecho amarillo",
       "category": "",
-      "image": "media/3B277.jpg",
+      "image": "media/3B277_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B277",
@@ -2489,6 +2420,11 @@
         "Descripcion": "MK8 Kit para extrusor Derecho amarillo"
       },
       "media": [
+        {
+          "fileName": "media/3B277_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3B277.jpg",
           "role": "image",
@@ -2538,24 +2474,24 @@
     },
     {
       "sku": "3B285",
-      "title": "Bloque E3D Versi\u2014n 6 compatible con termistores NTC100K 350 grados (usa el termistor 3A134)",
-      "description": "Bloque E3D Versi\u2014n 6 compatible con termistores NTC100K 350 grados (usa el termistor 3A134)",
+      "title": "Bloque E3D V6 para 350 grados",
+      "description": "Bloque E3D Version 6 compatible con termistores NTC100K 350 grados (usa el termistor 3A134)",
       "category": "",
-      "image": "media/3B285-2.jpg",
+      "image": "media/3B285a.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B285",
-        "Nombre": "Bloque E3D Versi\u2014n 6 compatible con termistores NTC100K 350 grados (usa el termistor 3A134)",
-        "Descripcion": "Bloque E3D Versi\u2014n 6 compatible con termistores NTC100K 350 grados (usa el termistor 3A134)"
+        "Nombre": "Bloque E3D V6 para 350 grados",
+        "Descripcion": "Bloque E3D Version 6 compatible con termistores NTC100K 350 grados (usa el termistor 3A134)"
       },
       "media": [
         {
-          "fileName": "media/3B285-2.jpg",
+          "fileName": "media/3B285a.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         },
         {
-          "fileName": "media/3B285.jpg",
+          "fileName": "media/3B285-2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -2566,7 +2502,7 @@
       "title": "Bloque MK8 nueva version con el termistor de e3d",
       "description": "Bloque MK8 nueva version con el termistor de e3d",
       "category": "",
-      "image": "media/3B287.jpg",
+      "image": "media/3B287_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B287",
@@ -2574,6 +2510,11 @@
         "Descripcion": "Bloque MK8 nueva version con el termistor de e3d"
       },
       "media": [
+        {
+          "fileName": "media/3B287_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3B287.jpg",
           "role": "image",
@@ -2643,14 +2584,14 @@
     },
     {
       "sku": "3B307",
-      "title": "Cartucho calefactor 12V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
+      "title": "Cartucho calefactor 12V conector a 10cm",
       "description": "Cartucho calefactor 12V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
       "category": "",
       "image": "media/3B307.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B307",
-        "Nombre": "Cartucho calefactor 12V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
+        "Nombre": "Cartucho calefactor 12V conector a 10cm",
         "Descripcion": "Cartucho calefactor 12V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro"
       },
       "media": [
@@ -2663,14 +2604,14 @@
     },
     {
       "sku": "3B308",
-      "title": "Cartucho calefactor 24V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
+      "title": "Cartucho calefactor 24V conector a 10cm",
       "description": "Cartucho calefactor 24V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
       "category": "",
       "image": "media/3B308.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B308",
-        "Nombre": "Cartucho calefactor 24V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
+        "Nombre": "Cartucho calefactor 24V conector a 10cm",
         "Descripcion": "Cartucho calefactor 24V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro"
       },
       "media": [
@@ -2683,15 +2624,15 @@
     },
     {
       "sku": "3B343",
-      "title": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
-      "description": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
+      "title": "Conector neumatico Racor M6 F",
+      "description": "Conector neumatico Racor Rosca Metrica 6",
       "category": "",
       "image": "media/3B343.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B343",
-        "Nombre": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
-        "Descripcion": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6"
+        "Nombre": "Conector neumatico Racor M6 F",
+        "Descripcion": "Conector neumatico Racor Rosca Metrica 6"
       },
       "media": [
         {
@@ -2703,15 +2644,15 @@
     },
     {
       "sku": "3B344",
-      "title": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
-      "description": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
+      "title": "Conector neumatico Racor M6",
+      "description": "Conector neumatico Racor Rosca Metrica 6",
       "category": "",
       "image": "media/3B344.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B344",
-        "Nombre": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6",
-        "Descripcion": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 6"
+        "Nombre": "Conector neumatico Racor M6",
+        "Descripcion": "Conector neumatico Racor Rosca Metrica 6"
       },
       "media": [
         {
@@ -2743,39 +2684,19 @@
     },
     {
       "sku": "3B358",
-      "title": "Bloque tipo Makerbot 16 x 16 x 12 para diferentes tipos de termistores y cartuchos",
+      "title": "Bloque 16x16x12",
       "description": "Bloque tipo Makerbot 16 x 16 x 12 para diferentes tipos de termistores y cartuchos",
       "category": "",
       "image": "media/3B358.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3B358",
-        "Nombre": "Bloque tipo Makerbot 16 x 16 x 12 para diferentes tipos de termistores y cartuchos",
+        "Nombre": "Bloque 16x16x12",
         "Descripcion": "Bloque tipo Makerbot 16 x 16 x 12 para diferentes tipos de termistores y cartuchos"
       },
       "media": [
         {
           "fileName": "media/3B358.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "sku": "3B361",
-      "title": "Extrusor MK8 U de aluminio",
-      "description": "Extrusor MK8 U de aluminio",
-      "category": "",
-      "image": "media/3B361.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3B361",
-        "Nombre": "Extrusor MK8 U de aluminio",
-        "Descripcion": "Extrusor MK8 U de aluminio"
-      },
-      "media": [
-        {
-          "fileName": "media/3B361.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -2823,15 +2744,15 @@
     },
     {
       "sku": "3C001",
-      "title": "Correa GT2-6mm  por metro Alta Calidad (pedir multiplos de 100 metros)",
-      "description": "Correa GT2-6mm  por metro Alta Calidad (pedir multiplos de 100 metros)",
+      "title": "Correa GT2-6mm Alta Calidad",
+      "description": "Correa GT2-6mm por metro Alta Calidad",
       "category": "",
       "image": "media/3C001.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C001",
-        "Nombre": "Correa GT2-6mm  por metro Alta Calidad (pedir multiplos de 100 metros)",
-        "Descripcion": "Correa GT2-6mm  por metro Alta Calidad (pedir multiplos de 100 metros)"
+        "Nombre": "Correa GT2-6mm Alta Calidad",
+        "Descripcion": "Correa GT2-6mm por metro Alta Calidad"
       },
       "media": [
         {
@@ -2843,17 +2764,22 @@
     },
     {
       "sku": "3C002",
-      "title": "Correa GT2-6mm por metro poliuretano blanco alambre de acero (pedir multiplos de 100 metros)",
-      "description": "Correa GT2-6mm por metro poliuretano blanco alambre de acero (pedir multiplos de 100 metros)",
+      "title": "Correa GT2-6mm poliuretano y acero",
+      "description": "Correa GT2-6mm por metro poliuretano blanco alambre de acero",
       "category": "",
-      "image": "media/3C002.jpg",
+      "image": "media/3C002_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C002",
-        "Nombre": "Correa GT2-6mm por metro poliuretano blanco alambre de acero (pedir multiplos de 100 metros)",
-        "Descripcion": "Correa GT2-6mm por metro poliuretano blanco alambre de acero (pedir multiplos de 100 metros)"
+        "Nombre": "Correa GT2-6mm poliuretano y acero",
+        "Descripcion": "Correa GT2-6mm por metro poliuretano blanco alambre de acero"
       },
       "media": [
+        {
+          "fileName": "media/3C002_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C002.jpg",
           "role": "image",
@@ -2886,7 +2812,7 @@
       "title": "Polea GT2-6mm 16 dientes eje 5mm Calidad Alta",
       "description": "Polea GT2-6mm 16 dientes eje 5mm Calidad Alta",
       "category": "",
-      "image": "media/3C004.jpg",
+      "image": "media/3C004_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C004",
@@ -2894,6 +2820,11 @@
         "Descripcion": "Polea GT2-6mm 16 dientes eje 5mm Calidad Alta"
       },
       "media": [
+        {
+          "fileName": "media/3C004_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C004.jpg",
           "role": "image",
@@ -2906,7 +2837,7 @@
       "title": "Polea GT2-6mm 20 dientes eje 5mm Calidad Alta",
       "description": "Polea GT2-6mm 20 dientes eje 5mm Calidad Alta",
       "category": "",
-      "image": "media/3C005.jpg",
+      "image": "media/3C005_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C005",
@@ -2915,9 +2846,9 @@
       },
       "media": [
         {
-          "fileName": "media/3C005.jpg",
+          "fileName": "media/3C005_2.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
@@ -2926,7 +2857,7 @@
       "title": "Polea GT2-6mm 20 dientes eje 8mm Calidad Alta",
       "description": "Polea GT2-6mm 20 dientes eje 8mm Calidad Alta",
       "category": "",
-      "image": "media/3C006.jpg",
+      "image": "media/3C006_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C006",
@@ -2935,7 +2866,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C006.jpg",
+          "fileName": "media/3C006_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -2943,19 +2874,19 @@
     },
     {
       "sku": "3C007",
-      "title": "LM6uu ( eje 6  di\u2021metro 12  largo 19 )",
-      "description": "LM6uu ( eje 6  di\u2021metro 12  largo 19 )",
+      "title": "LM6uu",
+      "description": "LM6uu eje 6mm  diametro 12mm  largo 19mm",
       "category": "",
-      "image": "media/3C007.jpg",
+      "image": "media/3C007_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C007",
-        "Nombre": "LM6uu ( eje 6  di\u2021metro 12  largo 19 )",
-        "Descripcion": "LM6uu ( eje 6  di\u2021metro 12  largo 19 )"
+        "Nombre": "LM6uu",
+        "Descripcion": "LM6uu eje 6mm  diametro 12mm  largo 19mm"
       },
       "media": [
         {
-          "fileName": "media/3C007.jpg",
+          "fileName": "media/3C007_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -2963,19 +2894,19 @@
     },
     {
       "sku": "3C008",
-      "title": "LM8uu ( eje 8  di\u2021metro 15  largo 24 )",
-      "description": "LM8uu ( eje 8  di\u2021metro 15  largo 24 )",
+      "title": "LM8uu",
+      "description": "LM8uu eje 8mm  diametro 15mm  largo 24mm",
       "category": "",
-      "image": "media/3C008.jpg",
+      "image": "media/3C008_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C008",
-        "Nombre": "LM8uu ( eje 8  di\u2021metro 15  largo 24 )",
-        "Descripcion": "LM8uu ( eje 8  di\u2021metro 15  largo 24 )"
+        "Nombre": "LM8uu",
+        "Descripcion": "LM8uu eje 8mm  diametro 15mm  largo 24mm"
       },
       "media": [
         {
-          "fileName": "media/3C008.jpg",
+          "fileName": "media/3C008_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -2983,19 +2914,19 @@
     },
     {
       "sku": "3C009",
-      "title": "LM10uu ( eje 10  di\u2021metro 19  largo 29 )",
-      "description": "LM10uu ( eje 10  di\u2021metro 19  largo 29 )",
+      "title": "LM10uu",
+      "description": "LM10uu eje 10mm  diametro 19mm  largo 29mm",
       "category": "",
-      "image": "media/3C009.jpg",
+      "image": "media/3C009_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C009",
-        "Nombre": "LM10uu ( eje 10  di\u2021metro 19  largo 29 )",
-        "Descripcion": "LM10uu ( eje 10  di\u2021metro 19  largo 29 )"
+        "Nombre": "LM10uu",
+        "Descripcion": "LM10uu eje 10mm  diametro 19mm  largo 29mm"
       },
       "media": [
         {
-          "fileName": "media/3C009.jpg",
+          "fileName": "media/3C009_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3006,7 +2937,7 @@
       "title": "SC8uu",
       "description": "SC8uu",
       "category": "",
-      "image": "media/3C010.jpg",
+      "image": "media/3C010_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C010",
@@ -3015,7 +2946,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C010.jpg",
+          "fileName": "media/3C010_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3026,7 +2957,7 @@
       "title": "SC10uu",
       "description": "SC10uu",
       "category": "",
-      "image": "media/3C011.jpg",
+      "image": "media/3C011_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C011",
@@ -3035,7 +2966,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C011.jpg",
+          "fileName": "media/3C011_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3046,7 +2977,7 @@
       "title": "SC12uu",
       "description": "SC12uu",
       "category": "",
-      "image": "media/3C012.jpg",
+      "image": "media/3C012_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C012",
@@ -3055,7 +2986,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C012.jpg",
+          "fileName": "media/3C012_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3066,7 +2997,7 @@
       "title": "Acople Flexible 5 mm a 5 mm",
       "description": "Acople Flexible 5 mm a 5 mm",
       "category": "",
-      "image": "media/3C013.jpg",
+      "image": "media/3C013_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C013",
@@ -3075,7 +3006,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C013.jpg",
+          "fileName": "media/3C013_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3086,7 +3017,7 @@
       "title": "Acople Flexible tipo abrazadera 5 mm a 5 mm",
       "description": "Acople Flexible tipo abrazadera 5 mm a 5 mm",
       "category": "",
-      "image": "media/3C014.jpg",
+      "image": "media/3C014_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C014",
@@ -3094,6 +3025,11 @@
         "Descripcion": "Acople Flexible tipo abrazadera 5 mm a 5 mm"
       },
       "media": [
+        {
+          "fileName": "media/3C014_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C014.jpg",
           "role": "image",
@@ -3106,7 +3042,7 @@
       "title": "Acople Flexible 5 mm a 8 mm",
       "description": "Acople Flexible 5 mm a 8 mm",
       "category": "",
-      "image": "media/3C015.jpg",
+      "image": "media/3C015_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C015",
@@ -3114,6 +3050,11 @@
         "Descripcion": "Acople Flexible 5 mm a 8 mm"
       },
       "media": [
+        {
+          "fileName": "media/3C015_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C015.jpg",
           "role": "image",
@@ -3126,7 +3067,7 @@
       "title": "Acople Flexible tipo abrazadera 5 mm a 8 mm",
       "description": "Acople Flexible tipo abrazadera 5 mm a 8 mm",
       "category": "",
-      "image": "media/3C016.jpg",
+      "image": "media/3C016_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C016",
@@ -3134,6 +3075,11 @@
         "Descripcion": "Acople Flexible tipo abrazadera 5 mm a 8 mm"
       },
       "media": [
+        {
+          "fileName": "media/3C016_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C016.jpg",
           "role": "image",
@@ -3143,19 +3089,19 @@
     },
     {
       "sku": "3C019",
-      "title": "624zz ( eje 4  di\u2021metro 13  espesor 5 )",
-      "description": "624zz ( eje 4  di\u2021metro 13  espesor 5 )",
+      "title": "624zz",
+      "description": "624zz eje 4mm  diametro 13mm  espesor 5mm",
       "category": "",
-      "image": "media/3C019.jpg",
+      "image": "media/3C019_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C019",
-        "Nombre": "624zz ( eje 4  di\u2021metro 13  espesor 5 )",
-        "Descripcion": "624zz ( eje 4  di\u2021metro 13  espesor 5 )"
+        "Nombre": "624zz",
+        "Descripcion": "624zz eje 4mm  diametro 13mm  espesor 5mm"
       },
       "media": [
         {
-          "fileName": "media/3C019.jpg",
+          "fileName": "media/3C019_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3163,19 +3109,19 @@
     },
     {
       "sku": "3C020",
-      "title": "F625zz ( eje 5  di\u2021metro 16  espesor 5  pesta\u2013a alto 1  espesor 1 )",
-      "description": "F625zz ( eje 5  di\u2021metro 16  espesor 5  pesta\u2013a alto 1  espesor 1 )",
+      "title": "F625zz",
+      "description": "F625zz eje 5mm diametro 16mm espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm",
       "category": "",
-      "image": "media/3C020.jpg",
+      "image": "media/3C020_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C020",
-        "Nombre": "F625zz ( eje 5  di\u2021metro 16  espesor 5  pesta\u2013a alto 1  espesor 1 )",
-        "Descripcion": "F625zz ( eje 5  di\u2021metro 16  espesor 5  pesta\u2013a alto 1  espesor 1 )"
+        "Nombre": "F625zz",
+        "Descripcion": "F625zz eje 5mm diametro 16mm espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm"
       },
       "media": [
         {
-          "fileName": "media/3C020.jpg",
+          "fileName": "media/3C020_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3183,19 +3129,19 @@
     },
     {
       "sku": "3C021",
-      "title": "608zz ( eje 8  di\u2021metro 22  espesor 7 )",
-      "description": "608zz ( eje 8  di\u2021metro 22  espesor 7 )",
+      "title": "608zz",
+      "description": "608zz eje 8mm diametro 22mm espesor 7mm",
       "category": "",
-      "image": "media/3C021.jpg",
+      "image": "media/3C021_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C021",
-        "Nombre": "608zz ( eje 8  di\u2021metro 22  espesor 7 )",
-        "Descripcion": "608zz ( eje 8  di\u2021metro 22  espesor 7 )"
+        "Nombre": "608zz",
+        "Descripcion": "608zz eje 8mm diametro 22mm espesor 7mm"
       },
       "media": [
         {
-          "fileName": "media/3C021.jpg",
+          "fileName": "media/3C021_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3263,15 +3209,15 @@
     },
     {
       "sku": "3C028",
-      "title": "Tuerca ACME 8mm",
-      "description": "Tuerca ACME 8mm",
+      "title": "Tuerca ACME 8mm 4 hilos",
+      "description": "Tuerca ACME 8mm 4 hilos",
       "category": "",
       "image": "media/3C028.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C028",
-        "Nombre": "Tuerca ACME 8mm",
-        "Descripcion": "Tuerca ACME 8mm"
+        "Nombre": "Tuerca ACME 8mm 4 hilos",
+        "Descripcion": "Tuerca ACME 8mm 4 hilos"
       },
       "media": [
         {
@@ -3283,15 +3229,15 @@
     },
     {
       "sku": "3C030",
-      "title": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta con Tuerca",
-      "description": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta con Tuerca",
+      "title": "Varilla ACME 8mm x 300mm",
+      "description": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta 4 hilos con Tuerca",
       "category": "",
       "image": "media/3C030.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C030",
-        "Nombre": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta con Tuerca",
-        "Descripcion": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta con Tuerca"
+        "Nombre": "Varilla ACME 8mm x 300mm",
+        "Descripcion": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta 4 hilos con Tuerca"
       },
       "media": [
         {
@@ -3303,17 +3249,22 @@
     },
     {
       "sku": "3C031",
-      "title": "Eje de acero 8 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
+      "title": "Eje 8mm Acero Endurecido a medida",
       "description": "Eje de acero 8 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
       "category": "",
-      "image": "media/3C031.jpg",
+      "image": "media/3C031_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C031",
-        "Nombre": "Eje de acero 8 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
+        "Nombre": "Eje 8mm Acero Endurecido a medida",
         "Descripcion": "Eje de acero 8 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida"
       },
       "media": [
+        {
+          "fileName": "media/3C031_2.jpg",
+          "role": "image",
+          "isPrimary": false
+        },
         {
           "fileName": "media/3C031.jpg",
           "role": "image",
@@ -3323,14 +3274,14 @@
     },
     {
       "sku": "3C041",
-      "title": "Guia lineal MGN12H HIWIN cortado a medida precio por metro Detallar los cortes",
+      "title": "MGN12H Guia Lineal HIWIN a medida",
       "description": "Guia lineal MGN12H HIWIN cortado a medida precio por metro Detallar los cortes",
       "category": "",
       "image": "media/3C041.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C041",
-        "Nombre": "Guia lineal MGN12H HIWIN cortado a medida precio por metro Detallar los cortes",
+        "Nombre": "MGN12H Guia Lineal HIWIN a medida",
         "Descripcion": "Guia lineal MGN12H HIWIN cortado a medida precio por metro Detallar los cortes"
       },
       "media": [
@@ -3343,14 +3294,14 @@
     },
     {
       "sku": "3C042",
-      "title": "Bloque para guia lineal MGN12H HIWIN",
+      "title": "MGN12H Bloque para guia lineal HIWIN",
       "description": "Bloque para guia lineal MGN12H HIWIN",
       "category": "",
       "image": "media/3C042.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C042",
-        "Nombre": "Bloque para guia lineal MGN12H HIWIN",
+        "Nombre": "MGN12H Bloque para guia lineal HIWIN",
         "Descripcion": "Bloque para guia lineal MGN12H HIWIN"
       },
       "media": [
@@ -3363,19 +3314,19 @@
     },
     {
       "sku": "3C053",
-      "title": "F608zz ( eje 8  di\u2021metro 22  espesor 7  pesta\u2013a alto 1,5  espesor 1,5 )",
-      "description": "F608zz ( eje 8  di\u2021metro 22  espesor 7  pesta\u2013a alto 1,5  espesor 1,5 )",
+      "title": "F608zz",
+      "description": "F608zz eje 8mm diametro 22mm espesor 7mm pesta\u00F1a alto 1,5mm espesor 1,5mm",
       "category": "",
-      "image": "media/3C053.jpg",
+      "image": "media/3C053_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C053",
-        "Nombre": "F608zz ( eje 8  di\u2021metro 22  espesor 7  pesta\u2013a alto 1,5  espesor 1,5 )",
-        "Descripcion": "F608zz ( eje 8  di\u2021metro 22  espesor 7  pesta\u2013a alto 1,5  espesor 1,5 )"
+        "Nombre": "F608zz",
+        "Descripcion": "F608zz eje 8mm diametro 22mm espesor 7mm pesta\u00F1a alto 1,5mm espesor 1,5mm"
       },
       "media": [
         {
-          "fileName": "media/3C053.jpg",
+          "fileName": "media/3C053_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3386,7 +3337,7 @@
       "title": "SHF8",
       "description": "SHF8",
       "category": "",
-      "image": "media/3C054.jpg",
+      "image": "media/3C054_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C054",
@@ -3395,47 +3346,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C054.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "sku": "3C055",
-      "title": "LMK12Luu",
-      "description": "LMK12Luu",
-      "category": "",
-      "image": "media/3C055.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3C055",
-        "Nombre": "LMK12Luu",
-        "Descripcion": "LMK12Luu"
-      },
-      "media": [
-        {
-          "fileName": "media/3C055.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "sku": "3C056",
-      "title": "LMK10Luu",
-      "description": "LMK10Luu",
-      "category": "",
-      "image": "media/3C056.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3C056",
-        "Nombre": "LMK10Luu",
-        "Descripcion": "LMK10Luu"
-      },
-      "media": [
-        {
-          "fileName": "media/3C056.jpg",
+          "fileName": "media/3C054_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3462,38 +3373,23 @@
       ]
     },
     {
-      "sku": "3C063",
-      "title": "RRD Fan Extender Ramps 1.4",
-      "description": "RRD Fan Extender Ramps 1.4",
-      "category": "",
-      "image": "media/3C063.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "SKU": "3C063",
-        "Nombre": "RRD Fan Extender Ramps 1.4",
-        "Descripcion": "RRD Fan Extender Ramps 1.4"
-      },
-      "media": [
-        {
-          "fileName": "media/3C063.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
       "sku": "3C069",
-      "title": "Destornillador cer\u2021mico para pololus",
-      "description": "Destornillador cer\u2021mico para pololus",
+      "title": "Destornillador ceramico para pololus",
+      "description": "Destornillador ceramico CD-20T para pololus",
       "category": "",
-      "image": "media/3C069.jpg",
+      "image": "media/3C069_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C069",
-        "Nombre": "Destornillador cer\u2021mico para pololus",
-        "Descripcion": "Destornillador cer\u2021mico para pololus"
+        "Nombre": "Destornillador ceramico para pololus",
+        "Descripcion": "Destornillador ceramico CD-20T para pololus"
       },
       "media": [
+        {
+          "fileName": "media/3C069_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C069.jpg",
           "role": "image",
@@ -3503,19 +3399,19 @@
     },
     {
       "sku": "3C073",
-      "title": "Rodamiento con canaleta U ( eje 4  di\u2021metro 13  espesor 4   ancho canaleta 2,1 profundidad 1 )",
-      "description": "Rodamiento con canaleta U ( eje 4  di\u2021metro 13  espesor 4   ancho canaleta 2,1 profundidad 1 )",
+      "title": "Rodamiento U",
+      "description": "Rodamiento con canaleta U  eje 4mm  diametro 13mm  espesor 4mm  ancho canaleta 2,1mm  profundidad 1mm",
       "category": "",
-      "image": "media/3C073.jpg",
+      "image": "media/3C073_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C073",
-        "Nombre": "Rodamiento con canaleta U ( eje 4  di\u2021metro 13  espesor 4   ancho canaleta 2,1 profundidad 1 )",
-        "Descripcion": "Rodamiento con canaleta U ( eje 4  di\u2021metro 13  espesor 4   ancho canaleta 2,1 profundidad 1 )"
+        "Nombre": "Rodamiento U",
+        "Descripcion": "Rodamiento con canaleta U  eje 4mm  diametro 13mm  espesor 4mm  ancho canaleta 2,1mm  profundidad 1mm"
       },
       "media": [
         {
-          "fileName": "media/3C073.jpg",
+          "fileName": "media/3C073_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3603,17 +3499,22 @@
     },
     {
       "sku": "3C087",
-      "title": "Bloque E3D Versi\u2014n 6",
-      "description": "Bloque E3D Versi\u2014n 6",
+      "title": "Bloque E3D V6",
+      "description": "Bloque E3D Version 6",
       "category": "",
-      "image": "media/3C087.jpg",
+      "image": "media/3C087_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C087",
-        "Nombre": "Bloque E3D Versi\u2014n 6",
-        "Descripcion": "Bloque E3D Versi\u2014n 6"
+        "Nombre": "Bloque E3D V6",
+        "Descripcion": "Bloque E3D Version 6"
       },
       "media": [
+        {
+          "fileName": "media/3C087_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C087.jpg",
           "role": "image",
@@ -3623,19 +3524,19 @@
     },
     {
       "sku": "3C088",
-      "title": "625zz ( eje 5  di\u2021metro 16  espesor 5 )",
-      "description": "625zz ( eje 5  di\u2021metro 16  espesor 5 )",
+      "title": "625zz",
+      "description": "625zz  eje 5mm  diametro 16mm  espesor 5mm",
       "category": "",
-      "image": "media/3C088.jpg",
+      "image": "media/3C088_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C088",
-        "Nombre": "625zz ( eje 5  di\u2021metro 16  espesor 5 )",
-        "Descripcion": "625zz ( eje 5  di\u2021metro 16  espesor 5 )"
+        "Nombre": "625zz",
+        "Descripcion": "625zz  eje 5mm  diametro 16mm  espesor 5mm"
       },
       "media": [
         {
-          "fileName": "media/3C088.jpg",
+          "fileName": "media/3C088_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3646,7 +3547,7 @@
       "title": "Polea GT2-6mm 40 dientes eje 8mm",
       "description": "Polea GT2-6mm 40 dientes eje 8mm",
       "category": "",
-      "image": "media/3C090.jpg",
+      "image": "media/3C090_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C090",
@@ -3655,7 +3556,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C090.jpg",
+          "fileName": "media/3C090_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3666,7 +3567,7 @@
       "title": "Disipador Directo V6 3.0mm",
       "description": "Disipador Directo V6 3.0mm",
       "category": "",
-      "image": "media/3C091.jpg",
+      "image": "media/3C091_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C091",
@@ -3675,7 +3576,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C091.jpg",
+          "fileName": "media/3C091_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3683,19 +3584,19 @@
     },
     {
       "sku": "3C092",
-      "title": "Bowden V6 Sink (4.0 Version, 1.75 \u0026 3.0mm universal)",
+      "title": "Bowden V6 Sink 4.0V 1.75mm y 3.0mm universal",
       "description": "Bowden V6 Sink (4.0 Version, 1.75 \u0026 3.0mm universal)",
       "category": "",
-      "image": "media/3C092.jpg",
+      "image": "media/3C092_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C092",
-        "Nombre": "Bowden V6 Sink (4.0 Version, 1.75 \u0026 3.0mm universal)",
+        "Nombre": "Bowden V6 Sink 4.0V 1.75mm y 3.0mm universal",
         "Descripcion": "Bowden V6 Sink (4.0 Version, 1.75 \u0026 3.0mm universal)"
       },
       "media": [
         {
-          "fileName": "media/3C092.jpg",
+          "fileName": "media/3C092_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3703,17 +3604,22 @@
     },
     {
       "sku": "3C095",
-      "title": "Barrel E3D V6 Con Tefl\u2014n",
-      "description": "Barrel E3D V6 Con Tefl\u2014n",
+      "title": "Barrel E3D V6 Con Teflon",
+      "description": "Barrel E3D V6 Con Teflon",
       "category": "",
-      "image": "media/3C095.jpg",
+      "image": "media/3C095_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C095",
-        "Nombre": "Barrel E3D V6 Con Tefl\u2014n",
-        "Descripcion": "Barrel E3D V6 Con Tefl\u2014n"
+        "Nombre": "Barrel E3D V6 Con Teflon",
+        "Descripcion": "Barrel E3D V6 Con Teflon"
       },
       "media": [
+        {
+          "fileName": "media/3C095_2.jpg",
+          "role": "image",
+          "isPrimary": false
+        },
         {
           "fileName": "media/3C095.jpg",
           "role": "image",
@@ -3743,19 +3649,19 @@
     },
     {
       "sku": "3C108",
-      "title": "623zz ( eje 3  di\u2021metro 10  espesor 4 )",
-      "description": "623zz ( eje 3  di\u2021metro 10  espesor 4 )",
+      "title": "623zz",
+      "description": "623zz  eje 3mm  diametro 10mm  espesor 4mm",
       "category": "",
-      "image": "media/3C108.jpg",
+      "image": "media/3C108_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C108",
-        "Nombre": "623zz ( eje 3  di\u2021metro 10  espesor 4 )",
-        "Descripcion": "623zz ( eje 3  di\u2021metro 10  espesor 4 )"
+        "Nombre": "623zz",
+        "Descripcion": "623zz  eje 3mm  diametro 10mm  espesor 4mm"
       },
       "media": [
         {
-          "fileName": "media/3C108.jpg",
+          "fileName": "media/3C108_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3763,15 +3669,15 @@
     },
     {
       "sku": "3C110",
-      "title": "Correa GT2-6mm  por metro alambre de acero (pedir multiplos de 100 metros)",
-      "description": "Correa GT2-6mm  por metro alambre de acero (pedir multiplos de 100 metros)",
+      "title": "Correa GT2-6mm Acero",
+      "description": "Correa GT2-6mm por metro con alambre de acero",
       "category": "",
       "image": "media/3C110.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C110",
-        "Nombre": "Correa GT2-6mm  por metro alambre de acero (pedir multiplos de 100 metros)",
-        "Descripcion": "Correa GT2-6mm  por metro alambre de acero (pedir multiplos de 100 metros)"
+        "Nombre": "Correa GT2-6mm Acero",
+        "Descripcion": "Correa GT2-6mm por metro con alambre de acero"
       },
       "media": [
         {
@@ -3786,7 +3692,7 @@
       "title": "Correa GT2-6 cerrada 280 mm",
       "description": "Correa GT2-6 cerrada 280 mm",
       "category": "",
-      "image": "media/3C112.jpg",
+      "image": "media/3C112_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C112",
@@ -3795,7 +3701,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C112.jpg",
+          "fileName": "media/3C112_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3806,7 +3712,7 @@
       "title": "Correa GT2-6 cerrada 400 mm",
       "description": "Correa GT2-6 cerrada 400 mm",
       "category": "",
-      "image": "media/3C113.jpg",
+      "image": "media/3C113_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C113",
@@ -3815,7 +3721,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C113.jpg",
+          "fileName": "media/3C113_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3826,7 +3732,7 @@
       "title": "Correa GT2-6 cerrada 610 mm",
       "description": "Correa GT2-6 cerrada 610 mm",
       "category": "",
-      "image": "media/3C114.jpg",
+      "image": "media/3C114_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C114",
@@ -3835,7 +3741,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C114.jpg",
+          "fileName": "media/3C114_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3846,7 +3752,7 @@
       "title": "Correa GT2-6 cerrada 852 mm",
       "description": "Correa GT2-6 cerrada 852 mm",
       "category": "",
-      "image": "media/3C115.jpg",
+      "image": "media/3C115_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C115",
@@ -3855,7 +3761,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C115.jpg",
+          "fileName": "media/3C115_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3866,7 +3772,7 @@
       "title": "Polea GT2-6mm 40 dientes eje 5mm",
       "description": "Polea GT2-6mm 40 dientes eje 5mm",
       "category": "",
-      "image": "media/3C116.jpg",
+      "image": "media/3C116_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C116",
@@ -3875,7 +3781,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C116.jpg",
+          "fileName": "media/3C116_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3886,7 +3792,7 @@
       "title": "Polea GT2-6mm doble 20 dientes eje 8mm",
       "description": "Polea GT2-6mm doble 20 dientes eje 8mm",
       "category": "",
-      "image": "media/3C117.jpg",
+      "image": "media/3C117_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C117",
@@ -3895,7 +3801,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C117.jpg",
+          "fileName": "media/3C117_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3903,19 +3809,19 @@
     },
     {
       "sku": "3C118",
-      "title": "Polea lisa con rodamientos 20 dientes eje 5mm para correa de 6mm (sin garantia)",
-      "description": "Polea lisa con rodamientos 20 dientes eje 5mm para correa de 6mm (sin garantia)",
+      "title": "Polea lisa rodamientos 20d 5mm p/correa de 6mm",
+      "description": "Polea lisa con rodamientos tipo 20 dientes eje 5mm para correa de 6mm (sin garantia)",
       "category": "",
-      "image": "media/3C118.jpg",
+      "image": "media/3C118_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C118",
-        "Nombre": "Polea lisa con rodamientos 20 dientes eje 5mm para correa de 6mm (sin garantia)",
-        "Descripcion": "Polea lisa con rodamientos 20 dientes eje 5mm para correa de 6mm (sin garantia)"
+        "Nombre": "Polea lisa rodamientos 20d 5mm p/correa de 6mm",
+        "Descripcion": "Polea lisa con rodamientos tipo 20 dientes eje 5mm para correa de 6mm (sin garantia)"
       },
       "media": [
         {
-          "fileName": "media/3C118.jpg",
+          "fileName": "media/3C118_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -3923,17 +3829,22 @@
     },
     {
       "sku": "3C120",
-      "title": "Acople r\u2019gido aluminio azul Diametro 14 mm Antura 25 mm eje 5 mm a 5 mm",
-      "description": "Acople r\u2019gido aluminio azul Diametro 14 mm Antura 25 mm eje 5 mm a 5 mm",
+      "title": "Acople Rigido Azul 5 mm a 5 mm",
+      "description": "Acople rigido aluminio azul Diametro 14 mm Antura 25 mm eje 5 mm a 5 mm",
       "category": "",
-      "image": "media/3C120.jpg",
+      "image": "media/3C120_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C120",
-        "Nombre": "Acople r\u2019gido aluminio azul Diametro 14 mm Antura 25 mm eje 5 mm a 5 mm",
-        "Descripcion": "Acople r\u2019gido aluminio azul Diametro 14 mm Antura 25 mm eje 5 mm a 5 mm"
+        "Nombre": "Acople Rigido Azul 5 mm a 5 mm",
+        "Descripcion": "Acople rigido aluminio azul Diametro 14 mm Antura 25 mm eje 5 mm a 5 mm"
       },
       "media": [
+        {
+          "fileName": "media/3C120_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C120.jpg",
           "role": "image",
@@ -3943,17 +3854,22 @@
     },
     {
       "sku": "3C121",
-      "title": "Acople r\u2019gido aluminio azul Diametro 14mm Altura 25 mm eje 5 mm a 8 mm",
-      "description": "Acople r\u2019gido aluminio azul Diametro 14mm Altura 25 mm eje 5 mm a 8 mm",
+      "title": "Acople Rigido Azul 5 mm a 8 mm",
+      "description": "Acople rigido aluminio azul Diametro 14mm Altura 25 mm eje 5 mm a 8 mm",
       "category": "",
-      "image": "media/3C121.jpg",
+      "image": "media/3C121_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C121",
-        "Nombre": "Acople r\u2019gido aluminio azul Diametro 14mm Altura 25 mm eje 5 mm a 8 mm",
-        "Descripcion": "Acople r\u2019gido aluminio azul Diametro 14mm Altura 25 mm eje 5 mm a 8 mm"
+        "Nombre": "Acople Rigido Azul 5 mm a 8 mm",
+        "Descripcion": "Acople rigido aluminio azul Diametro 14mm Altura 25 mm eje 5 mm a 8 mm"
       },
       "media": [
+        {
+          "fileName": "media/3C121_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C121.jpg",
           "role": "image",
@@ -3963,17 +3879,22 @@
     },
     {
       "sku": "3C123",
-      "title": "Acople tipo Ara\u2013a 5mm a 8mm",
-      "description": "Acople tipo Ara\u2013a 5mm a 8mm",
+      "title": "Acople tipo Ara\u00F1a 5 mm a 8 mm",
+      "description": "Acople tipo Ara\u00F1a 5 mm a 8 mm",
       "category": "",
-      "image": "media/3C123.jpg",
+      "image": "media/3C123_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C123",
-        "Nombre": "Acople tipo Ara\u2013a 5mm a 8mm",
-        "Descripcion": "Acople tipo Ara\u2013a 5mm a 8mm"
+        "Nombre": "Acople tipo Ara\u00F1a 5 mm a 8 mm",
+        "Descripcion": "Acople tipo Ara\u00F1a 5 mm a 8 mm"
       },
       "media": [
+        {
+          "fileName": "media/3C123_2.jpg",
+          "role": "image",
+          "isPrimary": false
+        },
         {
           "fileName": "media/3C123.jpg",
           "role": "image",
@@ -3983,17 +3904,22 @@
     },
     {
       "sku": "3C124",
-      "title": "Acople tipo Ara\u2013a 5mm a 12mm",
-      "description": "Acople tipo Ara\u2013a 5mm a 12mm",
+      "title": "Acople tipo Ara\u00F1a 5 mm a 12 mm",
+      "description": "Acople tipo Ara\u00F1a 5 mm a 12 mm",
       "category": "",
-      "image": "media/3C124.jpg",
+      "image": "media/3C123_2-2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C124",
-        "Nombre": "Acople tipo Ara\u2013a 5mm a 12mm",
-        "Descripcion": "Acople tipo Ara\u2013a 5mm a 12mm"
+        "Nombre": "Acople tipo Ara\u00F1a 5 mm a 12 mm",
+        "Descripcion": "Acople tipo Ara\u00F1a 5 mm a 12 mm"
       },
       "media": [
+        {
+          "fileName": "media/3C123_2-2.jpg",
+          "role": "image",
+          "isPrimary": false
+        },
         {
           "fileName": "media/3C124.jpg",
           "role": "image",
@@ -4003,17 +3929,22 @@
     },
     {
       "sku": "3C129",
-      "title": "Correa GT2-6mm  por metro Calidad Normal (pedir multiplos de 100 metros)",
-      "description": "Correa GT2-6mm  por metro Calidad Normal (pedir multiplos de 100 metros)",
+      "title": "Correa GT2-6mm Calidad Normal",
+      "description": "Correa GT2-6mm Calidad Normal por metro",
       "category": "",
-      "image": "media/3C129.jpg",
+      "image": "media/3C129_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C129",
-        "Nombre": "Correa GT2-6mm  por metro Calidad Normal (pedir multiplos de 100 metros)",
-        "Descripcion": "Correa GT2-6mm  por metro Calidad Normal (pedir multiplos de 100 metros)"
+        "Nombre": "Correa GT2-6mm Calidad Normal",
+        "Descripcion": "Correa GT2-6mm Calidad Normal por metro"
       },
       "media": [
+        {
+          "fileName": "media/3C129_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C129.jpg",
           "role": "image",
@@ -4023,17 +3954,22 @@
     },
     {
       "sku": "3C130",
-      "title": "Correa GT2-10mm por metro fibra de vidrio (pedir multiplos de 50 metros)",
-      "description": "Correa GT2-10mm por metro fibra de vidrio (pedir multiplos de 50 metros)",
+      "title": "Correa GT2-10mm",
+      "description": "Correa GT2-10mm por metro",
       "category": "",
-      "image": "media/3C130.jpg",
+      "image": "media/3C130_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C130",
-        "Nombre": "Correa GT2-10mm por metro fibra de vidrio (pedir multiplos de 50 metros)",
-        "Descripcion": "Correa GT2-10mm por metro fibra de vidrio (pedir multiplos de 50 metros)"
+        "Nombre": "Correa GT2-10mm",
+        "Descripcion": "Correa GT2-10mm por metro"
       },
       "media": [
+        {
+          "fileName": "media/3C130_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C130.jpg",
           "role": "image",
@@ -4043,19 +3979,19 @@
     },
     {
       "sku": "3C131",
-      "title": "Pack X10 tornillos gusano con llave para poleas M3x4",
+      "title": "Pack X10 tornillos gusano M3x4",
       "description": "Pack X10 tornillos gusano con llave para poleas M3x4",
       "category": "",
-      "image": "media/3C131.jpg",
+      "image": "media/3C131_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C131",
-        "Nombre": "Pack X10 tornillos gusano con llave para poleas M3x4",
+        "Nombre": "Pack X10 tornillos gusano M3x4",
         "Descripcion": "Pack X10 tornillos gusano con llave para poleas M3x4"
       },
       "media": [
         {
-          "fileName": "media/3C131.jpg",
+          "fileName": "media/3C131_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4063,19 +3999,19 @@
     },
     {
       "sku": "3C132",
-      "title": "Pack x10 tornillos gusano con llave para poleas M4x5",
+      "title": "Pack x10 tornillos gusano M4x5",
       "description": "Pack x10 tornillos gusano con llave para poleas M4x5",
       "category": "",
-      "image": "media/3C132.jpg",
+      "image": "media/3C132_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C132",
-        "Nombre": "Pack x10 tornillos gusano con llave para poleas M4x5",
+        "Nombre": "Pack x10 tornillos gusano M4x5",
         "Descripcion": "Pack x10 tornillos gusano con llave para poleas M4x5"
       },
       "media": [
         {
-          "fileName": "media/3C132.jpg",
+          "fileName": "media/3C132_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4086,7 +4022,7 @@
       "title": "Polea GT2-6mm 16 dientes eje 5mm Calidad Normal",
       "description": "Polea GT2-6mm 16 dientes eje 5mm Calidad Normal",
       "category": "",
-      "image": "media/3C133.jpg",
+      "image": "media/3C133_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C133",
@@ -4095,7 +4031,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C133.jpg",
+          "fileName": "media/3C133_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4106,7 +4042,7 @@
       "title": "Polea GT2-6mm 20 dientes eje 5mm Calidad Normal",
       "description": "Polea GT2-6mm 20 dientes eje 5mm Calidad Normal",
       "category": "",
-      "image": "media/3C134.jpg",
+      "image": "media/3C134_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C134",
@@ -4115,7 +4051,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C134.jpg",
+          "fileName": "media/3C134_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4126,7 +4062,7 @@
       "title": "Polea GT2-6mm 20 dientes eje 8mm Calidad Normal",
       "description": "Polea GT2-6mm 20 dientes eje 8mm Calidad Normal",
       "category": "",
-      "image": "media/3C135.jpg",
+      "image": "media/3C135_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C135",
@@ -4135,7 +4071,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C135.jpg",
+          "fileName": "media/3C135_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4146,7 +4082,7 @@
       "title": "Polea GT2-6mm 36 dientes eje 5mm",
       "description": "Polea GT2-6mm 36 dientes eje 5mm",
       "category": "",
-      "image": "media/3C136.jpg",
+      "image": "media/3C136_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C136",
@@ -4155,7 +4091,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C136.jpg",
+          "fileName": "media/3C136_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4166,7 +4102,7 @@
       "title": "Polea GT2-6mm 36 dientes eje 8mm",
       "description": "Polea GT2-6mm 36 dientes eje 8mm",
       "category": "",
-      "image": "media/3C137.jpg",
+      "image": "media/3C137_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C137",
@@ -4175,7 +4111,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C137.jpg",
+          "fileName": "media/3C137_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4183,17 +4119,22 @@
     },
     {
       "sku": "3C138",
-      "title": "LM12uu ( eje 12  di\u2021metro 21  largo 30 )",
-      "description": "LM12uu ( eje 12  di\u2021metro 21  largo 30 )",
+      "title": "LM12uu",
+      "description": "LM12uu  eje 12mm  diametro 21mm  largo 30mm",
       "category": "",
-      "image": "media/3C138.jpg",
+      "image": "media/3C138_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C138",
-        "Nombre": "LM12uu ( eje 12  di\u2021metro 21  largo 30 )",
-        "Descripcion": "LM12uu ( eje 12  di\u2021metro 21  largo 30 )"
+        "Nombre": "LM12uu",
+        "Descripcion": "LM12uu  eje 12mm  diametro 21mm  largo 30mm"
       },
       "media": [
+        {
+          "fileName": "media/3C138_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
         {
           "fileName": "media/3C138.jpg",
           "role": "image",
@@ -4206,7 +4147,7 @@
       "title": "SC8Luu",
       "description": "SC8Luu",
       "category": "",
-      "image": "media/3C139.jpg",
+      "image": "media/3C139_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C139",
@@ -4215,7 +4156,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C139.jpg",
+          "fileName": "media/3C139_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4226,7 +4167,7 @@
       "title": "SC10Luu",
       "description": "SC10Luu",
       "category": "",
-      "image": "media/3C140.jpg",
+      "image": "media/3C140_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C140",
@@ -4235,7 +4176,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C140.jpg",
+          "fileName": "media/3C140_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4246,7 +4187,7 @@
       "title": "SC12Luu",
       "description": "SC12Luu",
       "category": "",
-      "image": "media/3C141.jpg",
+      "image": "media/3C141_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C141",
@@ -4255,9 +4196,9 @@
       },
       "media": [
         {
-          "fileName": "media/3C141.jpg",
+          "fileName": "media/3C141_2.jpg",
           "role": "image",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
@@ -4266,7 +4207,7 @@
       "title": "SHF10",
       "description": "SHF10",
       "category": "",
-      "image": "media/3C142.jpg",
+      "image": "media/3C142_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C142",
@@ -4275,7 +4216,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C142.jpg",
+          "fileName": "media/3C142_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4286,7 +4227,7 @@
       "title": "SHF12",
       "description": "SHF12",
       "category": "",
-      "image": "media/3C143.jpg",
+      "image": "media/3C143_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C143",
@@ -4295,7 +4236,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C143.jpg",
+          "fileName": "media/3C143_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4306,7 +4247,7 @@
       "title": "SK10",
       "description": "SK10",
       "category": "",
-      "image": "media/3C144.jpg",
+      "image": "media/3C144_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C144",
@@ -4315,7 +4256,7 @@
       },
       "media": [
         {
-          "fileName": "media/3C144.jpg",
+          "fileName": "media/3C144_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4326,7 +4267,7 @@
       "title": "SK12",
       "description": "SK12",
       "category": "",
-      "image": "media/3C145.jpg",
+      "image": "media/3C145_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C145",
@@ -4335,27 +4276,87 @@
       },
       "media": [
         {
-          "fileName": "media/3C145.jpg",
+          "fileName": "media/3C145_2.jpg",
           "role": "image",
           "isPrimary": false
         }
       ]
     },
     {
-      "sku": "3C152",
-      "title": "LMK8Luu",
-      "description": "LMK8Luu",
+      "sku": "3C155",
+      "title": "685zz",
+      "description": "685zz",
       "category": "",
-      "image": "media/3C152.jpg",
+      "image": "media/3C155.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C152",
-        "Nombre": "LMK8Luu",
-        "Descripcion": "LMK8Luu"
+        "SKU": "3C155",
+        "Nombre": "685zz",
+        "Descripcion": "685zz"
       },
       "media": [
         {
-          "fileName": "media/3C152.jpg",
+          "fileName": "media/3C155.jpg",
+          "role": "image",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "sku": "3C156",
+      "title": "688zz",
+      "description": "688zz Ball Bearing",
+      "category": "",
+      "image": "media/3C156_2.jpg",
+      "categoryIds": [],
+      "attributes": {
+        "SKU": "3C156",
+        "Nombre": "688zz",
+        "Descripcion": "688zz Ball Bearing"
+      },
+      "media": [
+        {
+          "fileName": "media/3C156_2.jpg",
+          "role": "image",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "sku": "3C157",
+      "title": "MF105zz",
+      "description": "MF105zz Flanged Bearing",
+      "category": "",
+      "image": "media/3C157_2.jpg",
+      "categoryIds": [],
+      "attributes": {
+        "SKU": "3C157",
+        "Nombre": "MF105zz",
+        "Descripcion": "MF105zz Flanged Bearing"
+      },
+      "media": [
+        {
+          "fileName": "media/3C157_2.jpg",
+          "role": "image",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "sku": "3C158",
+      "title": "F604ZZ",
+      "description": "F604ZZ Flanged Ball Bearing",
+      "category": "",
+      "image": "media/3C158_2.jpg",
+      "categoryIds": [],
+      "attributes": {
+        "SKU": "3C158",
+        "Nombre": "F604ZZ",
+        "Descripcion": "F604ZZ Flanged Ball Bearing"
+      },
+      "media": [
+        {
+          "fileName": "media/3C158_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4363,19 +4364,19 @@
     },
     {
       "sku": "3C159",
-      "title": "F623zz ( eje 3  di\u2021metro 10  espesor 4  pesta\u2013a alto 0,75  espesor 1 )",
-      "description": "F623zz ( eje 3  di\u2021metro 10  espesor 4  pesta\u2013a alto 0,75  espesor 1 )",
+      "title": "F623zz",
+      "description": "F623zz  eje 3mm  diametro 10mm  espesor 4mm  pesta\u00F1a alto 0,75mm  espesor 1mm",
       "category": "",
-      "image": "media/3C159.jpg",
+      "image": "media/3C159_2.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C159",
-        "Nombre": "F623zz ( eje 3  di\u2021metro 10  espesor 4  pesta\u2013a alto 0,75  espesor 1 )",
-        "Descripcion": "F623zz ( eje 3  di\u2021metro 10  espesor 4  pesta\u2013a alto 0,75  espesor 1 )"
+        "Nombre": "F623zz",
+        "Descripcion": "F623zz  eje 3mm  diametro 10mm  espesor 4mm  pesta\u00F1a alto 0,75mm  espesor 1mm"
       },
       "media": [
         {
-          "fileName": "media/3C159.jpg",
+          "fileName": "media/3C159_2.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -4383,15 +4384,15 @@
     },
     {
       "sku": "3C160",
-      "title": "F624zz ( eje 4  di\u2021metro 13  espesor 5  pesta\u2013a alto 1  espesor 1 )",
-      "description": "F624zz ( eje 4  di\u2021metro 13  espesor 5  pesta\u2013a alto 1  espesor 1 )",
+      "title": "F624zz",
+      "description": "F624zz  eje 4mm  diametro 13mm  espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm",
       "category": "",
       "image": "media/3C160.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C160",
-        "Nombre": "F624zz ( eje 4  di\u2021metro 13  espesor 5  pesta\u2013a alto 1  espesor 1 )",
-        "Descripcion": "F624zz ( eje 4  di\u2021metro 13  espesor 5  pesta\u2013a alto 1  espesor 1 )"
+        "Nombre": "F624zz",
+        "Descripcion": "F624zz  eje 4mm  diametro 13mm  espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm"
       },
       "media": [
         {
@@ -4403,15 +4404,15 @@
     },
     {
       "sku": "3C161",
-      "title": "Acople tipo Ara\u2013a 5mm a 10mm",
-      "description": "Acople tipo Ara\u2013a 5mm a 10mm",
+      "title": "Acople tipo Ara\u00F1a 5 a 10",
+      "description": "Acople tipo Ara\u00F1a 5mm a 10mm",
       "category": "",
       "image": "media/3C161.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C161",
-        "Nombre": "Acople tipo Ara\u2013a 5mm a 10mm",
-        "Descripcion": "Acople tipo Ara\u2013a 5mm a 10mm"
+        "Nombre": "Acople tipo Ara\u00F1a 5 a 10",
+        "Descripcion": "Acople tipo Ara\u00F1a 5mm a 10mm"
       },
       "media": [
         {
@@ -4443,15 +4444,15 @@
     },
     {
       "sku": "3C171",
-      "title": "Varilla ACME 10mm a medida Paso 8mm precio por metro Detallar los cortes (minimo 10 unidades por medida)",
-      "description": "Varilla ACME 10mm a medida Paso 8mm precio por metro Detallar los cortes (minimo 10 unidades por medida)",
+      "title": "Varilla ACME 10mm Paso 8mm a medida",
+      "description": "Varilla ACME 10mm cortes a medida Paso 8mm precio por metro Detallar los cortes (minimo 10 unidades por medida)",
       "category": "",
       "image": "media/3C171.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C171",
-        "Nombre": "Varilla ACME 10mm a medida Paso 8mm precio por metro Detallar los cortes (minimo 10 unidades por medida)",
-        "Descripcion": "Varilla ACME 10mm a medida Paso 8mm precio por metro Detallar los cortes (minimo 10 unidades por medida)"
+        "Nombre": "Varilla ACME 10mm Paso 8mm a medida",
+        "Descripcion": "Varilla ACME 10mm cortes a medida Paso 8mm precio por metro Detallar los cortes (minimo 10 unidades por medida)"
       },
       "media": [
         {
@@ -4463,15 +4464,15 @@
     },
     {
       "sku": "3C177",
-      "title": "Eje de acero 6 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
-      "description": "Eje de acero 6 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
+      "title": "Eje de acero 6 mm Endurecido a medida",
+      "description": "Eje de acero 6 mm Endurecido por induccion de alta frecuencia. cortes a medida, minimo 10 por medida",
       "category": "",
       "image": "media/3C177.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C177",
-        "Nombre": "Eje de acero 6 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
-        "Descripcion": "Eje de acero 6 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida"
+        "Nombre": "Eje de acero 6 mm Endurecido a medida",
+        "Descripcion": "Eje de acero 6 mm Endurecido por induccion de alta frecuencia. cortes a medida, minimo 10 por medida"
       },
       "media": [
         {
@@ -4483,15 +4484,15 @@
     },
     {
       "sku": "3C178",
-      "title": "Varilla ACME 8 mm a medida precio por metro Detallar los cortes (minimo 10 unidades por medida)",
-      "description": "Varilla ACME 8 mm a medida precio por metro Detallar los cortes (minimo 10 unidades por medida)",
+      "title": "Varilla ACME 8 mm a medida",
+      "description": "Varilla ACME 8 mm cortes a medida precio por metro Detallar los cortes (minimo 10 unidades por medida)",
       "category": "",
       "image": "media/3C178.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C178",
-        "Nombre": "Varilla ACME 8 mm a medida precio por metro Detallar los cortes (minimo 10 unidades por medida)",
-        "Descripcion": "Varilla ACME 8 mm a medida precio por metro Detallar los cortes (minimo 10 unidades por medida)"
+        "Nombre": "Varilla ACME 8 mm a medida",
+        "Descripcion": "Varilla ACME 8 mm cortes a medida precio por metro Detallar los cortes (minimo 10 unidades por medida)"
       },
       "media": [
         {
@@ -4503,14 +4504,14 @@
     },
     {
       "sku": "3C179",
-      "title": "Eje de acero 10 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
+      "title": "Eje de acero 10 mm Endurecido a medida",
       "description": "Eje de acero 10 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
       "category": "",
       "image": "media/3C179.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C179",
-        "Nombre": "Eje de acero 10 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
+        "Nombre": "Eje de acero 10 mm Endurecido a medida",
         "Descripcion": "Eje de acero 10 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida"
       },
       "media": [
@@ -4523,14 +4524,14 @@
     },
     {
       "sku": "3C180",
-      "title": "Eje de acero 12 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
+      "title": "Eje de acero 12 mm Endurecido a medida",
       "description": "Eje de acero 12 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
       "category": "",
       "image": "media/3C180.jpg",
       "categoryIds": [],
       "attributes": {
         "SKU": "3C180",
-        "Nombre": "Eje de acero 12 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
+        "Nombre": "Eje de acero 12 mm Endurecido a medida",
         "Descripcion": "Eje de acero 12 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida"
       },
       "media": [
