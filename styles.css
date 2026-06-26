@@ -48,8 +48,8 @@ body {
 
 .brand-logo {
   display: block;
-  height: 54px;
-  max-width: min(360px, 62vw);
+  height: 90px;
+  max-width: min(420px, 78vw);
   object-fit: contain;
 }
 
@@ -116,8 +116,6 @@ input:focus {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  position: sticky;
-  top: 86px;
 }
 
 .sidebar {
@@ -367,7 +365,7 @@ dd {
   }
 
   .brand-logo {
-    height: 44px;
+    height: 64px;
     max-width: 100%;
   }
 
