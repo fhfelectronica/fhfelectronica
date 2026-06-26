@@ -18,9 +18,12 @@ body {
 .topbar {
   display: flex;
   align-items: center;
-  padding: 24px clamp(16px, 4vw, 42px);
+  padding: 14px clamp(16px, 4vw, 42px);
   background: #ffffff;
   border-bottom: 1px solid #dbe2ea;
+  position: sticky;
+  top: 0;
+  z-index: 30;
 }
 
 h1 {
@@ -73,7 +76,7 @@ button {
   flex-direction: column;
   gap: 10px;
   position: sticky;
-  top: 12px;
+  top: 86px;
 }
 
 .sidebar {
