@@ -2,7 +2,8 @@ const state = {
   categories: [],
   products: [],
   search: "",
-  categoryId: null
+  categoryId: null,
+  mediaVersion: ""
 };
 
 const productsGrid = document.querySelector("#productsGrid");
@@ -29,6 +30,7 @@ async function loadCatalog() {
   const catalog = await response.json();
   state.categories = Array.isArray(catalog.categories) ? catalog.categories : [];
   state.products = Array.isArray(catalog.products) ? catalog.products : [];
+  state.mediaVersion = encodeURIComponent(catalog.generatedAt || Date.now());
   renderDesktopCategories();
   renderMobileCategories();
   renderProducts();
@@ -184,9 +186,14 @@ function renderImage(container, product) {
   }
 
   const image = document.createElement("img");
-  image.src = product.image;
+  image.src = withMediaVersion(product.image);
   image.alt = product.title || product.sku || "Producto";
   container.appendChild(image);
+}
+
+function withMediaVersion(fileName) {
+  if (!state.mediaVersion) return fileName;
+  return `${fileName}${fileName.includes("?") ? "&" : "?"}v=${state.mediaVersion}`;
 }
 
 function renderPrice(container, product) {
