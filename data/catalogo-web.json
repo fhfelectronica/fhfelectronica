@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T17:36:53.9785318-03:00",
+  "generatedAt": "2026-06-29T17:40:55.5664196-03:00",
   "productCount": 148,
   "categories": [
     {
@@ -127,9 +127,6 @@
         7
       ],
       "attributes": {
-        "SKU": "3A001",
-        "Nombre": "RAMPS 1.4",
-        "Descripcion": "RAMPS 1.4",
         "Stock": "4"
       },
       "media": [
@@ -157,9 +154,6 @@
         7
       ],
       "attributes": {
-        "SKU": "3A003",
-        "Nombre": "Display Texto 2004 RepRapDiscount",
-        "Descripcion": "Display Texto RepRapDiscount 2004 azul, con cables",
         "Stock": "50"
       },
       "media": [
@@ -183,9 +177,6 @@
       "image": "media/3A007_3.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A007",
-        "Nombre": "disipador Aluminio 9x9x5mm",
-        "Descripcion": "disipador de aluminio 9x9x5mm con pegamento para drivers A4988, DRV8825, etc",
         "Stock": "33"
       },
       "media": [
@@ -221,9 +212,6 @@
         7
       ],
       "attributes": {
-        "SKU": "3A030",
-        "Nombre": "Cinta Kapton 20mm",
-        "Descripcion": "Cinta Kapton 20mm",
         "Stock": "14"
       },
       "media": [
@@ -249,9 +237,6 @@
         7
       ],
       "attributes": {
-        "SKU": "3A031",
-        "Nombre": "Cinta Kapton 10mm",
-        "Descripcion": "Cinta Kapton 10mm",
         "Stock": "3"
       },
       "media": [
@@ -277,9 +262,6 @@
         7
       ],
       "attributes": {
-        "SKU": "3A032",
-        "Nombre": "Cinta Kapton 5mm",
-        "Descripcion": "Cinta Kapton 5mm",
         "Stock": "10"
       },
       "media": [
@@ -303,9 +285,6 @@
       "image": "media/3A044_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A044",
-        "Nombre": "Espiral para cables 8mm",
-        "Descripcion": "Espiral para cables 8mm bolsa de 100 gramos aproximadamente 10 metros",
         "Stock": "100"
       },
       "media": [
@@ -329,9 +308,6 @@
       "image": "media/3A046_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A046",
-        "Nombre": "Espiral para cables 10mm",
-        "Descripcion": "Espiral para cables 10mm bolsa de 100 gramos aproximadamente 8 metros",
         "Stock": "100"
       },
       "media": [
@@ -355,9 +331,6 @@
       "image": "media/3A083.png",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A083",
-        "Nombre": "LJ12A3-4-Z/BY",
-        "Descripcion": "LJ12A3-4-Z/BY PNP NO Sensor Inductivo 4mm",
         "Stock": "17"
       },
       "media": [
@@ -386,9 +359,6 @@
       "image": "media/3A084.png",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A084",
-        "Nombre": "LJ18A3-8-Z/BX",
-        "Descripcion": "LJ18A3-8-Z/BX Sensor Inductivo 8mm",
         "Stock": "20"
       },
       "media": [
@@ -417,9 +387,6 @@
       "image": "media/3A109_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A109",
-        "Nombre": "Precintos 3mm x 100mm Negros",
-        "Descripcion": "Precintos 3mm x 100mm Negros (chicos para cables) (bolsa de 500 unidades)",
         "Stock": "42"
       },
       "media": [
@@ -443,9 +410,6 @@
       "image": "media/3A110_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A110",
-        "Nombre": "Precintos 3mm x 100mm",
-        "Descripcion": "Precintos 3mm x 100mm Blancos (chicos para cables) (bolsa de 500 unidades)",
         "Stock": "39"
       },
       "media": [
@@ -469,9 +433,6 @@
       "image": "media/3A115_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A115",
-        "Nombre": "A4988 Chip Chino",
-        "Descripcion": "A4988 Rojo 1.5A (Chip Chino) con disipador",
         "Stock": "47"
       },
       "media": [
@@ -497,9 +458,6 @@
         7
       ],
       "attributes": {
-        "SKU": "3A119",
-        "Nombre": "Cinta Kapton 50mm",
-        "Descripcion": "Cinta Kapton 50mm",
         "Stock": "16"
       },
       "media": [
@@ -523,9 +481,6 @@
       "image": "media/3A134_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A134",
-        "Nombre": "Termistor NTC 100K 350 grados 1 metro",
-        "Descripcion": "Termistor  NTC 100K hasta 350 grados con cable 1 metro y ficha",
         "Stock": "49"
       },
       "media": [
@@ -549,9 +504,6 @@
       "image": "media/3A164_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A164",
-        "Nombre": "disipador de aluminio 9x9x12",
-        "Descripcion": "disipador de aluminio para driver drv8825, A4988, A4983, TMC2100, etc",
         "Stock": "30"
       },
       "media": [
@@ -575,9 +527,6 @@
       "image": "media/3A224.png",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A224",
-        "Nombre": "LJC18A3-H-Z/BY",
-        "Descripcion": "LJC18A3-H-Z/BY Sensor Capacitivo 8mm",
         "Stock": "10"
       },
       "media": [
@@ -606,9 +555,6 @@
       "image": "media/3A225_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A225",
-        "Nombre": "Resorte Azul",
-        "Descripcion": "Resorte Azul Alto 25 mm Ancho 8 mm Centro 4 mm",
         "Stock": "30"
       },
       "media": [
@@ -632,9 +578,6 @@
       "image": "media/3A263_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A263",
-        "Nombre": "TL-Smoother DFORCE",
-        "Descripcion": "TL-Smoother DFORCE Vibration Pattern Filter with Cable Eight Chip",
         "Stock": "30"
       },
       "media": [
@@ -658,9 +601,6 @@
       "image": "media/3A292.png",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3A292",
-        "Nombre": "TMC2209 V3.0",
-        "Descripcion": "TMC2209 V3.0",
         "Stock": "10"
       },
       "media": [
@@ -684,9 +624,6 @@
       "image": "media/3B129_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B129",
-        "Nombre": "Cubierta p/E3D V6 \u002B cooler 30x10  12V",
-        "Descripcion": "Cubierta p/E3D V6 \u002B cooler 30x10  12V",
         "Stock": "17"
       },
       "media": [
@@ -710,9 +647,6 @@
       "image": "media/3B155 - 24V.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B155",
-        "Nombre": "Cooler 60x60x10 12V buje",
-        "Descripcion": "Cooler 60x60x10 12V buje",
         "Stock": "38"
       },
       "media": [
@@ -736,9 +670,6 @@
       "image": "media/3B157.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B157",
-        "Nombre": "Rejilla para Cooler 40mm",
-        "Descripcion": "Rejilla para Cooler 40mm",
         "Stock": "426"
       },
       "media": [
@@ -757,9 +688,6 @@
       "image": "media/3B158.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B158",
-        "Nombre": "Rejilla para Cooler 80mm",
-        "Descripcion": "Rejilla para Cooler 80mm",
         "Stock": "84"
       },
       "media": [
@@ -778,9 +706,6 @@
       "image": "media/3B159_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B159",
-        "Nombre": "Tubo de teflon 2x3",
-        "Descripcion": "Tubo de teflon 2x3",
         "Stock": "10"
       },
       "media": [
@@ -804,9 +729,6 @@
       "image": "media/3B160_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B160",
-        "Nombre": "Tubo de teflon 2x4",
-        "Descripcion": "Tubo de teflon 2x4",
         "Stock": "200"
       },
       "media": [
@@ -830,9 +752,6 @@
       "image": "media/3B164_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B164",
-        "Nombre": "Cartucho calefactor 12V",
-        "Descripcion": "Cartucho calefactor 12V diametro 6mm - Largo 20mm",
         "Stock": "10"
       },
       "media": [
@@ -856,9 +775,6 @@
       "image": "media/3B167_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B167",
-        "Nombre": "Termistor NTC 100K con cable y ficha",
-        "Descripcion": "Termistor NTC 100K con cable y ficha",
         "Stock": "30"
       },
       "media": [
@@ -887,9 +803,6 @@
       "image": "media/3B169_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B169",
-        "Nombre": "Conector Neumatico Racor M5",
-        "Descripcion": "Conector Neumatico Racor Rosca Metrica 5",
         "Stock": "200"
       },
       "media": [
@@ -913,9 +826,6 @@
       "image": "media/3B170_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B170",
-        "Nombre": "Conector Neumatico Racor M6",
-        "Descripcion": "Conector neumatico Racor Rosca Metrica 6",
         "Stock": "120"
       },
       "media": [
@@ -939,9 +849,6 @@
       "image": "media/3B173_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B173",
-        "Nombre": "Engranaje Acero 40D 12mm",
-        "Descripcion": "Engranaje para filamento Acero 40 Dientes Diametro externo 12mm Diametro eje 5mm Largo 11mm",
         "Stock": "9"
       },
       "media": [
@@ -965,9 +872,6 @@
       "image": "media/3B175_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B175",
-        "Nombre": "Engranaje MK7",
-        "Descripcion": "Engranaje para filamento MK7",
         "Stock": "40"
       },
       "media": [
@@ -991,9 +895,6 @@
       "image": "media/3B176_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B176",
-        "Nombre": "Engranaje MK8",
-        "Descripcion": "Engranaje para filamento MK8",
         "Stock": "80"
       },
       "media": [
@@ -1017,9 +918,6 @@
       "image": "media/3B181_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B181",
-        "Nombre": "Nozzle E3D 0.2 mm",
-        "Descripcion": "Nozzle E3D 0.2 mm",
         "Stock": "40"
       },
       "media": [
@@ -1043,9 +941,6 @@
       "image": "media/3B182_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B182",
-        "Nombre": "Nozzle E3D 0.3 mm",
-        "Descripcion": "Nozzle E3D 0.3 mm",
         "Stock": "150"
       },
       "media": [
@@ -1069,9 +964,6 @@
       "image": "media/3B183_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B183",
-        "Nombre": "Nozzle E3D 0.4 mm",
-        "Descripcion": "Nozzle E3D 0.4 mm",
         "Stock": "8"
       },
       "media": [
@@ -1095,9 +987,6 @@
       "image": "media/3B184_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B184",
-        "Nombre": "Nozzle E3D 0.5 mm",
-        "Descripcion": "Nozzle E3D 0.5 mm",
         "Stock": "90"
       },
       "media": [
@@ -1121,9 +1010,6 @@
       "image": "media/3B197_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B197",
-        "Nombre": "Nozzle MK8 1.75mm 0.3mm",
-        "Descripcion": "Nozzle MK8 1.75mm 0.3mm",
         "Stock": "35"
       },
       "media": [
@@ -1147,9 +1033,6 @@
       "image": "media/3B199_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B199",
-        "Nombre": "Nozzle MK8 1.75mm 0.5mm",
-        "Descripcion": "Nozzle MK8 1.75mm 0.5mm",
         "Stock": "30"
       },
       "media": [
@@ -1173,9 +1056,6 @@
       "image": "media/3B204_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B204",
-        "Nombre": "Termistor NTC 100K MK8 capsula cobre",
-        "Descripcion": "Termistor NTC 100K con cable y ficha para MK8 con encapsulado de cobre",
         "Stock": "11"
       },
       "media": [
@@ -1199,9 +1079,6 @@
       "image": "media/3B209_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B209",
-        "Nombre": "Barrel E3D V5 sin Teflon para 3.0mm",
-        "Descripcion": "Barrel E3D V5 sin Teflon para 3.0mm",
         "Stock": "30"
       },
       "media": [
@@ -1225,9 +1102,6 @@
       "image": "media/3B210_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B210",
-        "Nombre": "Barrel E3D V6 Sin Teflon",
-        "Descripcion": "Barrel E3D V6 Sin Teflon",
         "Stock": "103"
       },
       "media": [
@@ -1251,9 +1125,6 @@
       "image": "media/3B212_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B212",
-        "Nombre": "Barrel MK8 26mm con teflon (todo rosca)",
-        "Descripcion": "Barrel MK8 26mm con teflon (todo rosca)",
         "Stock": "2"
       },
       "media": [
@@ -1277,9 +1148,6 @@
       "image": "media/3B216_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B216",
-        "Nombre": "disipador para extrusores MK8",
-        "Descripcion": "disipador para extrusores MK8",
         "Stock": "19"
       },
       "media": [
@@ -1303,9 +1171,6 @@
       "image": "media/3B219.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B219",
-        "Nombre": "Engranaje Acero 38D 11mm",
-        "Descripcion": "Engranaje para filamento Acero 38 Dientes Diametro externo 11mm Diametro eje 5mm Largo 12mm",
         "Stock": "30"
       },
       "media": [
@@ -1324,9 +1189,6 @@
       "image": "media/3B233.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B233",
-        "Nombre": "Rejilla para Cooler 50mm",
-        "Descripcion": "Rejilla para Cooler 50mm",
         "Stock": "63"
       },
       "media": [
@@ -1345,9 +1207,6 @@
       "image": "media/3B237_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B237",
-        "Nombre": "Bloque Volcano",
-        "Descripcion": "Bloque Volcano",
         "Stock": "24"
       },
       "media": [
@@ -1376,9 +1235,6 @@
       "image": "media/3B241_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B241",
-        "Nombre": "Nozzle Volcano 1.0mm",
-        "Descripcion": "Nozzle Volcano 1.0mm",
         "Stock": "50"
       },
       "media": [
@@ -1402,9 +1258,6 @@
       "image": "media/3B242_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B242",
-        "Nombre": "Nozzle Volcano 1.2mm",
-        "Descripcion": "Nozzle Volcano 1.2mm",
         "Stock": "50"
       },
       "media": [
@@ -1428,9 +1281,6 @@
       "image": "media/3B248_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B248",
-        "Nombre": "Nozzle E3D ACERO INOX 0.25mm",
-        "Descripcion": "Nozzle E3D ACERO INOX 0.25mm",
         "Stock": "20"
       },
       "media": [
@@ -1454,9 +1304,6 @@
       "image": "media/3B249_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B249",
-        "Nombre": "Nozzle E3D ACERO INOX 0.4 mm",
-        "Descripcion": "Nozzle E3D ACERO INOX 0.4 mm",
         "Stock": "7"
       },
       "media": [
@@ -1480,9 +1327,6 @@
       "image": "media/3B250_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B250",
-        "Nombre": "Nozzle E3D ACERO INOX 0.8 mm",
-        "Descripcion": "Nozzle E3D ACERO INOX 0.8 mm",
         "Stock": "40"
       },
       "media": [
@@ -1506,9 +1350,6 @@
       "image": "media/3B276_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B276",
-        "Nombre": "MK8 Kit para extrusor Izquierdo amarillo",
-        "Descripcion": "MK8 Kit para extrusor Izquierdo amarillo",
         "Stock": "12"
       },
       "media": [
@@ -1532,9 +1373,6 @@
       "image": "media/3B293_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B293",
-        "Nombre": "Nozzle E3D 0.6 mm",
-        "Descripcion": "Nozzle E3D 0.6 mm",
         "Stock": "45"
       },
       "media": [
@@ -1558,9 +1396,6 @@
       "image": "media/3B294_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B294",
-        "Nombre": "Nozzle E3D 0.8 mm",
-        "Descripcion": "Nozzle E3D 0.8 mm",
         "Stock": "45"
       },
       "media": [
@@ -1584,9 +1419,6 @@
       "image": "media/3B295_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B295",
-        "Nombre": "Nozzle E3D 1.0 mm",
-        "Descripcion": "Nozzle E3D 1.0 mm",
         "Stock": "50"
       },
       "media": [
@@ -1610,9 +1442,6 @@
       "image": "media/3B358_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3B358",
-        "Nombre": "Bloque 16x16x12",
-        "Descripcion": "Bloque tipo Makerbot 16 x 16 x 12 para diferentes tipos de termistores y cartuchos",
         "Stock": "30"
       },
       "media": [
@@ -1641,9 +1470,6 @@
       "image": "media/3C019_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C019",
-        "Nombre": "624zz",
-        "Descripcion": "624zz eje 4mm  diametro 13mm  espesor 5mm",
         "Stock": "25"
       },
       "media": [
@@ -1667,9 +1493,6 @@
       "image": "media/3C020_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C020",
-        "Nombre": "F625zz",
-        "Descripcion": "F625zz eje 5mm diametro 16mm espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm",
         "Stock": "80"
       },
       "media": [
@@ -1698,9 +1521,6 @@
       "image": "media/3C026.png",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C026",
-        "Nombre": "Tuerca moleteada M3",
-        "Descripcion": "Tuerca moleteada M3",
         "Stock": "200"
       },
       "media": [
@@ -1724,9 +1544,6 @@
       "image": "media/3C030_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C030",
-        "Nombre": "Varilla ACME 8mm x 300mm",
-        "Descripcion": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta 4 hilos con Tuerca",
         "Stock": "20"
       },
       "media": [
@@ -1750,9 +1567,6 @@
       "image": "media/3C053_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C053",
-        "Nombre": "F608zz",
-        "Descripcion": "F608zz eje 8mm diametro 22mm espesor 7mm pesta\u00F1a alto 1,5mm espesor 1,5mm",
         "Stock": "30"
       },
       "media": [
@@ -1776,9 +1590,6 @@
       "image": "media/3C069_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C069",
-        "Nombre": "Destornillador ceramico para pololus",
-        "Descripcion": "Destornillador ceramico CD-20T para pololus",
         "Stock": "20"
       },
       "media": [
@@ -1802,9 +1613,6 @@
       "image": "media/3C073_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C073",
-        "Nombre": "Rodamiento U",
-        "Descripcion": "Rodamiento con canaleta U  eje 4mm  diametro 13mm  espesor 4mm  ancho canaleta 2,1mm  profundidad 1mm",
         "Stock": "14"
       },
       "media": [
@@ -1833,9 +1641,6 @@
       "image": "media/3C088_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C088",
-        "Nombre": "625zz",
-        "Descripcion": "625zz  eje 5mm  diametro 16mm  espesor 5mm",
         "Stock": "25"
       },
       "media": [
@@ -1859,9 +1664,6 @@
       "image": "media/3C092_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C092",
-        "Nombre": "Bowden V6 Sink 4.0V 1.75mm y 3.0mm universal",
-        "Descripcion": "Bowden V6 Sink (4.0 Version, 1.75 \u0026 3.0mm universal)",
         "Stock": "100"
       },
       "media": [
@@ -1885,9 +1687,6 @@
       "image": "media/3C113_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C113",
-        "Nombre": "Correa GT2-6 cerrada 400 mm",
-        "Descripcion": "Correa GT2-6 cerrada 400 mm",
         "Stock": "20"
       },
       "media": [
@@ -1911,9 +1710,6 @@
       "image": "media/3C114_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C114",
-        "Nombre": "Correa GT2-6 cerrada 610 mm",
-        "Descripcion": "Correa GT2-6 cerrada 610 mm",
         "Stock": "20"
       },
       "media": [
@@ -1937,9 +1733,6 @@
       "image": "media/3C115_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C115",
-        "Nombre": "Correa GT2-6 cerrada 852 mm",
-        "Descripcion": "Correa GT2-6 cerrada 852 mm",
         "Stock": "20"
       },
       "media": [
@@ -1963,9 +1756,6 @@
       "image": "media/3C117_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C117",
-        "Nombre": "Polea GT2-6mm doble 20 dientes eje 8mm",
-        "Descripcion": "Polea GT2-6mm doble 20 dientes eje 8mm",
         "Stock": "60"
       },
       "media": [
@@ -1989,9 +1779,6 @@
       "image": "media/3C131_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C131",
-        "Nombre": "Pack X10 tornillos gusano M3x4",
-        "Descripcion": "Pack X10 tornillos gusano con llave para poleas M3x4",
         "Stock": "40"
       },
       "media": [
@@ -2015,9 +1802,6 @@
       "image": "media/3C132_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C132",
-        "Nombre": "Pack x10 tornillos gusano M4x5",
-        "Descripcion": "Pack x10 tornillos gusano con llave para poleas M4x5",
         "Stock": "40"
       },
       "media": [
@@ -2041,9 +1825,6 @@
       "image": "media/3C133_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C133",
-        "Nombre": "Polea GT2-6mm 16 dientes eje 5mm Calidad Normal",
-        "Descripcion": "Polea GT2-6mm 16 dientes eje 5mm Calidad Normal",
         "Stock": "20"
       },
       "media": [
@@ -2067,9 +1848,6 @@
       "image": "media/3C138_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C138",
-        "Nombre": "LM12uu",
-        "Descripcion": "LM12uu  eje 12mm  diametro 21mm  largo 30mm",
         "Stock": "34"
       },
       "media": [
@@ -2093,9 +1871,6 @@
       "image": "media/3C159_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C159",
-        "Nombre": "F623zz",
-        "Descripcion": "F623zz  eje 3mm  diametro 10mm  espesor 4mm  pesta\u00F1a alto 0,75mm  espesor 1mm",
         "Stock": "30"
       },
       "media": [
@@ -2119,9 +1894,6 @@
       "image": "media/3C160_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C160",
-        "Nombre": "F624zz",
-        "Descripcion": "F624zz  eje 4mm  diametro 13mm  espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm",
         "Stock": "30"
       },
       "media": [
@@ -2145,9 +1917,6 @@
       "image": "media/3C162_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C162",
-        "Nombre": "Tuerca ACME 8mm Antibacklash",
-        "Descripcion": "Tuerca ACME 8mm Antibacklash",
         "Stock": "20"
       },
       "media": [
@@ -2171,9 +1940,6 @@
       "image": "media/3C221_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C221",
-        "Nombre": "Rueda para perfil 2020 23.89mm diametro eje 5mm",
-        "Descripcion": "Rueda para perfil 2020 23.89mm diametro eje 5mm",
         "Stock": "140"
       },
       "media": [
@@ -2197,9 +1963,6 @@
       "image": "media/3C223.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C223",
-        "Nombre": "Separador eje 5.1 mm altura 6 mm",
-        "Descripcion": "Separador eje 5.1 mm altura 6 mm",
         "Stock": "40"
       },
       "media": [
@@ -2218,9 +1981,6 @@
       "image": "media/3C230.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C230",
-        "Nombre": "Separador exc\u017Dntrico hexagonal eje 5 mm altura 6 mm sin pesta\u2013a",
-        "Descripcion": "Separador exc\u017Dntrico hexagonal eje 5 mm altura 6 mm sin pesta\u2013a",
         "Stock": "40"
       },
       "media": [
@@ -2239,9 +1999,6 @@
       "image": "media/3C242_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C242",
-        "Nombre": "Varilla ACME 8mm largo 500 mm paso 8mm por vuelta con Tuerca",
-        "Descripcion": "Varilla ACME 8mm largo 500 mm paso 8mm por vuelta con Tuerca",
         "Stock": "20"
       },
       "media": [
@@ -2265,9 +2022,6 @@
       "image": "media/3C243_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C243",
-        "Nombre": "Varilla ACME 8mm largo 600 mm paso 8mm por vuelta con Tuerca",
-        "Descripcion": "Varilla ACME 8mm largo 600 mm paso 8mm por vuelta con Tuerca",
         "Stock": "14"
       },
       "media": [
@@ -2291,9 +2045,6 @@
       "image": "media/3C252_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C252",
-        "Nombre": "LM6Luu ( eje 6  di\u2021metro 12  largo 35 )",
-        "Descripcion": "LM6Luu ( eje 6  di\u2021metro 12  largo 35 )",
         "Stock": "12"
       },
       "media": [
@@ -2317,9 +2068,6 @@
       "image": "media/3C254_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C254",
-        "Nombre": "LM10Luu  ( eje 10  di\u2021metro 19  largo 55 )",
-        "Descripcion": "LM10Luu  ( eje 10  di\u2021metro 19  largo 55 )",
         "Stock": "46"
       },
       "media": [
@@ -2343,9 +2091,6 @@
       "image": "media/3C308_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C308",
-        "Nombre": "Polea GT2-6mm doble 20 dientes eje 5mm",
-        "Descripcion": "Polea GT2-6mm doble 20 dientes eje 5mm",
         "Stock": "20"
       },
       "media": [
@@ -2369,9 +2114,6 @@
       "image": "media/3C402_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "3C402",
-        "Nombre": "Barrel V6 Directo M6 para 1.75mm",
-        "Descripcion": "Barrel V6 Directo M6 para 1.75mm",
         "Stock": "42"
       },
       "media": [
@@ -2395,9 +2137,6 @@
       "image": "media/AA153_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "AA153",
-        "Nombre": "CNC shield V3  (para UNO)",
-        "Descripcion": "CNC shield V3  (para UNO)",
         "Stock": "16"
       },
       "media": [
@@ -2421,9 +2160,6 @@
       "image": "media/AA203_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "AA203",
-        "Nombre": "CNC Shield V4  (para NANO)",
-        "Descripcion": "CNC Shield V4  (para NANO)",
         "Stock": "15"
       },
       "media": [
@@ -2447,9 +2183,6 @@
       "image": "media/arandela aluminio 8mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "AAL811",
-        "Nombre": "Arandela AL 8 x 11 x 1.25",
-        "Descripcion": "Arandela AL 8 x 11 x 1.25",
         "Stock": "868"
       },
       "media": [
@@ -2468,9 +2201,6 @@
       "image": "media/AC142_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "AC142",
-        "Nombre": "Alicate 170",
-        "Descripcion": "Alicate 170",
         "Stock": "45"
       },
       "media": [
@@ -2499,9 +2229,6 @@
       "image": "media/arandela fibra 3.5mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "AFI358",
-        "Nombre": "Arandela Fibra 3.5 x 8 x 1.25",
-        "Descripcion": "Arandela Fibra 3.5 x 8 x 1.25",
         "Stock": "120"
       },
       "media": [
@@ -2520,9 +2247,6 @@
       "image": "media/aranlock 10mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "ARB14",
-        "Nombre": "Aranlock 10 x 18",
-        "Descripcion": "Aranlock 10 x 18",
         "Stock": "80"
       },
       "media": [
@@ -2541,9 +2265,6 @@
       "image": "media/aranlock 12mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "ARB16",
-        "Nombre": "Aranlock 12 x 21",
-        "Descripcion": "Aranlock 12 x 21",
         "Stock": "72"
       },
       "media": [
@@ -2562,9 +2283,6 @@
       "image": "media/aranlock 3mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "ARB2",
-        "Nombre": "Aranlock 03 x 11.3",
-        "Descripcion": "Aranlock 03 x 11.3",
         "Stock": "80"
       },
       "media": [
@@ -2583,9 +2301,6 @@
       "image": "media/aranlock 4mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "ARB3",
-        "Nombre": "Aranlock 04 x 11.3",
-        "Descripcion": "Aranlock 04 x 11.3",
         "Stock": "68"
       },
       "media": [
@@ -2604,9 +2319,6 @@
       "image": "media/aranlock 5mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "ARB4",
-        "Nombre": "Aranlock 05 x 11.3",
-        "Descripcion": "Aranlock 05 x 11.3",
         "Stock": "80"
       },
       "media": [
@@ -2625,9 +2337,6 @@
       "image": "media/aranlock 8mm.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "ARB8",
-        "Nombre": "Aranlock 08 x 15",
-        "Descripcion": "Aranlock 08 x 15",
         "Stock": "128"
       },
       "media": [
@@ -2646,9 +2355,6 @@
       "image": "media/resorte 16.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "F052",
-        "Nombre": "Resorte 16x7.0 Al 0.80",
-        "Descripcion": "Resorte 16x7.0 Al 0.80",
         "Stock": "930"
       },
       "media": [
@@ -2667,9 +2373,6 @@
       "image": "media/resorte 18.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "F091",
-        "Nombre": "Resorte 18x8.6 Al 0.75",
-        "Descripcion": "Resorte 18x8.6 Al 0.75",
         "Stock": "858"
       },
       "media": [
@@ -2688,9 +2391,6 @@
       "image": "media/K030507_00.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "FF000",
-        "Nombre": "Rodamiento de agujas para extrusores 3mm x 5mm x 7mm",
-        "Descripcion": "Rodamiento de agujas para extrusores 3mm x 5mm x 7mm",
         "Stock": "95"
       },
       "media": [
@@ -2719,9 +2419,6 @@
       "image": "media/Captura de pantalla 2025-07-09 120248.png",
       "categoryIds": [],
       "attributes": {
-        "SKU": "FF010",
-        "Nombre": "Bloque SUPER VOLCANO",
-        "Descripcion": "Bloque SUPER VOLCANO",
         "Stock": "2"
       },
       "media": [
@@ -2740,9 +2437,6 @@
       "image": "media/HA012_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA012",
-        "Nombre": "Cooler 30x30x10 12V Hydraulic",
-        "Descripcion": "Cooler 30x30x10 12V Hydraulic",
         "Stock": "29"
       },
       "media": [
@@ -2766,9 +2460,6 @@
       "image": "media/HA014_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA014",
-        "Nombre": "Cooler 30x30x10 24V Hydraulic",
-        "Descripcion": "Cooler 30x30x10 24V Hydraulic",
         "Stock": "18"
       },
       "media": [
@@ -2792,9 +2483,6 @@
       "image": "media/HA034_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA034",
-        "Nombre": "Cooler Blower 40x40x20 12V Hydraulic",
-        "Descripcion": "Cooler Blower 40x40x20 12V Hydraulic",
         "Stock": "20"
       },
       "media": [
@@ -2818,9 +2506,6 @@
       "image": "media/HA037_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA037",
-        "Nombre": "Cooler Blower 40x40x20 24V Hydraulic",
-        "Descripcion": "Cooler Blower 40x40x20 24V Hydraulic",
         "Stock": "20"
       },
       "media": [
@@ -2844,9 +2529,6 @@
       "image": "media/HA038_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA038",
-        "Nombre": "Cooler Blower 40x40x20 24V Double Ball",
-        "Descripcion": "Cooler Blower 40x40x20 24V Double Ball",
         "Stock": "10"
       },
       "media": [
@@ -2870,9 +2552,6 @@
       "image": "media/HA043_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA043",
-        "Nombre": "Cooler 50x50x10 12V Oil Containing",
-        "Descripcion": "Cooler 50x50x10 12V Oil Containing",
         "Stock": "40"
       },
       "media": [
@@ -2896,9 +2575,6 @@
       "image": "media/HA044_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA044",
-        "Nombre": "Cooler 50x50x10 12V Double Ball",
-        "Descripcion": "Cooler 50x50x10 12V Double Ball",
         "Stock": "15"
       },
       "media": [
@@ -2922,9 +2598,6 @@
       "image": "media/HA046_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA046",
-        "Nombre": "Cooler 50x50x10 24V Double Ball",
-        "Descripcion": "Cooler 50x50x10 24V Double Ball",
         "Stock": "78"
       },
       "media": [
@@ -2948,9 +2621,6 @@
       "image": "media/HA084_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA084",
-        "Nombre": "Cooler Blower 75x75x30 24V Double Ball",
-        "Descripcion": "Cooler Blower 75x75x30 24V Double Ball",
         "Stock": "16"
       },
       "media": [
@@ -2974,9 +2644,6 @@
       "image": "media/HA120_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA120",
-        "Nombre": "Cooler 40x40x28 SUNON PMD1238PQB1-A DC12V 3.6W Double Ball",
-        "Descripcion": "Cooler 40x40x28 SUNON PMD1238PQB1-A DC12V 3.6W Double Ball",
         "Stock": "15"
       },
       "media": [
@@ -3000,9 +2667,6 @@
       "image": "media/HA123_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA123",
-        "Nombre": "Cooler 80x80x25  12V  0.12A modelo 3F-85 Tipo de rodamiento: Hydraumatic Volumen de aire: 38CFM Ruido: 18dBA \u002B 10% Velocidad: 2.200 RPM \u002B 10%",
-        "Descripcion": "Cooler 80x80x25  12V  0.12A modelo 3F-85 Tipo de rodamiento: Hydraumatic Volumen de aire: 38CFM Ruido: 18dBA \u002B 10% Velocidad: 2.200 RPM \u002B 10%",
         "Stock": "8"
       },
       "media": [
@@ -3026,9 +2690,6 @@
       "image": "media/HA146_2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HA146",
-        "Nombre": "Cooler 60x60x15 12V Oil Containing",
-        "Descripcion": "Cooler 60x60x15 12V Oil Containing",
         "Stock": "16"
       },
       "media": [
@@ -3052,9 +2713,6 @@
       "image": "media/HB059.png",
       "categoryIds": [],
       "attributes": {
-        "SKU": "HB059",
-        "Nombre": "Silicona termica autohadesiva pegamento 3M 9448A 40mm x 40mm",
-        "Descripcion": "Silicona termica autohadesiva pegamento 3M 9448A 40mm x 40mm",
         "Stock": "20"
       },
       "media": [
@@ -3078,9 +2736,6 @@
       "image": "media/MK8_6mm_00.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "MK8604",
-        "Nombre": "Nozzle MK8 6mm 0.4 mm",
-        "Descripcion": "Nozzle MK8 6mm 0.4 mm",
         "Stock": "100"
       },
       "media": [
@@ -3099,9 +2754,6 @@
       "image": "media/MK8_6mm_00-2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "MK8606",
-        "Nombre": "Nozzle MK8 6mm 0.6 mm",
-        "Descripcion": "Nozzle MK8 6mm 0.6 mm",
         "Stock": "100"
       },
       "media": [
@@ -3120,9 +2772,6 @@
       "image": "media/MK8_6mm_00-3.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "MK8608",
-        "Nombre": "Nozzle MK8 6mm 0.8 mm",
-        "Descripcion": "Nozzle MK8 6mm 0.8 mm",
         "Stock": "100"
       },
       "media": [
@@ -3141,9 +2790,6 @@
       "image": "media/resorte 22.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "RE155J",
-        "Nombre": "Resorte 22x9.0 Al 1.00",
-        "Descripcion": "Resorte 22x9.0 Al 1.00",
         "Stock": "330"
       },
       "media": [
@@ -3162,9 +2808,6 @@
       "image": "media/resorte 14.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "RE155K",
-        "Nombre": "Resorte 14x7.0 Al 1.00",
-        "Descripcion": "Resorte 14x7.0 Al 1.00",
         "Stock": "896"
       },
       "media": [
@@ -3183,9 +2826,6 @@
       "image": "media/resorte 20.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "RE155L",
-        "Nombre": "Resorte 20x7.5 Al 1.25",
-        "Descripcion": "Resorte 20x7.5 Al 1.25",
         "Stock": "856"
       },
       "media": [
@@ -3204,9 +2844,6 @@
       "image": "media/XJ509.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "XJ509",
-        "Nombre": "Extrusor Dual Drive",
-        "Descripcion": "Extrusor Dual Drive",
         "Stock": "10"
       },
       "media": [
@@ -3225,9 +2862,6 @@
       "image": "media/XO368 cartucho artillery.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "XO368",
-        "Nombre": "Cartucho para Artillery Hornet 24V",
-        "Descripcion": "Cartucho para Artillery Hornet 24V",
         "Stock": "5"
       },
       "media": [
@@ -3246,9 +2880,6 @@
       "image": "media/XO370 artillery-thermistor-sidewinder-x1-332804-en.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "XO370",
-        "Nombre": "Termistor para Artillery SW-X1/X2 Genius/Pro100k",
-        "Descripcion": "Termistor para Artillery SW-X1/X2 Genius/Pro100k",
         "Stock": "7"
       },
       "media": [
@@ -3267,9 +2898,6 @@
       "image": "media/nozzle Ender3.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "XO371",
-        "Nombre": "Nozzle Ender3 s1 0.2 mm",
-        "Descripcion": "Nozzle Ender3 s1 0.2 mm",
         "Stock": "10"
       },
       "media": [
@@ -3288,9 +2916,6 @@
       "image": "media/nozzle Ender3-2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "XO376",
-        "Nombre": "Nozzle Ender3 s1 1.0 mm",
-        "Descripcion": "Nozzle Ender3 s1 1.0 mm",
         "Stock": "42"
       },
       "media": [
@@ -3309,9 +2934,6 @@
       "image": "media/nozzle biqu.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "XO378",
-        "Nombre": "Nozzle BIQU B1 UM2 0.3 mm",
-        "Descripcion": "Nozzle BIQU B1 UM2 0.3 mm",
         "Stock": "22"
       },
       "media": [
@@ -3330,9 +2952,6 @@
       "image": "media/XO390 conector neumatico M8.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "XO390",
-        "Nombre": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 8",
-        "Descripcion": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 8",
         "Stock": "56"
       },
       "media": [
@@ -3351,9 +2970,6 @@
       "image": "media/bloque y barrel CR10.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH463",
-        "Nombre": "Bloque y barrel para CR10",
-        "Descripcion": "Bloque y barrel para CR10",
         "Stock": "30"
       },
       "media": [
@@ -3372,9 +2988,6 @@
       "image": "media/bloque completo Ender 3v3 SE 1.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH465",
-        "Nombre": "hotend completo para Ender 3v3 SE",
-        "Descripcion": "hotend completo para Ender 3v3 SE",
         "Stock": "2"
       },
       "media": [
@@ -3393,9 +3006,6 @@
       "image": "media/K3928.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH466",
-        "Nombre": "Cooler 25x25x10 24V Hydraulic",
-        "Descripcion": "Cooler 25x25x10 24V Hydraulic",
         "Stock": "24"
       },
       "media": [
@@ -3414,9 +3024,6 @@
       "image": "media/Nozzle ender 3v3 SE 01.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH471",
-        "Nombre": "Nozzle ender 3v3 SE 1.0mm",
-        "Descripcion": "Nozzle ender 3v3 SE 1.0mm",
         "Stock": "10"
       },
       "media": [
@@ -3440,9 +3047,6 @@
       "image": "media/Nozzle ender 3v3 KE 01.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH474",
-        "Nombre": "Nozzle ender 3v3 KE 0.6 mm",
-        "Descripcion": "Nozzle ender 3v3 KE 0.6 mm",
         "Stock": "9"
       },
       "media": [
@@ -3466,9 +3070,6 @@
       "image": "media/Nozzle ender 3v3 KE 01-2.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH475",
-        "Nombre": "Nozzle ender 3v3 KE 0.8 mm",
-        "Descripcion": "Nozzle ender 3v3 KE 0.8 mm",
         "Stock": "9"
       },
       "media": [
@@ -3492,9 +3093,6 @@
       "image": "media/Nozzle ender 3v3 KE 01-3.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH476",
-        "Nombre": "Nozzle ender 3v3 KE 1.0 mm",
-        "Descripcion": "Nozzle ender 3v3 KE 1.0 mm",
         "Stock": "10"
       },
       "media": [
@@ -3518,9 +3116,6 @@
       "image": "media/Ender 3v3 SE bloque.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH480",
-        "Nombre": "Bloque Ender 3v3 SE",
-        "Descripcion": "Bloque Ender 3v3 SE",
         "Stock": "5"
       },
       "media": [
@@ -3539,9 +3134,6 @@
       "image": "media/Ender 3 NEO Block.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH481",
-        "Nombre": "Bloque Ender 3 CR6",
-        "Descripcion": "Bloque Ender 3 CR6",
         "Stock": "5"
       },
       "media": [
@@ -3560,9 +3152,6 @@
       "image": "media/Silicona volcano.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH485",
-        "Nombre": "Silicona para bloque Volcano",
-        "Descripcion": "Silicona para bloque Volcano",
         "Stock": "14"
       },
       "media": [
@@ -3581,9 +3170,6 @@
       "image": "media/Silicona volcano PT100.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH486",
-        "Nombre": "Silicona para bloque Volcano PT100",
-        "Descripcion": "Silicona para bloque Volcano PT100",
         "Stock": "5"
       },
       "media": [
@@ -3602,9 +3188,6 @@
       "image": "media/Silicona E3D V5.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH487",
-        "Nombre": "Silicona para bloque E3D V5",
-        "Descripcion": "Silicona para bloque E3D V5",
         "Stock": "10"
       },
       "media": [
@@ -3623,9 +3206,6 @@
       "image": "media/Silicona E3D V6 PT100.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YH488",
-        "Nombre": "Silicona para bloque E3D V6  PT100",
-        "Descripcion": "Silicona para bloque E3D V6  PT100",
         "Stock": "3"
       },
       "media": [
@@ -3644,9 +3224,6 @@
       "image": "media/cooler sunon 4020.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YJ023",
-        "Nombre": "Cooler SUNON MAGLEV 40*40*20 12V MF4020V2-1000C-A99",
-        "Descripcion": "Cooler SUNON MAGLEV 40*40*20 12V MF4020V2-1000C-A99",
         "Stock": "20"
       },
       "media": [
@@ -3670,9 +3247,6 @@
       "image": "media/SUNON 8025.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YJ024",
-        "Nombre": "Cooler SUNON MAGLEV 80*80*25 12V MF80251V1-1000C-A99",
-        "Descripcion": "Cooler SUNON MAGLEV 80*80*25 12V MF80251V1-1000C-A99",
         "Stock": "4"
       },
       "media": [
@@ -3691,9 +3265,6 @@
       "image": "media/HGX EXTRUDER.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YJ025",
-        "Nombre": "Extrusor HGX-LITE Kit con Motor",
-        "Descripcion": "Extrusor HGX-LITE Kit con Motor",
         "Stock": "3"
       },
       "media": [
@@ -3722,9 +3293,6 @@
       "image": "media/engranajes.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YJ026",
-        "Nombre": "Full Metal Filament Drive Gear for K1, K1 Max, K1C Extruder Nickel Plated DLC Coating High Hardness Wear",
-        "Descripcion": "Full Metal Filament Drive Gear for K1, K1 Max, K1C Extruder Nickel Plated DLC Coating High Hardness Wear",
         "Stock": "9"
       },
       "media": [
@@ -3743,9 +3311,6 @@
       "image": "media/1727148884674.jpg.jpeg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YM253",
-        "Nombre": "Extrusor doble engranaje Rojo",
-        "Descripcion": "Extrusor doble engranaje Rojo",
         "Stock": "3"
       },
       "media": [
@@ -3769,9 +3334,6 @@
       "image": "media/cartucho supervolcano.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YM436",
-        "Nombre": "Cartucho SUPER VOLCANO 12V 80W",
-        "Descripcion": "Cartucho SUPER VOLCANO 12V 80W",
         "Stock": "5"
       },
       "media": [
@@ -3790,9 +3352,6 @@
       "image": "media/silicona v6 -1.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "YM852",
-        "Nombre": "Silicona para bloque E3D V6",
-        "Descripcion": "Silicona para bloque E3D V6",
         "Stock": "80"
       },
       "media": [
@@ -3816,9 +3375,6 @@
       "image": "media/nozzle supervolcano.jpg",
       "categoryIds": [],
       "attributes": {
-        "SKU": "ym438",
-        "Nombre": "Nozzle SUPER VOLCANO 0.8 MM",
-        "Descripcion": "Nozzle SUPER VOLCANO 0.8 MM",
         "Stock": "10"
       },
       "media": [
