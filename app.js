@@ -3,7 +3,10 @@ const state = {
   products: [],
   search: "",
   categoryId: null,
-  mediaVersion: ""
+  mediaVersion: "",
+  ordering: {},
+  cart: new Map(),
+  turnstileWidgetId: null
 };
 
 const productsGrid = document.querySelector("#productsGrid");
@@ -17,6 +20,15 @@ const mobileCategoriesButton = document.querySelector("#mobileCategoriesButton")
 const closeMobileCategoriesButton = document.querySelector("#closeMobileCategoriesButton");
 const activeCategoryLabel = document.querySelector("#activeCategoryLabel");
 const countLabel = document.querySelector("#countLabel");
+const contactLinks = document.querySelector("#contactLinks");
+const cartButton = document.querySelector("#cartButton");
+const cartCount = document.querySelector("#cartCount");
+const orderDialog = document.querySelector("#orderDialog");
+const orderForm = document.querySelector("#orderForm");
+const orderItems = document.querySelector("#orderItems");
+const closeOrderButton = document.querySelector("#closeOrderButton");
+const submitOrderButton = document.querySelector("#submitOrderButton");
+const orderMessage = document.querySelector("#orderMessage");
 
 async function loadCatalog() {
   let response = await fetch("data/catalogo-web.json", { cache: "no-store" });
@@ -31,6 +43,9 @@ async function loadCatalog() {
   state.categories = Array.isArray(catalog.categories) ? catalog.categories : [];
   state.products = Array.isArray(catalog.products) ? catalog.products : [];
   state.mediaVersion = encodeURIComponent(catalog.generatedAt || Date.now());
+  state.ordering = catalog.ordering || {};
+  renderContactLinks();
+  configureOrdering();
   renderDesktopCategories();
   renderMobileCategories();
   renderProducts();
@@ -152,7 +167,214 @@ function renderProducts() {
     renderImage(node.querySelector(".product-image"), product);
     renderPrice(node.querySelector(".price"), product);
     renderAttributes(node.querySelector(".attributes"), product.attributes || {});
+    configureProductOrderControls(node.querySelector(".order-controls"), product);
     productsGrid.appendChild(node);
+  }
+}
+
+function renderContactLinks() {
+  contactLinks.replaceChildren();
+  const whatsapp = String(state.ordering.whatsApp || "").replace(/\D/g, "");
+  const email = String(state.ordering.email || "").trim();
+  if (whatsapp) {
+    const link = document.createElement("a");
+    link.className = "contact-link";
+    link.href = `https://wa.me/${whatsapp}`;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = "WhatsApp";
+    contactLinks.appendChild(link);
+  }
+  if (email) {
+    const link = document.createElement("a");
+    link.className = "contact-link";
+    link.href = `mailto:${email}`;
+    link.textContent = "Correo";
+    contactLinks.appendChild(link);
+  }
+}
+
+function configureOrdering() {
+  const enabled = state.ordering.enabled === true && Boolean(state.ordering.apiUrl);
+  cartButton.hidden = !enabled;
+  if (enabled && state.ordering.turnstileSiteKey) loadTurnstileScript();
+  updateCartButton();
+}
+
+function configureProductOrderControls(container, product) {
+  if (state.ordering.enabled !== true || !state.ordering.apiUrl) {
+    container.remove();
+    return;
+  }
+  const quantityInput = container.querySelector(".quantity-input");
+  const addButton = container.querySelector(".add-to-order");
+  addButton.addEventListener("click", () => {
+    const quantity = readQuantity(quantityInput.value);
+    if (!quantity) {
+      quantityInput.focus();
+      return;
+    }
+    const sku = String(product.sku || "").trim();
+    if (!sku) return;
+    const previous = state.cart.get(sku);
+    state.cart.set(sku, {
+      sku,
+      internalCode: product.internalCode || sku,
+      title: product.title || sku,
+      quantity: Math.min((previous?.quantity || 0) + quantity, 999999)
+    });
+    quantityInput.value = "1";
+    addButton.textContent = "Agregado";
+    setTimeout(() => addButton.textContent = "Agregar al pedido", 900);
+    updateCartButton();
+  });
+}
+
+function readQuantity(value) {
+  const quantity = Number(value);
+  return Number.isSafeInteger(quantity) && quantity >= 1 && quantity <= 999999 ? quantity : 0;
+}
+
+function updateCartButton() {
+  cartCount.textContent = String([...state.cart.values()].reduce((sum, item) => sum + item.quantity, 0));
+}
+
+function openOrderDialog() {
+  renderOrderItems();
+  orderMessage.textContent = "";
+  orderMessage.className = "order-message";
+  orderDialog.showModal();
+  renderTurnstile();
+}
+
+function renderOrderItems() {
+  orderItems.replaceChildren();
+  if (!state.cart.size) {
+    const empty = document.createElement("p");
+    empty.textContent = "Todavia no agregaste productos.";
+    orderItems.appendChild(empty);
+    submitOrderButton.disabled = true;
+    return;
+  }
+  submitOrderButton.disabled = false;
+  for (const item of state.cart.values()) {
+    const row = document.createElement("div");
+    row.className = "order-item";
+    const sku = document.createElement("div");
+    sku.className = "order-item-sku";
+    sku.textContent = item.sku;
+    const title = document.createElement("div");
+    title.textContent = item.title;
+    const quantity = document.createElement("input");
+    quantity.className = "quantity-input";
+    quantity.type = "number";
+    quantity.min = "1";
+    quantity.max = "999999";
+    quantity.value = String(item.quantity);
+    quantity.addEventListener("change", () => {
+      const value = readQuantity(quantity.value);
+      if (!value) {
+        quantity.value = String(item.quantity);
+        return;
+      }
+      item.quantity = value;
+      updateCartButton();
+    });
+    const remove = document.createElement("button");
+    remove.className = "remove-order-item";
+    remove.type = "button";
+    remove.textContent = "Quitar";
+    remove.addEventListener("click", () => {
+      state.cart.delete(item.sku);
+      updateCartButton();
+      renderOrderItems();
+    });
+    row.append(sku, title, quantity, remove);
+    orderItems.appendChild(row);
+  }
+}
+
+async function submitOrder(event) {
+  event.preventDefault();
+  if (!state.cart.size) return;
+  const customer = {
+    name: document.querySelector("#customerName").value.trim(),
+    phone: document.querySelector("#customerPhone").value.trim(),
+    email: document.querySelector("#customerEmail").value.trim(),
+    taxId: document.querySelector("#customerTaxId").value.trim(),
+    location: document.querySelector("#customerLocation").value.trim(),
+    notes: document.querySelector("#customerNotes").value.trim()
+  };
+  if (!Object.values(customer).some(Boolean)) {
+    showOrderMessage("Completa al menos un dato para que podamos identificarte.");
+    return;
+  }
+
+  const turnstileToken = getTurnstileToken();
+  if (state.ordering.turnstileSiteKey && !turnstileToken) {
+    showOrderMessage("Completa la verificacion antispam.");
+    return;
+  }
+
+  submitOrderButton.disabled = true;
+  submitOrderButton.textContent = "Enviando...";
+  showOrderMessage("");
+  try {
+    const response = await fetch(`${String(state.ordering.apiUrl).replace(/\/$/, "")}/api/orders`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ customer, items: [...state.cart.values()], turnstileToken })
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(result.error || "No se pudo enviar el pedido.");
+    state.cart.clear();
+    updateCartButton();
+    renderOrderItems();
+    orderForm.reset();
+    showOrderMessage(`Pedido ${result.orderId} recibido correctamente.`, true);
+  } catch (error) {
+    showOrderMessage(error.message || "No se pudo enviar el pedido.");
+    resetTurnstile();
+  } finally {
+    submitOrderButton.disabled = state.cart.size === 0;
+    submitOrderButton.textContent = "Enviar pedido";
+  }
+}
+
+function showOrderMessage(message, success = false) {
+  orderMessage.textContent = message;
+  orderMessage.className = `order-message${success ? " success" : ""}`;
+}
+
+function loadTurnstileScript() {
+  if (document.querySelector('script[data-fhf-turnstile]')) return;
+  const script = document.createElement("script");
+  script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+  script.async = true;
+  script.defer = true;
+  script.dataset.fhfTurnstile = "true";
+  script.addEventListener("load", () => {
+    if (orderDialog.open) renderTurnstile();
+  });
+  document.head.appendChild(script);
+}
+
+function renderTurnstile() {
+  if (!state.ordering.turnstileSiteKey || !window.turnstile || state.turnstileWidgetId !== null) return;
+  state.turnstileWidgetId = window.turnstile.render("#turnstileContainer", {
+    sitekey: state.ordering.turnstileSiteKey
+  });
+}
+
+function getTurnstileToken() {
+  return state.turnstileWidgetId === null || !window.turnstile
+    ? ""
+    : window.turnstile.getResponse(state.turnstileWidgetId);
+}
+
+function resetTurnstile() {
+  if (state.turnstileWidgetId !== null && window.turnstile) {
+    window.turnstile.reset(state.turnstileWidgetId);
   }
 }
 
@@ -248,6 +470,9 @@ function closeMobilePanel() {
 mobileCategoriesButton.addEventListener("click", openMobilePanel);
 closeMobileCategoriesButton.addEventListener("click", closeMobilePanel);
 mobileOverlay.addEventListener("click", closeMobilePanel);
+cartButton.addEventListener("click", openOrderDialog);
+closeOrderButton.addEventListener("click", () => orderDialog.close());
+orderForm.addEventListener("submit", submitOrder);
 
 loadCatalog().catch(error => {
   productsGrid.textContent = "No se pudo cargar el catalogo: " + error.message;

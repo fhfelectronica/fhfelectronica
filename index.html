@@ -12,6 +12,12 @@
     <div class="brand">
       <img class="brand-logo" src="assets/fhf-electronica-logo.png" alt="FHF Electronica">
     </div>
+    <div class="topbar-actions">
+      <div id="contactLinks" class="contact-links"></div>
+      <button id="cartButton" class="cart-button" type="button" hidden>
+        Pedido <span id="cartCount" class="cart-count">0</span>
+      </button>
+    </div>
   </header>
 
   <main class="layout">
@@ -55,9 +61,39 @@
         <p class="description"></p>
         <div class="price"></div>
         <dl class="attributes"></dl>
+        <div class="order-controls">
+          <label>Cantidad <input class="quantity-input" type="number" min="1" max="999999" value="1"></label>
+          <button class="add-to-order" type="button">Agregar al pedido</button>
+        </div>
       </div>
     </article>
   </template>
+
+  <dialog id="orderDialog" class="order-dialog">
+    <form id="orderForm" method="dialog">
+      <div class="dialog-header">
+        <div>
+          <h2>Tu pedido</h2>
+          <p>Revisa las cantidades y completa al menos un dato para identificarte.</p>
+        </div>
+        <button id="closeOrderButton" class="close-dialog" type="button" aria-label="Cerrar">Cerrar</button>
+      </div>
+      <div id="orderItems" class="order-items"></div>
+      <div class="customer-fields">
+        <label>Nombre o razon social<input id="customerName" maxlength="160"></label>
+        <label>WhatsApp o telefono<input id="customerPhone" maxlength="80"></label>
+        <label>Correo<input id="customerEmail" type="email" maxlength="160"></label>
+        <label>CUIT o identificacion<input id="customerTaxId" maxlength="80"></label>
+        <label>Localidad<input id="customerLocation" maxlength="160"></label>
+        <label class="full-field">Observaciones<textarea id="customerNotes" maxlength="2000" rows="3"></textarea></label>
+      </div>
+      <div id="turnstileContainer"></div>
+      <div id="orderMessage" class="order-message" role="status"></div>
+      <div class="dialog-actions">
+        <button id="submitOrderButton" class="submit-order" type="submit">Enviar pedido</button>
+      </div>
+    </form>
+  </dialog>
 
   <script src="app.js"></script>
 </body>
