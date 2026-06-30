@@ -161,7 +161,7 @@ function renderProducts() {
 
   for (const product of products) {
     const node = template.content.firstElementChild.cloneNode(true);
-    node.querySelector(".sku").textContent = product.sku || "";
+    node.querySelector(".sku").textContent = product.sku ? `SKU ${product.sku}` : "";
     node.querySelector("h2").textContent = product.title || "";
     node.querySelector(".description").textContent = product.description || "";
     renderImage(node.querySelector(".product-image"), product);
@@ -174,7 +174,8 @@ function renderProducts() {
 
 function renderContactLinks() {
   contactLinks.replaceChildren();
-  const whatsapp = String(state.ordering.whatsApp || "").replace(/\D/g, "");
+  const whatsappDisplay = String(state.ordering.whatsApp || "").trim();
+  const whatsapp = whatsappDisplay.replace(/\D/g, "");
   const email = String(state.ordering.email || "").trim();
   if (whatsapp) {
     const link = document.createElement("a");
@@ -182,14 +183,14 @@ function renderContactLinks() {
     link.href = `https://wa.me/${whatsapp}`;
     link.target = "_blank";
     link.rel = "noopener";
-    link.textContent = "WhatsApp";
+    link.textContent = `WhatsApp ${whatsappDisplay}`;
     contactLinks.appendChild(link);
   }
   if (email) {
     const link = document.createElement("a");
     link.className = "contact-link";
     link.href = `mailto:${email}`;
-    link.textContent = "Correo";
+    link.textContent = email;
     contactLinks.appendChild(link);
   }
 }
@@ -225,7 +226,7 @@ function configureProductOrderControls(container, product) {
     });
     quantityInput.value = "1";
     addButton.textContent = "Agregado";
-    setTimeout(() => addButton.textContent = "Agregar a cotización", 900);
+    setTimeout(() => addButton.textContent = "Agregar", 900);
     updateCartButton();
   });
 }
@@ -429,11 +430,14 @@ function renderPrice(container, product) {
 
 function renderAttributes(container, attributes) {
   for (const [name, value] of Object.entries(attributes)) {
+    const item = document.createElement("div");
+    item.className = "attribute";
     const term = document.createElement("dt");
     const description = document.createElement("dd");
     term.textContent = name;
     description.textContent = value;
-    container.append(term, description);
+    item.append(term, description);
+    container.appendChild(item);
   }
 }
 

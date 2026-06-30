@@ -8,36 +8,44 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="signal"></div>
   <header class="topbar">
-    <div class="brand">
-      <img class="brand-logo" src="assets/fhf-electronica-logo.png" alt="FHF Electronica">
+    <div class="business-strip">
+      <div class="business-copy">Distribución de componentes electrónicos e importación a pedido para desarrollos, mantenimiento e industria.</div>
+      <div class="business-info">
+        <span class="business-location">Argentina</span>
+        <div id="contactLinks" class="contact-links"></div>
+      </div>
     </div>
-    <div class="topbar-actions">
-      <div id="contactLinks" class="contact-links"></div>
-      <button id="cartButton" class="cart-button" type="button" hidden>
-        Cotización <span id="cartCount" class="cart-count">0</span>
-      </button>
+    <div class="header-main">
+      <div class="brand">
+        <img class="brand-logo" src="assets/fhf-electronica-logo.png" alt="FHF Electronica">
+      </div>
+      <div class="searchbar">
+        <button id="mobileCategoriesButton" type="button">Categorías</button>
+        <input id="searchInput" type="search" placeholder="Buscar por nombre, código o característica técnica" aria-label="Buscar productos">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+      </div>
+      <div class="topbar-actions">
+        <button id="cartButton" class="cart-button" type="button" hidden>
+          Cotización <span id="cartCount" class="cart-count">0</span>
+        </button>
+      </div>
     </div>
   </header>
 
   <main class="layout">
     <aside class="side-panel">
-      <div class="searchbar">
-        <button id="mobileCategoriesButton" type="button">Categorias</button>
-        <input id="searchInput" type="search" placeholder="Buscar">
-      </div>
       <section class="sidebar">
-        <div class="sidebar-title">Categorias</div>
+        <div class="sidebar-title">Categorías</div>
         <nav id="desktopCategories" class="category-menu"></nav>
       </section>
     </aside>
 
     <section class="catalog">
       <div class="catalog-toolbar">
-        <div>
-          <div id="activeCategoryLabel" class="active-category">Todos</div>
-          <span id="countLabel"></span>
-        </div>
+        <div id="activeCategoryLabel" class="active-category">Todos</div>
+        <span id="countLabel"></span>
       </div>
       <section id="productsGrid" class="products"></section>
     </section>
@@ -46,7 +54,7 @@
   <div id="mobileOverlay" class="mobile-overlay" hidden></div>
   <aside id="mobileCategoriesPanel" class="mobile-panel" hidden>
     <div class="mobile-panel-header">
-      <strong>Categorias</strong>
+      <strong>Categorías</strong>
       <button id="closeMobileCategoriesButton" type="button">Cerrar</button>
     </div>
     <nav id="mobileCategories" class="mobile-categories"></nav>
@@ -56,14 +64,14 @@
     <article class="product">
       <div class="product-image"></div>
       <div class="product-body">
-        <div class="sku"></div>
         <h2></h2>
         <p class="description"></p>
         <div class="price"></div>
         <dl class="attributes"></dl>
         <div class="order-controls">
-          <label>Cantidad <input class="quantity-input" type="number" min="1" max="999999" value="1"></label>
-          <button class="add-to-order" type="button">Agregar a cotización</button>
+          <span class="sku"></span>
+          <label><span class="quantity-label">Cantidad</span><input class="quantity-input" type="number" min="1" max="999999" value="1" aria-label="Cantidad"></label>
+          <button class="add-to-order" type="button">Agregar</button>
         </div>
       </div>
     </article>
