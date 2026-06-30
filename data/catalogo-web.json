@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-29T19:38:57.1884837-03:00",
+  "generatedAt": "2026-06-30T14:25:11.4156639-03:00",
   "productCount": 148,
   "ordering": {
-    "enabled": false,
-    "apiUrl": "",
+    "enabled": true,
+    "apiUrl": "https://pedidos-api.fhfelectronica.com.ar",
     "whatsApp": "5491130510891",
     "email": "fhfelectronica@gmail.com",
     "turnstileSiteKey": ""
