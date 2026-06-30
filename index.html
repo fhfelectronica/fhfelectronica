@@ -15,7 +15,7 @@
     <div class="topbar-actions">
       <div id="contactLinks" class="contact-links"></div>
       <button id="cartButton" class="cart-button" type="button" hidden>
-        Pedido <span id="cartCount" class="cart-count">0</span>
+        Cotización <span id="cartCount" class="cart-count">0</span>
       </button>
     </div>
   </header>
@@ -63,7 +63,7 @@
         <dl class="attributes"></dl>
         <div class="order-controls">
           <label>Cantidad <input class="quantity-input" type="number" min="1" max="999999" value="1"></label>
-          <button class="add-to-order" type="button">Agregar al pedido</button>
+          <button class="add-to-order" type="button">Agregar a cotización</button>
         </div>
       </div>
     </article>
@@ -73,8 +73,8 @@
     <form id="orderForm" method="dialog">
       <div class="dialog-header">
         <div>
-          <h2>Tu pedido</h2>
-          <p>Revisa las cantidades y completa al menos un dato para identificarte.</p>
+          <h2>Solicitar cotización</h2>
+          <p>Revisa los productos y las cantidades. Completa al menos un dato para que podamos responderte.</p>
         </div>
         <button id="closeOrderButton" class="close-dialog" type="button" aria-label="Cerrar">Cerrar</button>
       </div>
@@ -90,7 +90,7 @@
       <div id="turnstileContainer"></div>
       <div id="orderMessage" class="order-message" role="status"></div>
       <div class="dialog-actions">
-        <button id="submitOrderButton" class="submit-order" type="submit">Enviar pedido</button>
+        <button id="submitOrderButton" class="submit-order" type="submit">Solicitar cotización</button>
       </div>
     </form>
   </dialog>

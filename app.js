@@ -225,7 +225,7 @@ function configureProductOrderControls(container, product) {
     });
     quantityInput.value = "1";
     addButton.textContent = "Agregado";
-    setTimeout(() => addButton.textContent = "Agregar al pedido", 900);
+    setTimeout(() => addButton.textContent = "Agregar a cotización", 900);
     updateCartButton();
   });
 }
@@ -326,18 +326,18 @@ async function submitOrder(event) {
       body: JSON.stringify({ customer, items: [...state.cart.values()], turnstileToken })
     });
     const result = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(result.error || "No se pudo enviar el pedido.");
+    if (!response.ok) throw new Error(result.error || "No se pudo enviar la solicitud de cotización.");
     state.cart.clear();
     updateCartButton();
     renderOrderItems();
     orderForm.reset();
-    showOrderMessage(`Pedido ${result.orderId} recibido correctamente.`, true);
+    showOrderMessage(`Solicitud ${result.orderId} recibida correctamente. Te responderemos con la cotización.`, true);
   } catch (error) {
-    showOrderMessage(error.message || "No se pudo enviar el pedido.");
+    showOrderMessage(error.message || "No se pudo enviar la solicitud de cotización.");
     resetTurnstile();
   } finally {
     submitOrderButton.disabled = state.cart.size === 0;
-    submitOrderButton.textContent = "Enviar pedido";
+    submitOrderButton.textContent = "Solicitar cotización";
   }
 }
 
