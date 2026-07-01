@@ -21,6 +21,7 @@ const closeMobileCategoriesButton = document.querySelector("#closeMobileCategori
 const activeCategoryLabel = document.querySelector("#activeCategoryLabel");
 const countLabel = document.querySelector("#countLabel");
 const contactLinks = document.querySelector("#contactLinks");
+const contactButton = document.querySelector("#contactButton");
 const cartButton = document.querySelector("#cartButton");
 const cartCount = document.querySelector("#cartCount");
 const orderDialog = document.querySelector("#orderDialog");
@@ -167,6 +168,7 @@ function renderProducts() {
     renderImage(node.querySelector(".product-image"), product);
     renderPrice(node.querySelector(".price"), product);
     renderAttributes(node.querySelector(".attributes"), product.attributes || {});
+    renderAvailability(node.querySelector(".product-tag"), product.attributes || {});
     configureProductOrderControls(node.querySelector(".order-controls"), product);
     productsGrid.appendChild(node);
   }
@@ -177,6 +179,12 @@ function renderContactLinks() {
   const whatsappDisplay = String(state.ordering.whatsApp || "").trim();
   const whatsapp = whatsappDisplay.replace(/\D/g, "");
   const email = String(state.ordering.email || "").trim();
+  contactButton.hidden = !email && !whatsapp;
+  if (!contactButton.hidden) {
+    contactButton.href = email ? `mailto:${email}` : `https://wa.me/${whatsapp}`;
+    contactButton.target = email ? "" : "_blank";
+    contactButton.rel = email ? "" : "noopener";
+  }
   if (whatsapp) {
     const link = document.createElement("a");
     link.className = "contact-link";
@@ -439,6 +447,16 @@ function renderAttributes(container, attributes) {
     item.append(term, description);
     container.appendChild(item);
   }
+}
+
+function renderAvailability(tag, attributes) {
+  const stockEntry = Object.entries(attributes).find(([name]) => {
+    const key = normalize(name);
+    return key.includes("stock") || key.includes("existencia");
+  });
+  if (!stockEntry) return;
+  const stock = Number(String(stockEntry[1]).replace(",", "."));
+  tag.hidden = !Number.isFinite(stock) || stock <= 0;
 }
 
 function normalize(value) {

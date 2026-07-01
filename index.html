@@ -23,10 +23,12 @@
       </div>
       <div class="searchbar">
         <button id="mobileCategoriesButton" type="button">Categorías</button>
+        <span class="search-scope">Todos los productos</span>
         <input id="searchInput" type="search" placeholder="Buscar por nombre, código o característica técnica" aria-label="Buscar productos">
         <span class="search-icon" aria-hidden="true">⌕</span>
       </div>
       <div class="topbar-actions">
+        <a id="contactButton" class="contact-button" hidden>Contacto</a>
         <button id="cartButton" class="cart-button" type="button" hidden>
           Cotización <span id="cartCount" class="cart-count">0</span>
         </button>
@@ -62,6 +64,7 @@
 
   <template id="productTemplate">
     <article class="product">
+      <span class="product-tag" hidden>Disponible</span>
       <div class="product-image"></div>
       <div class="product-body">
         <h2></h2>
