@@ -823,7 +823,8 @@ body {
   height: 38px;
   padding: 0 14px;
   white-space: nowrap;
-  width: 121px;
+  min-width: 140px;
+  width: auto;
 }
 
 .cart-count {
