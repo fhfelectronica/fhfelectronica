@@ -3,6 +3,8 @@ const state = {
   products: [],
   search: "",
   categoryId: null,
+  page: 1,
+  pageSize: 500,
   mediaVersion: "",
   ordering: {},
   cart: new Map(),
@@ -31,6 +33,10 @@ const orderItems = document.querySelector("#orderItems");
 const closeOrderButton = document.querySelector("#closeOrderButton");
 const submitOrderButton = document.querySelector("#submitOrderButton");
 const orderMessage = document.querySelector("#orderMessage");
+const pagination = document.querySelector("#pagination");
+const previousPageButton = document.querySelector("#previousPageButton");
+const nextPageButton = document.querySelector("#nextPageButton");
+const pageLabel = document.querySelector("#pageLabel");
 
 async function loadCatalog() {
   let response = await fetch("data/catalogo-web.json", { cache: "no-store" });
@@ -44,6 +50,7 @@ async function loadCatalog() {
   const catalog = await response.json();
   state.categories = Array.isArray(catalog.categories) ? catalog.categories : [];
   state.products = Array.isArray(catalog.products) ? catalog.products : [];
+  state.pageSize = Math.max(25, Number(catalog.pageSize) || 500);
   state.mediaVersion = encodeURIComponent(catalog.generatedAt || Date.now());
   state.ordering = catalog.ordering || {};
   renderContactLinks();
@@ -155,13 +162,23 @@ function renderProducts() {
     return matchesCategory && (!search || text.includes(search));
   });
 
+  const totalPages = Math.max(1, Math.ceil(products.length / state.pageSize));
+  state.page = Math.min(Math.max(1, state.page), totalPages);
+  const firstIndex = (state.page - 1) * state.pageSize;
+  const visibleProducts = products.slice(firstIndex, firstIndex + state.pageSize);
+
   productsGrid.replaceChildren();
   countLabel.textContent = `${products.length} productos`;
   activeCategoryLabel.textContent = state.categoryId
     ? state.categories.find(category => category.id === state.categoryId)?.name || "Categoria"
     : "Todos";
 
-  for (const product of products) {
+  pagination.hidden = totalPages <= 1;
+  pageLabel.textContent = `Página ${state.page} de ${totalPages}`;
+  previousPageButton.disabled = state.page <= 1;
+  nextPageButton.disabled = state.page >= totalPages;
+
+  for (const product of visibleProducts) {
     const node = template.content.firstElementChild.cloneNode(true);
     node.querySelector(".sku").textContent = product.sku ? `SKU ${product.sku}` : "";
     node.querySelector("h2").textContent = product.title || "";
@@ -416,6 +433,7 @@ function descendantIds(categoryId) {
 
 function selectCategory(categoryId) {
   state.categoryId = categoryId;
+  state.page = 1;
   closeMobilePanel();
   renderDesktopCategories();
   renderMobileCategories();
@@ -488,7 +506,21 @@ function escapeHtml(value) {
 
 searchInput.addEventListener("input", event => {
   state.search = event.target.value;
+  state.page = 1;
   renderProducts();
+});
+
+previousPageButton.addEventListener("click", () => {
+  if (state.page <= 1) return;
+  state.page--;
+  renderProducts();
+  productsGrid.scrollTop = 0;
+});
+
+nextPageButton.addEventListener("click", () => {
+  state.page++;
+  renderProducts();
+  productsGrid.scrollTop = 0;
 });
 
 function openMobilePanel() {
