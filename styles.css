@@ -828,8 +828,12 @@ body {
 }
 
 .cart-count {
-  background: #fff;
-  color: var(--navy);
+  background: transparent;
+  border-radius: 0;
+  color: inherit;
+  margin-left: 0;
+  min-width: 0;
+  padding: 0;
 }
 
 .layout {
