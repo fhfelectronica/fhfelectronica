@@ -21,6 +21,7 @@ const closeMobileCategoriesButton = document.querySelector("#closeMobileCategori
 const activeCategoryLabel = document.querySelector("#activeCategoryLabel");
 const countLabel = document.querySelector("#countLabel");
 const contactLinks = document.querySelector("#contactLinks");
+const mobileContactLinks = document.querySelector("#mobileContactLinks");
 const contactButton = document.querySelector("#contactButton");
 const cartButton = document.querySelector("#cartButton");
 const cartCount = document.querySelector("#cartCount");
@@ -176,6 +177,7 @@ function renderProducts() {
 
 function renderContactLinks() {
   contactLinks.replaceChildren();
+  mobileContactLinks.replaceChildren();
   const whatsappDisplay = String(state.ordering.whatsApp || "").trim();
   const whatsapp = whatsappDisplay.replace(/\D/g, "");
   const email = String(state.ordering.email || "").trim();
@@ -193,6 +195,11 @@ function renderContactLinks() {
     link.rel = "noopener";
     link.textContent = `WhatsApp ${whatsappDisplay}`;
     contactLinks.appendChild(link);
+
+    const mobileLink = link.cloneNode(true);
+    mobileLink.className = "";
+    mobileLink.textContent = "WhatsApp";
+    mobileContactLinks.appendChild(mobileLink);
   }
   if (email) {
     const link = document.createElement("a");
@@ -200,6 +207,11 @@ function renderContactLinks() {
     link.href = `mailto:${email}`;
     link.textContent = email;
     contactLinks.appendChild(link);
+
+    const mobileLink = link.cloneNode(true);
+    mobileLink.className = "";
+    mobileLink.textContent = "Email";
+    mobileContactLinks.appendChild(mobileLink);
   }
 }
 
