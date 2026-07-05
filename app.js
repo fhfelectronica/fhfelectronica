@@ -3,6 +3,7 @@ const state = {
   products: [],
   search: "",
   categoryId: null,
+  expandedCategories: new Set(),
   page: 1,
   pageSize: 500,
   mediaVersion: "",
@@ -84,11 +85,18 @@ function createAllCategoriesItem() {
 function createDesktopCategory(category) {
   const children = childrenOf(category.id);
   const item = document.createElement("div");
-  item.className = `category-item${children.length ? " has-children" : ""}${state.categoryId === category.id ? " active" : ""}`;
+  item.className = `category-item${children.length ? " has-children" : ""}${state.categoryId === category.id ? " active" : ""}${state.expandedCategories.has(category.id) ? " expanded" : ""}`;
   item.textContent = category.name;
   item.dataset.id = category.id;
   item.addEventListener("click", event => {
     event.stopPropagation();
+    if (children.length) {
+      if (state.expandedCategories.has(category.id)) {
+        state.expandedCategories.delete(category.id);
+      } else {
+        state.expandedCategories.add(category.id);
+      }
+    }
     selectCategory(category.id);
   });
 
