@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T10:37:10.746564-03:00",
+  "generatedAt": "2026-07-05T20:28:34.2834148-03:00",
   "productCount": 508,
   "pageSize": 500,
   "ordering": {
@@ -12,7 +12,7 @@
   "categories": [
     {
       "id": 1,
-      "name": "Arduino",
+      "name": "Arduino compatible",
       "level": 0,
       "sortOrder": 10
     },
@@ -30,7 +30,7 @@
     },
     {
       "id": 3,
-      "name": "Modulo",
+      "name": "Modulos",
       "level": 0,
       "sortOrder": 40
     },
@@ -83,10 +83,38 @@
       "sortOrder": 60
     },
     {
+      "id": 30,
+      "parentId": 21,
+      "name": "Ventiladores Coolers",
+      "level": 1,
+      "sortOrder": 70
+    },
+    {
+      "id": 37,
+      "parentId": 21,
+      "name": "Sensores",
+      "level": 1,
+      "sortOrder": 80
+    },
+    {
+      "id": 39,
+      "parentId": 21,
+      "name": "Espaguetis",
+      "level": 1,
+      "sortOrder": 90
+    },
+    {
       "id": 7,
       "name": "3D",
       "level": 0,
       "sortOrder": 60
+    },
+    {
+      "id": 35,
+      "parentId": 7,
+      "name": "Conectores Neumaticos Racor",
+      "level": 1,
+      "sortOrder": 10
     },
     {
       "id": 5,
@@ -95,10 +123,73 @@
       "sortOrder": 70
     },
     {
+      "id": 32,
+      "parentId": 5,
+      "name": "Poleas",
+      "level": 1,
+      "sortOrder": 10
+    },
+    {
+      "id": 33,
+      "parentId": 5,
+      "name": "Correas",
+      "level": 1,
+      "sortOrder": 20
+    },
+    {
+      "id": 34,
+      "parentId": 5,
+      "name": "Acoples",
+      "level": 1,
+      "sortOrder": 30
+    },
+    {
+      "id": 36,
+      "parentId": 5,
+      "name": "Sensores Fin de Carrera",
+      "level": 1,
+      "sortOrder": 40
+    },
+    {
+      "id": 38,
+      "parentId": 5,
+      "name": "Cadena para cables",
+      "level": 1,
+      "sortOrder": 50
+    },
+    {
+      "id": 42,
+      "parentId": 5,
+      "name": "Rodamientos",
+      "level": 1,
+      "sortOrder": 60
+    },
+    {
+      "id": 43,
+      "parentId": 5,
+      "name": "Guias lineales",
+      "level": 1,
+      "sortOrder": 70
+    },
+    {
+      "id": 44,
+      "parentId": 5,
+      "name": "ACME THSL",
+      "level": 1,
+      "sortOrder": 80
+    },
+    {
+      "id": 45,
+      "parentId": 5,
+      "name": "Perfiles Aluminio 2020 3030 4040",
+      "level": 1,
+      "sortOrder": 90
+    },
+    {
       "id": 16,
       "name": "Motores",
       "level": 0,
-      "sortOrder": 80
+      "sortOrder": 90
     },
     {
       "id": 20,
@@ -120,6 +211,18 @@
       "name": "PAP",
       "level": 1,
       "sortOrder": 30
+    },
+    {
+      "id": 40,
+      "name": "Mecanica",
+      "level": 0,
+      "sortOrder": 100
+    },
+    {
+      "id": 41,
+      "name": "Herramientas",
+      "level": 0,
+      "sortOrder": 110
     }
   ],
   "products": [
@@ -131,8 +234,6 @@
       "category": "",
       "image": "media/3A001_2.jpg",
       "categoryIds": [
-        1,
-        3,
         7
       ],
       "attributes": {
@@ -159,8 +260,6 @@
       "category": "",
       "image": "media/3A002_2.jpg",
       "categoryIds": [
-        1,
-        3,
         7
       ],
       "attributes": {
@@ -187,8 +286,6 @@
       "category": "",
       "image": "media/3A003_2.jpg",
       "categoryIds": [
-        1,
-        3,
         7
       ],
       "attributes": {
@@ -202,33 +299,6 @@
         },
         {
           "fileName": "media/3A003.jpg",
-          "role": "image",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "internalCode": "3A004",
-      "sku": "3A004",
-      "title": "Original Chip with Retail Package Red A4988 Stepper Motor Driver (with Heatsink,1.5A)",
-      "description": "Original Chip with Retail Package Red A4988 Stepper Motor Driver (with Heatsink,1.5A)",
-      "category": "",
-      "image": "media/3A004_3.jpg",
-      "categoryIds": [],
-      "attributes": {},
-      "media": [
-        {
-          "fileName": "media/3A004_3.jpg",
-          "role": "image",
-          "isPrimary": true
-        },
-        {
-          "fileName": "media/3A004-2.jpg",
-          "role": "image",
-          "isPrimary": false
-        },
-        {
-          "fileName": "media/3A004.jpg",
           "role": "image",
           "isPrimary": false
         }
@@ -299,7 +369,12 @@
       "description": "disipador de aluminio 9x9x5mm con pegamento para drivers A4988, DRV8825, etc",
       "category": "",
       "image": "media/3A007_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "33"
       },
@@ -333,7 +408,11 @@
       "description": "KS42STH34-1504A Motor Nema17 34mm Rated Current 1.5A resistance:1.5? Holding Torque: 0.22N.m",
       "category": "",
       "image": "media/3A011_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -357,7 +436,11 @@
       "description": "KS42STH40-1204A Motor Nema17 40mm Rated Current 1.2A resistance:1.7? Holding Torque: 0.4N.m",
       "category": "",
       "image": "media/3A012_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -381,7 +464,11 @@
       "description": "KS42STH48-1684A Motor Nema17 48mm Rated Current 1.68A resistance:1.65? Holding Torque: \u00B30.5N.m",
       "category": "",
       "image": "media/3A013_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -410,7 +497,9 @@
       "description": "Cinta Kapton 200mm",
       "category": "",
       "image": "media/3A028_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -464,7 +553,7 @@
         7
       ],
       "attributes": {
-        "Stock": "14"
+        "Stock": "15"
       },
       "media": [
         {
@@ -490,7 +579,7 @@
         7
       ],
       "attributes": {
-        "Stock": "3"
+        "Stock": "6"
       },
       "media": [
         {
@@ -508,7 +597,7 @@
     {
       "internalCode": "3A032",
       "sku": "3A032",
-      "title": "Cinta Kapton 5mm",
+      "title": "Cinta Kapton 05mm",
       "description": "Cinta Kapton 5mm",
       "category": "",
       "image": "media/3A032_2.jpg",
@@ -538,7 +627,12 @@
       "description": "Fin de carrera mecanico con cable",
       "category": "",
       "image": "media/3A034.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -567,7 +661,12 @@
       "description": "Fin de carrera optico con cable",
       "category": "",
       "image": "media/3A036.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -596,7 +695,12 @@
       "description": "Fin de carrera mecanico con rueda",
       "category": "",
       "image": "media/3A037.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -625,7 +729,12 @@
       "description": "Fin de carrera SS-5GL OMRON",
       "category": "",
       "image": "media/3A038.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -648,13 +757,33 @@
       ]
     },
     {
+      "internalCode": "3A039",
+      "sku": "3A039",
+      "title": "Small Micro Limit Switch 1A 125V AC",
+      "description": "Small Micro Limit Switch 1A 125V AC",
+      "category": "",
+      "image": "media/3A039.jpg",
+      "categoryIds": [],
+      "attributes": {},
+      "media": [
+        {
+          "fileName": "media/3A039.jpg",
+          "role": "image",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
       "internalCode": "3A044",
       "sku": "3A044",
       "title": "Espiral para cables 8mm",
       "description": "Espiral para cables 8mm bolsa de 100 gramos aproximadamente 10 metros",
       "category": "",
       "image": "media/3A044_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        39
+      ],
       "attributes": {
         "Stock": "100"
       },
@@ -678,7 +807,10 @@
       "description": "Espiral para cables 10mm bolsa de 100 gramos aproximadamente 8 metros",
       "category": "",
       "image": "media/3A046_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        39
+      ],
       "attributes": {
         "Stock": "100"
       },
@@ -730,7 +862,9 @@
       "description": "CLIP Cama UM2",
       "category": "",
       "image": "media/3A062.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -749,7 +883,10 @@
       "description": "cable para motor PAP 72 cm",
       "category": "",
       "image": "media/3A073.png",
-      "categoryIds": [],
+      "categoryIds": [
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -773,7 +910,10 @@
       "description": "cable para motor PAP 100 cm",
       "category": "",
       "image": "media/3A074.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -792,7 +932,11 @@
       "description": "LJ12A3-4-Z/BY PNP NO Sensor Inductivo 4mm",
       "category": "",
       "image": "media/3A083.png",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "17"
       },
@@ -821,7 +965,11 @@
       "description": "LJ18A3-8-Z/BX Sensor Inductivo 8mm",
       "category": "",
       "image": "media/3A084.png",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -850,7 +998,12 @@
       "description": "Fin de carrera SS-5GL CQC",
       "category": "",
       "image": "media/3A104.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -922,7 +1075,12 @@
       "description": "A4988 Rojo 1.5A (Chip Chino) con disipador",
       "category": "",
       "image": "media/3A115_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "47"
       },
@@ -950,7 +1108,7 @@
         7
       ],
       "attributes": {
-        "Stock": "16"
+        "Stock": "6"
       },
       "media": [
         {
@@ -972,7 +1130,11 @@
       "description": "LJ12A3-4-Z/BX-5V M12 4mm DC 5V NPN NO Sensor inductivo 4mm",
       "category": "",
       "image": "media/3A122_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -996,7 +1158,12 @@
       "description": "Fin de carrera chico",
       "category": "",
       "image": "media/3A124.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1020,7 +1187,12 @@
       "description": "fin de carrera brazo de 16mm 5A SPDT",
       "category": "",
       "image": "media/3A125.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1044,7 +1216,12 @@
       "description": "Fin de carrera SS-5GL 28mm CQC",
       "category": "",
       "image": "media/3A126.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1068,7 +1245,10 @@
       "description": "Resorte Amarillo Alto 25 mm Ancho 8 mm centro 4 mm",
       "category": "",
       "image": "media/3A129_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1092,7 +1272,10 @@
       "description": "Termistor  NTC 100K hasta 350 grados con cable 1 metro y ficha",
       "category": "",
       "image": "media/3A134_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        37
+      ],
       "attributes": {
         "Stock": "49"
       },
@@ -1116,7 +1299,10 @@
       "description": "Termistor  NTC 100K hasta 350 grados con cable 2 metros y ficha",
       "category": "",
       "image": "media/3A135_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1146,8 +1332,8 @@
     {
       "internalCode": "3A138",
       "sku": "3A138",
-      "title": "placa de extensi\u2014n para drivers pololus",
-      "description": "placa de extensi\u2014n para drivers pololus",
+      "title": "placa de extension para drivers pololus",
+      "description": "placa de extension para drivers pololus",
       "category": "",
       "image": "media/3A138_2.jpg",
       "categoryIds": [],
@@ -1174,7 +1360,10 @@
       "description": "disipador de aluminio para driver drv8825, A4988, A4983, TMC2100, etc",
       "category": "",
       "image": "media/3A164_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -1217,7 +1406,12 @@
       "description": "Fin de carrera Optico A",
       "category": "",
       "image": "media/3A196.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1246,7 +1440,11 @@
       "description": "JK42HS34-1304A-01F Motor Nema17 34mm 1.8",
       "category": "",
       "image": "media/3A201_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1275,7 +1473,11 @@
       "description": "JK42HS34-1334 Motor Nema17 34mm",
       "category": "",
       "image": "media/3A202_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1299,7 +1501,11 @@
       "description": "JK42HS40-1304F Motor Nema17 40mm con cable de 1 metro",
       "category": "",
       "image": "media/3A203_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1323,7 +1529,11 @@
       "description": "JK42HS40-1704-13A Motor Nema17 40mm con cable de 1 metro",
       "category": "",
       "image": "media/3A204_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1352,7 +1562,11 @@
       "description": "JK42HS48-1684-08AF  Motor Nema17 48mm con cable de 1 metro 2.8 V, 1.68 A, static torque 5.0k g.c m",
       "category": "",
       "image": "media/3A206_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1376,7 +1590,11 @@
       "description": "LJC18A3-H-Z/BY Sensor Capacitivo 8mm",
       "category": "",
       "image": "media/3A224.png",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -1405,7 +1623,10 @@
       "description": "Resorte Azul Alto 25 mm Ancho 8 mm Centro 4 mm",
       "category": "",
       "image": "media/3A225_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -1429,7 +1650,12 @@
       "description": "TMC2130 V1.1",
       "category": "",
       "image": "media/3A229_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1453,7 +1679,12 @@
       "description": "TMC2208 con disipador",
       "category": "",
       "image": "media/3A230_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1477,7 +1708,9 @@
       "description": "KFB 2.0",
       "category": "",
       "image": "media/3A253.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -1496,7 +1729,12 @@
       "description": "TB67S109 pololu",
       "category": "",
       "image": "media/3A254_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -1520,7 +1758,9 @@
       "description": "RAMPS 1.6",
       "category": "",
       "image": "media/3A255_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1544,7 +1784,12 @@
       "description": "DRV8825 Violeta 2.5A (Chip Chino) con disipador",
       "category": "",
       "image": "media/3A260_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1573,7 +1818,12 @@
       "description": "TL-Smoother DFORCE Vibration Pattern Filter with Cable Eight Chip",
       "category": "",
       "image": "media/3A263_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -1597,7 +1847,12 @@
       "description": "Fin de carrera Mecanico horizontal",
       "category": "",
       "image": "media/3A282.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1626,7 +1881,11 @@
       "description": "LJ8A3-2-Z/BX M8 NPN Sensor Inductivo",
       "category": "",
       "image": "media/3A283_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1655,7 +1914,12 @@
       "description": "TMC2100",
       "category": "",
       "image": "media/3A291_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1679,7 +1943,12 @@
       "description": "TMC2209 V3.0",
       "category": "",
       "image": "media/3A292.png",
-      "categoryIds": [],
+      "categoryIds": [
+        1,
+        3,
+        5,
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -1697,32 +1966,15 @@
       ]
     },
     {
-      "internalCode": "3B067",
-      "sku": "3B067",
-      "title": "Rejilla para Cooler 60mm",
-      "description": "Rejilla para Cooler 60mm",
-      "category": "",
-      "image": "media/3B067.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "Stock": "0"
-      },
-      "media": [
-        {
-          "fileName": "media/3B067.jpg",
-          "role": "image",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
       "internalCode": "3B129",
       "sku": "3B129",
       "title": "Cubierta p/E3D V6 \u002B cooler 30x10  12V",
       "description": "Cubierta p/E3D V6 \u002B cooler 30x10  12V",
       "category": "",
       "image": "media/3B129_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "17"
       },
@@ -1746,7 +1998,9 @@
       "description": "Extrusor MK8 completo c/motor",
       "category": "",
       "image": "media/3B139_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -1770,7 +2024,10 @@
       "description": "Cooler 40x40x10 12V Oil Containing",
       "category": "",
       "image": "media/3B153_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1799,7 +2056,10 @@
       "description": "Cooler 60x60x10 12V buje",
       "category": "",
       "image": "media/3B155 - 24V.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "38"
       },
@@ -1823,7 +2083,10 @@
       "description": "Cooler Blower 50x50x15 12V buje",
       "category": "",
       "image": "media/3B156_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1847,7 +2110,10 @@
       "description": "Rejilla para Cooler 40mm",
       "category": "",
       "image": "media/3B157.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "426"
       },
@@ -1866,7 +2132,10 @@
       "description": "Rejilla para Cooler 80mm",
       "category": "",
       "image": "media/3B158.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "84"
       },
@@ -1885,7 +2154,9 @@
       "description": "Tubo de teflon 2x3",
       "category": "",
       "image": "media/3B159_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -1909,7 +2180,9 @@
       "description": "Tubo de teflon 2x4",
       "category": "",
       "image": "media/3B160_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "200"
       },
@@ -1933,7 +2206,9 @@
       "description": "Cartucho calefactor 12V diametro 6mm - Largo 20mm",
       "category": "",
       "image": "media/3B164_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -1957,7 +2232,9 @@
       "description": "Cartucho calefactor 24V diametro 6mm - Largo 20mm",
       "category": "",
       "image": "media/3B165_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -1981,7 +2258,9 @@
       "description": "Termistor NTC 100K con cable y ficha",
       "category": "",
       "image": "media/3B167_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -2010,7 +2289,10 @@
       "description": "Conector Neumatico Racor Rosca Metrica 5",
       "category": "",
       "image": "media/3B169_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        35
+      ],
       "attributes": {
         "Stock": "200"
       },
@@ -2034,7 +2316,10 @@
       "description": "Conector neumatico Racor Rosca Metrica 6",
       "category": "",
       "image": "media/3B170_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        35
+      ],
       "attributes": {
         "Stock": "120"
       },
@@ -2058,7 +2343,10 @@
       "description": "Conector neumatico Racor Rosca 3/8",
       "category": "",
       "image": "media/3B172_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        35
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2082,7 +2370,9 @@
       "description": "Engranaje para filamento Acero 40 Dientes Diametro externo 12mm Diametro eje 5mm Largo 11mm",
       "category": "",
       "image": "media/3B173_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "9"
       },
@@ -2106,7 +2396,9 @@
       "description": "Engranaje para filamento Bronce 26 Dientes Diametro 12mm Largo 11mm",
       "category": "",
       "image": "media/3B174_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2130,7 +2422,9 @@
       "description": "Engranaje para filamento MK7",
       "category": "",
       "image": "media/3B175_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "40"
       },
@@ -2154,7 +2448,9 @@
       "description": "Engranaje para filamento MK8",
       "category": "",
       "image": "media/3B176_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "80"
       },
@@ -2178,7 +2474,9 @@
       "description": "Nozzle E3D 0.2 mm",
       "category": "",
       "image": "media/3B181_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "40"
       },
@@ -2202,7 +2500,9 @@
       "description": "Nozzle E3D 0.3 mm",
       "category": "",
       "image": "media/3B182_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "150"
       },
@@ -2226,7 +2526,9 @@
       "description": "Nozzle E3D 0.4 mm",
       "category": "",
       "image": "media/3B183_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "8"
       },
@@ -2250,7 +2552,9 @@
       "description": "Nozzle E3D 0.5 mm",
       "category": "",
       "image": "media/3B184_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "90"
       },
@@ -2274,7 +2578,9 @@
       "description": "Nozzle MK8 1.75mm 0.2mm",
       "category": "",
       "image": "media/3B196_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2298,7 +2604,9 @@
       "description": "Nozzle MK8 1.75mm 0.3mm",
       "category": "",
       "image": "media/3B197_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "35"
       },
@@ -2322,7 +2630,9 @@
       "description": "Nozzle MK8 1.75mm 0.4mm",
       "category": "",
       "image": "media/3B198_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2346,7 +2656,9 @@
       "description": "Nozzle MK8 1.75mm 0.5mm",
       "category": "",
       "image": "media/3B199_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -2370,7 +2682,9 @@
       "description": "Termistor NTC 100K con cable y ficha para MK8 con encapsulado de cobre",
       "category": "",
       "image": "media/3B204_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "11"
       },
@@ -2394,7 +2708,9 @@
       "description": "Barrel E3D Version 5",
       "category": "",
       "image": "media/3B208_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2418,7 +2734,9 @@
       "description": "Barrel E3D V5 sin Teflon para 3.0mm",
       "category": "",
       "image": "media/3B209_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -2442,7 +2760,9 @@
       "description": "Barrel E3D V6 Sin Teflon",
       "category": "",
       "image": "media/3B210_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "103"
       },
@@ -2466,7 +2786,9 @@
       "description": "Barrel E3D V6 Sin Teflon 3.0mm",
       "category": "",
       "image": "media/3B211_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2490,7 +2812,9 @@
       "description": "Barrel MK8 26mm con teflon (todo rosca)",
       "category": "",
       "image": "media/3B212_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "2"
       },
@@ -2514,7 +2838,9 @@
       "description": "disipador para extrusores MK8",
       "category": "",
       "image": "media/3B216_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "19"
       },
@@ -2538,7 +2864,9 @@
       "description": "Engranaje para filamento Acero 38 Dientes Diametro externo 11mm Diametro eje 5mm Largo 12mm",
       "category": "",
       "image": "media/3B219.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -2557,7 +2885,9 @@
       "description": "Barrel MK8 26mm con teflon (con rebaje central)",
       "category": "",
       "image": "media/3B223_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2581,7 +2911,10 @@
       "description": "Rejilla para Cooler 50mm",
       "category": "",
       "image": "media/3B233.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "63"
       },
@@ -2600,7 +2933,9 @@
       "description": "Bloque Volcano",
       "category": "",
       "image": "media/3B237_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "24"
       },
@@ -2629,7 +2964,9 @@
       "description": "Nozzle Volcano 0.4mm",
       "category": "",
       "image": "media/3B238_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2653,7 +2990,9 @@
       "description": "Nozzle Volcano 0.6mm",
       "category": "",
       "image": "media/3B239_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2677,7 +3016,9 @@
       "description": "Nozzle Volcano 0.8mm",
       "category": "",
       "image": "media/3B240_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2701,7 +3042,9 @@
       "description": "Nozzle Volcano 1.0mm",
       "category": "",
       "image": "media/3B241_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "50"
       },
@@ -2725,7 +3068,9 @@
       "description": "Nozzle Volcano 1.2mm",
       "category": "",
       "image": "media/3B242_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "50"
       },
@@ -2749,7 +3094,9 @@
       "description": "Nozzle E3D ACERO INOX 0.25mm",
       "category": "",
       "image": "media/3B248_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -2773,7 +3120,9 @@
       "description": "Nozzle E3D ACERO INOX 0.4 mm",
       "category": "",
       "image": "media/3B249_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "7"
       },
@@ -2797,7 +3146,9 @@
       "description": "Nozzle E3D ACERO INOX 0.8 mm",
       "category": "",
       "image": "media/3B250_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "40"
       },
@@ -2821,7 +3172,9 @@
       "description": "Barrel MK8 rosca M6 largo 30mm",
       "category": "",
       "image": "media/3B266_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2845,7 +3198,9 @@
       "description": "Barrel MK8 rosca M6 largo 50mm",
       "category": "",
       "image": "media/3B267_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2869,7 +3224,9 @@
       "description": "Barrel M6 pasante 30mm centro 4mm",
       "category": "",
       "image": "media/3B268_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2893,7 +3250,9 @@
       "description": "MK8 Kit para extrusor Izquierdo amarillo",
       "category": "",
       "image": "media/3B276_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "12"
       },
@@ -2917,7 +3276,9 @@
       "description": "MK8 Kit para extrusor Derecho amarillo",
       "category": "",
       "image": "media/3B277_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2941,7 +3302,9 @@
       "description": "Nozzle MK8 ACERO INOX 1.75mm 0.3mm",
       "category": "",
       "image": "media/3B282_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2965,7 +3328,9 @@
       "description": "Nozzle MK8 ACERO INOX 1.75mm 0.4mm",
       "category": "",
       "image": "media/3B283_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -2989,7 +3354,9 @@
       "description": "Bloque E3D Version 6 compatible con termistores NTC100K 350 grados (usa el termistor 3A134)",
       "category": "",
       "image": "media/3B285_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3023,7 +3390,9 @@
       "description": "Bloque MK8 nueva version con el termistor de e3d",
       "category": "",
       "image": "media/3B287_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3052,7 +3421,9 @@
       "description": "Nozzle E3D 0.6 mm",
       "category": "",
       "image": "media/3B293_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "45"
       },
@@ -3076,7 +3447,9 @@
       "description": "Nozzle E3D 0.8 mm",
       "category": "",
       "image": "media/3B294_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "45"
       },
@@ -3100,7 +3473,9 @@
       "description": "Nozzle E3D 1.0 mm",
       "category": "",
       "image": "media/3B295_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "50"
       },
@@ -3124,7 +3499,9 @@
       "description": "Cartucho calefactor 12V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
       "category": "",
       "image": "media/3b307.png",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3148,7 +3525,9 @@
       "description": "Cartucho calefactor 24V diametro 6mm - Largo 20mm con conector a 10cm cable de 1 metro",
       "category": "",
       "image": "media/3b308.png",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3172,7 +3551,10 @@
       "description": "Conector neumatico Racor Rosca Metrica 6",
       "category": "",
       "image": "media/3B343.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        35
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3191,7 +3573,10 @@
       "description": "Conector neumatico Racor Rosca Metrica 6",
       "category": "",
       "image": "media/3B344_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        35
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3215,7 +3600,9 @@
       "description": "Barrel MK8 largo liso M6 6x30mm con teflon",
       "category": "",
       "image": "media/3B346_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3239,7 +3626,9 @@
       "description": "Bloque tipo Makerbot 16 x 16 x 12 para diferentes tipos de termistores y cartuchos",
       "category": "",
       "image": "media/3B358_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -3268,7 +3657,9 @@
       "description": "MK8 Kit para extrusor bowden Izquierdo rojo",
       "category": "",
       "image": "media/3B370_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3292,7 +3683,9 @@
       "description": "MK8 Kit para extrusor bowden Derecho rojo",
       "category": "",
       "image": "media/3B371_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3316,7 +3709,11 @@
       "description": "Correa GT2-6mm por metro Alta Calidad",
       "category": "",
       "image": "media/3C001_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3340,7 +3737,11 @@
       "description": "Correa GT2-6mm por metro poliuretano blanco alambre de acero",
       "category": "",
       "image": "media/3C002_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3364,7 +3765,11 @@
       "description": "Correa GT2-6 cerrada 202 mm",
       "category": "",
       "image": "media/3C003_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3388,7 +3793,11 @@
       "description": "Polea GT2-6mm 16 dientes eje 5mm Calidad Alta",
       "category": "",
       "image": "media/3C004_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3412,7 +3821,11 @@
       "description": "Polea GT2-6mm 20 dientes eje 5mm Calidad Alta",
       "category": "",
       "image": "media/3C005_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3441,7 +3854,11 @@
       "description": "Polea GT2-6mm 20 dientes eje 8mm Calidad Alta",
       "category": "",
       "image": "media/3C006_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3465,7 +3882,10 @@
       "description": "LM6uu eje 6mm  diametro 12mm  largo 19mm",
       "category": "",
       "image": "media/3C007_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3489,7 +3909,10 @@
       "description": "LM8uu eje 8mm  diametro 15mm  largo 24mm",
       "category": "",
       "image": "media/3C008_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3513,7 +3936,10 @@
       "description": "LM10uu eje 10mm  diametro 19mm  largo 29mm",
       "category": "",
       "image": "media/3C009_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3537,7 +3963,10 @@
       "description": "SC8uu",
       "category": "",
       "image": "media/3C010_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3561,7 +3990,10 @@
       "description": "SC10uu",
       "category": "",
       "image": "media/3C011_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3585,7 +4017,10 @@
       "description": "SC12uu",
       "category": "",
       "image": "media/3C012_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3609,7 +4044,10 @@
       "description": "Acople Flexible 5 mm a 5 mm",
       "category": "",
       "image": "media/3C013_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3633,7 +4071,10 @@
       "description": "Acople Flexible tipo abrazadera 5 mm a 5 mm",
       "category": "",
       "image": "media/3C014_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3657,7 +4098,10 @@
       "description": "Acople Flexible 5 mm a 8 mm",
       "category": "",
       "image": "media/3C015_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3681,7 +4125,10 @@
       "description": "Acople Flexible tipo abrazadera 5 mm a 8 mm",
       "category": "",
       "image": "media/3C016_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3705,7 +4152,10 @@
       "description": "624zz eje 4mm  diametro 13mm  espesor 5mm",
       "category": "",
       "image": "media/3C019_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "25"
       },
@@ -3729,7 +4179,10 @@
       "description": "F625zz eje 5mm diametro 16mm espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm",
       "category": "",
       "image": "media/3C020_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "80"
       },
@@ -3758,7 +4211,10 @@
       "description": "608zz eje 8mm diametro 22mm espesor 7mm",
       "category": "",
       "image": "media/3C021_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3776,13 +4232,40 @@
       ]
     },
     {
+      "internalCode": "3C022",
+      "sku": "3C022",
+      "title": "626zz",
+      "description": "626zz Rodamiento",
+      "category": "",
+      "image": "media/3C022_2.jpg",
+      "categoryIds": [],
+      "attributes": {
+        "Stock": ""
+      },
+      "media": [
+        {
+          "fileName": "media/3C022_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
+        {
+          "fileName": "media/3C022.jpg",
+          "role": "image",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
       "internalCode": "3C023",
       "sku": "3C023",
       "title": "Resorte para Tensar Correa",
       "description": "Resorte para Tensar Correa",
       "category": "",
       "image": "media/3C023.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        33
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -3849,7 +4332,11 @@
       "description": "Tuerca ACME 8mm 4 hilos",
       "category": "",
       "image": "media/3C028_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3873,7 +4360,11 @@
       "description": "Varilla ACME 8mm largo 300 mm paso 8mm por vuelta 4 hilos con Tuerca",
       "category": "",
       "image": "media/3C030_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -3897,7 +4388,10 @@
       "description": "Eje de acero 8 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
       "category": "",
       "image": "media/3C031_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3921,7 +4415,10 @@
       "description": "Guia lineal MGN12H HIWIN cortado a medida precio por metro Detallar los cortes",
       "category": "",
       "image": "media/3C041.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3945,7 +4442,10 @@
       "description": "Bloque para guia lineal MGN12H HIWIN",
       "category": "",
       "image": "media/3C042.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -3969,7 +4469,10 @@
       "description": "F608zz eje 8mm diametro 22mm espesor 7mm pesta\u00F1a alto 1,5mm espesor 1,5mm",
       "category": "",
       "image": "media/3C053_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -3993,7 +4496,10 @@
       "description": "SHF8",
       "category": "",
       "image": "media/3C054_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4017,7 +4523,10 @@
       "description": "SK8",
       "category": "",
       "image": "media/3C057_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4041,7 +4550,10 @@
       "description": "Destornillador ceramico CD-20T para pololus",
       "category": "",
       "image": "media/3C069_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        41
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -4065,7 +4577,10 @@
       "description": "Rodamiento con canaleta U  eje 4mm  diametro 13mm  espesor 4mm  ancho canaleta 2,1mm  profundidad 1mm",
       "category": "",
       "image": "media/3C073_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "14"
       },
@@ -4166,7 +4681,9 @@
       "description": "Bloque E3D V5",
       "category": "",
       "image": "media/3C086.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -4185,7 +4702,9 @@
       "description": "Bloque E3D Version 6",
       "category": "",
       "image": "media/3C087_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4214,7 +4733,10 @@
       "description": "625zz  eje 5mm  diametro 16mm  espesor 5mm",
       "category": "",
       "image": "media/3C088_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "25"
       },
@@ -4238,7 +4760,11 @@
       "description": "Polea GT2-6mm 40 dientes eje 8mm",
       "category": "",
       "image": "media/3C090_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4262,7 +4788,9 @@
       "description": "Disipador Directo V6 3.0mm",
       "category": "",
       "image": "media/3C091_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4286,7 +4814,9 @@
       "description": "Bowden V6 Sink (4.0 Version, 1.75 \u0026 3.0mm universal)",
       "category": "",
       "image": "media/3C092_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "100"
       },
@@ -4310,7 +4840,9 @@
       "description": "Barrel E3D V6 Con Teflon",
       "category": "",
       "image": "media/3C095_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4334,7 +4866,9 @@
       "description": "Cubierta para E3D V6",
       "category": "",
       "image": "media/3C105_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4358,7 +4892,10 @@
       "description": "623zz  eje 3mm  diametro 10mm  espesor 4mm",
       "category": "",
       "image": "media/3C108_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4382,7 +4919,11 @@
       "description": "Correa GT2-6mm por metro con alambre de acero",
       "category": "",
       "image": "media/3C110_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4406,7 +4947,11 @@
       "description": "Correa GT2-6 cerrada 280 mm",
       "category": "",
       "image": "media/3C112_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4430,7 +4975,11 @@
       "description": "Correa GT2-6 cerrada 400 mm",
       "category": "",
       "image": "media/3C113_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -4454,7 +5003,11 @@
       "description": "Correa GT2-6 cerrada 610 mm",
       "category": "",
       "image": "media/3C114_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -4478,7 +5031,11 @@
       "description": "Correa GT2-6 cerrada 852 mm",
       "category": "",
       "image": "media/3C115_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -4502,7 +5059,11 @@
       "description": "Polea GT2-6mm 40 dientes eje 5mm",
       "category": "",
       "image": "media/3C116_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4531,7 +5092,11 @@
       "description": "Polea GT2-6mm doble 20 dientes eje 8mm",
       "category": "",
       "image": "media/3C117_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "60"
       },
@@ -4555,7 +5120,11 @@
       "description": "Polea lisa con rodamientos tipo 20 dientes eje 5mm para correa de 6mm (sin garantia)",
       "category": "",
       "image": "media/3C118_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4579,7 +5148,10 @@
       "description": "Acople rigido aluminio azul Diametro 14 mm Antura 25 mm eje 5 mm a 5 mm",
       "category": "",
       "image": "media/3C120_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4603,7 +5175,10 @@
       "description": "Acople rigido aluminio azul Diametro 14mm Altura 25 mm eje 5 mm a 8 mm",
       "category": "",
       "image": "media/3C121_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4627,7 +5202,10 @@
       "description": "Acople tipo Ara\u00F1a 5 mm a 8 mm",
       "category": "",
       "image": "media/3C123_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4651,7 +5229,10 @@
       "description": "Acople tipo Ara\u00F1a 5 mm a 12 mm",
       "category": "",
       "image": "media/3C124.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4675,7 +5256,11 @@
       "description": "Correa GT2-6mm Calidad Normal por metro",
       "category": "",
       "image": "media/3C129_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4699,7 +5284,11 @@
       "description": "Correa GT2-10mm por metro",
       "category": "",
       "image": "media/3C130_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4771,7 +5360,11 @@
       "description": "Polea GT2-6mm 16 dientes eje 5mm Calidad Normal",
       "category": "",
       "image": "media/3C133_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -4795,7 +5388,11 @@
       "description": "Polea GT2-6mm 20 dientes eje 5mm Calidad Normal",
       "category": "",
       "image": "media/3C134_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4819,7 +5416,11 @@
       "description": "Polea GT2-6mm 20 dientes eje 8mm Calidad Normal",
       "category": "",
       "image": "media/3C135_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4843,7 +5444,11 @@
       "description": "Polea GT2-6mm 36 dientes eje 5mm",
       "category": "",
       "image": "media/3C136_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4872,7 +5477,11 @@
       "description": "Polea GT2-6mm 36 dientes eje 8mm",
       "category": "",
       "image": "media/3C137_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4896,7 +5505,10 @@
       "description": "LM12uu  eje 12mm  diametro 21mm  largo 30mm",
       "category": "",
       "image": "media/3C138_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "34"
       },
@@ -4920,7 +5532,10 @@
       "description": "SC8Luu",
       "category": "",
       "image": "media/3C139_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4944,7 +5559,10 @@
       "description": "SC10Luu",
       "category": "",
       "image": "media/3C140_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4968,7 +5586,10 @@
       "description": "SC12Luu",
       "category": "",
       "image": "media/3C141_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -4992,7 +5613,10 @@
       "description": "SHF10",
       "category": "",
       "image": "media/3C142_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5016,7 +5640,10 @@
       "description": "SHF12",
       "category": "",
       "image": "media/3C143_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5040,7 +5667,10 @@
       "description": "SK10",
       "category": "",
       "image": "media/3C144_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5064,7 +5694,10 @@
       "description": "SK12",
       "category": "",
       "image": "media/3C145_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5088,7 +5721,10 @@
       "description": "685zz",
       "category": "",
       "image": "media/3C155_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -5112,7 +5748,10 @@
       "description": "688zz Ball Bearing",
       "category": "",
       "image": "media/3C156_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -5136,7 +5775,10 @@
       "description": "MF105zz Flanged Bearing",
       "category": "",
       "image": "media/3C157_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -5160,7 +5802,10 @@
       "description": "F604ZZ Flanged Ball Bearing",
       "category": "",
       "image": "media/3C158_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -5184,7 +5829,10 @@
       "description": "F623zz  eje 3mm  diametro 10mm  espesor 4mm  pesta\u00F1a alto 0,75mm  espesor 1mm",
       "category": "",
       "image": "media/3C159_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -5208,7 +5856,10 @@
       "description": "F624zz  eje 4mm  diametro 13mm  espesor 5mm  pesta\u00F1a alto 1mm  espesor 1mm",
       "category": "",
       "image": "media/3C160_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        42
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -5232,7 +5883,10 @@
       "description": "Acople tipo Ara\u00F1a 5mm a 10mm",
       "category": "",
       "image": "media/3C161.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5251,7 +5905,11 @@
       "description": "Tuerca ACME 8mm Antibacklash",
       "category": "",
       "image": "media/3C162_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -5275,7 +5933,11 @@
       "description": "Varilla ACME 10mm cortes a medida Paso 8mm precio por metro Detallar los cortes (minimo 10 unidades por medida)",
       "category": "",
       "image": "media/3C171.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5294,7 +5956,10 @@
       "description": "Eje de acero 6 mm Endurecido por induccion de alta frecuencia. cortes a medida, minimo 10 por medida",
       "category": "",
       "image": "media/3C177_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5318,7 +5983,11 @@
       "description": "Varilla ACME 8 mm cortes a medida precio por metro Detallar los cortes (minimo 10 unidades por medida)",
       "category": "",
       "image": "media/3C178.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5337,7 +6006,10 @@
       "description": "Eje de acero 10 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
       "category": "",
       "image": "media/3C179_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5361,7 +6033,10 @@
       "description": "Eje de acero 12 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
       "category": "",
       "image": "media/3C180_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5385,7 +6060,10 @@
       "description": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 5",
       "category": "",
       "image": "media/3C202_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        35
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5409,7 +6087,10 @@
       "description": "Tuerca deslizante est\u2021ndar europeo M5 x 10 x 6 para perfiles 2022",
       "category": "",
       "image": "media/3C204.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5428,7 +6109,10 @@
       "description": "Tuerca martillo estandar europeo M3 x 10 x 6",
       "category": "",
       "image": "media/3C205.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5457,7 +6141,10 @@
       "description": "Tuerca martillo estandar europeo M5 x 10 x 6",
       "category": "",
       "image": "media/3C206.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5476,7 +6163,10 @@
       "description": "Escuadra 202020",
       "category": "",
       "image": "media/3C207.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -5515,7 +6205,10 @@
       "description": "escuadra de aluminio medidas 40 x 40 x 35 para perfil 2020",
       "category": "",
       "image": "media/3C207_4040-2.bmp",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5534,7 +6227,10 @@
       "description": "Perfil de aluminio 2020 estandar europeo cortes a medida indicar cantidades y largos",
       "category": "",
       "image": "media/3C213_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5558,7 +6254,10 @@
       "description": "Rueda para perfil 2020 Ranura en V 24.39mm diametro ACERO eje 5mm",
       "category": "",
       "image": "media/3C219_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5582,7 +6281,10 @@
       "description": "Rueda para perfil 2020 15.23mm diametro eje 5mm",
       "category": "",
       "image": "media/3C220_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5606,7 +6308,10 @@
       "description": "Rueda para perfil 2020 23.89mm diametro eje 5mm",
       "category": "",
       "image": "media/3C221_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "140"
       },
@@ -5630,7 +6335,10 @@
       "description": "Rueda para perfil 2020 Ranura en V 24.39mm diametro eje 5mm",
       "category": "",
       "image": "media/3C222_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5654,7 +6362,10 @@
       "description": "Separador eje 5.1 mm altura 6 mm",
       "category": "",
       "image": "media/3C223.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "40"
       },
@@ -5673,7 +6384,10 @@
       "description": "Separador eje 5.1 mm altura 6.35 mm",
       "category": "",
       "image": "media/3C224.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5692,7 +6406,10 @@
       "description": "Separador eje 5 mm altura 9 mm",
       "category": "",
       "image": "media/3C225.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5711,7 +6428,10 @@
       "description": "Separador eje 5.1 mm altura 3 mm",
       "category": "",
       "image": "media/3C226.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5730,7 +6450,10 @@
       "description": "Separador exc\u017Dntrico hexagonal eje 5 mm altura 6.35 mm sin pesta\u2013a",
       "category": "",
       "image": "media/3C227.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5749,7 +6472,10 @@
       "description": "Separador exc\u017Dntrico hexagonal eje 5 mm altura 6.35 mm",
       "category": "",
       "image": "media/3C228.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5768,7 +6494,10 @@
       "description": "Separador exc\u017Dntrico hexagonal eje 5 mm altura 6 mm sin pesta\u2013a",
       "category": "",
       "image": "media/3C230.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "40"
       },
@@ -5787,7 +6516,11 @@
       "description": "Varilla ACME 8mm largo 200 mm paso 8mm por vuelta con Tuerca",
       "category": "",
       "image": "media/3C239_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5811,7 +6544,11 @@
       "description": "Varilla ACME 8mm largo 350 mm paso 8mm por vuelta con Tuerca",
       "category": "",
       "image": "media/3C240_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5835,7 +6572,11 @@
       "description": "Varilla ACME 8mm largo 400 mm paso 8mm por vuelta con Tuerca",
       "category": "",
       "image": "media/3C241_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5859,7 +6600,11 @@
       "description": "Varilla ACME 8mm largo 500 mm paso 8mm por vuelta con Tuerca",
       "category": "",
       "image": "media/3C242_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -5883,7 +6628,11 @@
       "description": "Varilla ACME 8mm largo 600 mm paso 8mm por vuelta con Tuerca",
       "category": "",
       "image": "media/3C243_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "14"
       },
@@ -5907,7 +6656,11 @@
       "description": "Varilla ACME 8mm largo 1000 mm paso 8mm por vuelta con Tuerca",
       "category": "",
       "image": "media/3C244_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5931,7 +6684,11 @@
       "description": "Polea dentada con rodamientos 20 dientes eje 5mm para correa de 6mm (sin garantia)",
       "category": "",
       "image": "media/3C245_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5955,7 +6712,9 @@
       "description": "Disipador Directo V6 1.75mm usa el barrel 3C402",
       "category": "",
       "image": "media/3C247_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5979,7 +6738,11 @@
       "description": "Tuerca ACME 10mm paso 8mm",
       "category": "",
       "image": "media/3C249.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        44
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -5998,7 +6761,10 @@
       "description": "LM6Luu ( eje 6  di\u2021metro 12  largo 35 )",
       "category": "",
       "image": "media/3C252_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "12"
       },
@@ -6022,7 +6788,10 @@
       "description": "LM8Luu ( eje 8  di\u2021metro 15  largo 45 )",
       "category": "",
       "image": "media/3C253_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6046,7 +6815,10 @@
       "description": "LM10Luu  ( eje 10  di\u2021metro 19  largo 55 )",
       "category": "",
       "image": "media/3C254_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "46"
       },
@@ -6070,7 +6842,10 @@
       "description": "LM12Luu  ( eje 12  di\u2021metro 21  largo 57 )",
       "category": "",
       "image": "media/3C255_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6094,7 +6869,10 @@
       "description": "SC16Luu",
       "category": "",
       "image": "media/3C256_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6118,7 +6896,10 @@
       "description": "Eje de acero 16 mm Endurecido por induccion de alta frecuencia. Precio por metro. Detallar los cortes, minimo 10 por medida",
       "category": "",
       "image": "media/3C257_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6142,7 +6923,10 @@
       "description": "Tuerca deslizante est\u2021ndar europeo M3 x 10 x 6 para perfiles 2020",
       "category": "",
       "image": "media/3C262.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6166,7 +6950,10 @@
       "description": "Tuerca deslizante est\u2021ndar europeo M4 x 10 x 6 para perfiles 2021",
       "category": "",
       "image": "media/3C263.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6185,7 +6972,10 @@
       "description": "Tuerca martillo estandar europeo M4 x 10 x 6",
       "category": "",
       "image": "media/3C264.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6204,7 +6994,10 @@
       "description": "escuadra interna para perfiles 2020",
       "category": "",
       "image": "media/3C267.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6238,7 +7031,11 @@
       "description": "Polea GT2-6mm 30 dientes eje 5mm",
       "category": "",
       "image": "media/3C270_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6267,7 +7064,11 @@
       "description": "Polea GT2-6mm 30 dientes eje 8mm",
       "category": "",
       "image": "media/3C271_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6296,7 +7097,11 @@
       "description": "Polea GT2-6mm 60 dientes eje 5mm",
       "category": "",
       "image": "media/3C273_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6320,7 +7125,11 @@
       "description": "Polea GT2-6mm 60 dientes eje 8 mm",
       "category": "",
       "image": "media/3C274_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6344,7 +7153,11 @@
       "description": "Polea lisa con rodamientos 16 dientes  eje 3mm para correa 6mm (sin garantia)",
       "category": "",
       "image": "media/3C275_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6368,7 +7181,11 @@
       "description": "Polea dentada con rodamientos 16 dientes  eje 3mm para correa 6mm (sin garantia)",
       "category": "",
       "image": "media/3C276_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6392,7 +7209,11 @@
       "description": "Polea lisa con rodamientos 20 dientes  eje 3mm para correa de 6mm (sin garantia)",
       "category": "",
       "image": "media/3C277_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6416,7 +7237,11 @@
       "description": "Polea dentada con rodamientos 20 dientes eje 3mm para correa de 6mm (sin garantia)",
       "category": "",
       "image": "media/3C278_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6440,7 +7265,11 @@
       "description": "Polea lisa con rodamientos 20 dientes eje 5mm para correa de 10mm (sin garantia)",
       "category": "",
       "image": "media/3C279_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6464,7 +7293,11 @@
       "description": "Polea dentada con rodamientos 20 dientes eje 5mm para correa de 10mm (sin garantia)",
       "category": "",
       "image": "media/3C280_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6488,7 +7321,10 @@
       "description": "LM16Luu",
       "category": "",
       "image": "media/3C281_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        43
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6512,7 +7348,11 @@
       "description": "Correa GT2-6 cerrada 158 mm",
       "category": "",
       "image": "media/3C301_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6536,7 +7376,11 @@
       "description": "Correa GT2-6 cerrada 188 mm",
       "category": "",
       "image": "media/3C302_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6560,7 +7404,11 @@
       "description": "Polea GT2-6mm doble 20 dientes eje 5mm",
       "category": "",
       "image": "media/3C308_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -6584,7 +7432,10 @@
       "description": "Polea lisa para extremo con rodamientos plastica",
       "category": "",
       "image": "media/3C309.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6603,7 +7454,10 @@
       "description": "Openbuilds V-Slot Build Board DIY Kit for v-slot t Gantry Plate Big \u002BOpenbuilds Isolation Column\u002BPlastic wheel with Bearings Pulley",
       "category": "",
       "image": "media/3C337_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6627,7 +7481,10 @@
       "description": "Rueda para perfil 2020 23.89mm diametro eje 5mm Kit completo",
       "category": "",
       "image": "media/3C358.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6646,7 +7503,10 @@
       "description": "Rueda para perfil 2020 15.23mm diametro eje 5mm Kit completo",
       "category": "",
       "image": "media/3C359_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6670,7 +7530,10 @@
       "description": "Rueda para perfil 2020 Ranura en V 24.39mm diametro eje 5mm Kit completo",
       "category": "",
       "image": "media/3C360_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6694,7 +7557,10 @@
       "description": "Polea lisa con rodamientos plastica Kit completo",
       "category": "",
       "image": "media/3C361_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        45
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6719,7 +7585,9 @@
       "category": "",
       "image": "media/3C391_2.jpg",
       "categoryIds": [
-        5
+        5,
+        16,
+        17
       ],
       "attributes": {
         "Stock": "0"
@@ -6744,7 +7612,11 @@
       "description": "Motor Nema 14 35HS6012-01",
       "category": "",
       "image": "media/3C392_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6796,7 +7668,11 @@
       "description": "Motor Nema 14  40mm 42HD4027-01",
       "category": "",
       "image": "media/3C394_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -6960,7 +7836,9 @@
       "description": "Barrel V6 Directo M6 para 1.75mm",
       "category": "",
       "image": "media/3C402_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "42"
       },
@@ -6984,7 +7862,9 @@
       "description": "UNO R3 version DIP con chip 16U2",
       "category": "",
       "image": "media/AA002_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7008,7 +7888,9 @@
       "description": "UNO R3 version SMD con chip CH340",
       "category": "",
       "image": "media/AA003.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7027,7 +7909,9 @@
       "description": "MEGA 2560 R3 con chip 16U2",
       "category": "",
       "image": "media/AA005_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7051,7 +7935,9 @@
       "description": "MEGA 2560 R3 con chip CH340",
       "category": "",
       "image": "media/AA006_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7075,7 +7961,9 @@
       "description": "NANO V3.0 Chip FT232",
       "category": "",
       "image": "media/AA007_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7098,6 +7986,23 @@
       ]
     },
     {
+      "internalCode": "AA010",
+      "sku": "AA010",
+      "title": "Pro Mini ATMEGA328P 5V/16M",
+      "description": "Pro Mini ATMEGA328P 5V/16M",
+      "category": "",
+      "image": "media/AA010.jpg",
+      "categoryIds": [],
+      "attributes": {},
+      "media": [
+        {
+          "fileName": "media/AA010.jpg",
+          "role": "image",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
       "internalCode": "AA087",
       "sku": "AA087",
       "title": "28BYJ-48 5V 4-Phase Stepper Motor",
@@ -7105,8 +8010,9 @@
       "category": "",
       "image": "media/AA087_2.jpg",
       "categoryIds": [
-        1,
-        5
+        5,
+        16,
+        17
       ],
       "attributes": {
         "Stock": "0"
@@ -7256,7 +8162,9 @@
       "description": "NANO V3.0 Chip CH340",
       "category": "",
       "image": "media/AA237_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7280,7 +8188,9 @@
       "description": "RF Nano Integrated NRF24L01 Wireless Module with Soldering",
       "category": "",
       "image": "media/AA447_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        1
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7305,8 +8215,9 @@
       "category": "",
       "image": "media/AA613_2.jpg",
       "categoryIds": [
-        1,
-        5
+        5,
+        16,
+        17
       ],
       "attributes": {
         "Stock": "0"
@@ -7331,7 +8242,10 @@
       "description": "Arandela AL 8 x 11 x 1.25",
       "category": "",
       "image": "media/arandela aluminio 8mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "868"
       },
@@ -7656,7 +8570,10 @@
       "description": "Alicate 170",
       "category": "",
       "image": "media/AC142_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        41
+      ],
       "attributes": {
         "Stock": "45"
       },
@@ -7675,6 +8592,25 @@
           "fileName": "media/AC142.jpg",
           "role": "image",
           "isPrimary": false
+        }
+      ]
+    },
+    {
+      "internalCode": "AD008",
+      "sku": "AD008",
+      "title": "Smart Car Chasis Kit 4 ruedas 4 motores 2 bases portapilas",
+      "description": "Chasis Smart Car 2 bases, 4 ruedas, 4 motoreductores, 8 cables, 8 soportes motor, 28 Tornillos, 6 pilares, DC 3-6V, Reducion 1:48 Speed 125rpm, ruedas de 66mm diametro",
+      "category": "",
+      "image": "media/AD008.jpg",
+      "categoryIds": [],
+      "attributes": {
+        "Stock": ""
+      },
+      "media": [
+        {
+          "fileName": "media/AD008.jpg",
+          "role": "image",
+          "isPrimary": true
         }
       ]
     },
@@ -7721,7 +8657,10 @@
       "description": "Arandela Fibra 3.5 x 8 x 1.25",
       "category": "",
       "image": "media/arandela fibra 3.5mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "120"
       },
@@ -7836,7 +8775,10 @@
       "description": "Aranlock 10 x 18",
       "category": "",
       "image": "media/aranlock 10mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "80"
       },
@@ -7855,7 +8797,10 @@
       "description": "Aranlock 12 x 21",
       "category": "",
       "image": "media/aranlock 12mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "72"
       },
@@ -7874,7 +8819,10 @@
       "description": "Aranlock 03 x 11.3",
       "category": "",
       "image": "media/aranlock 3mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "80"
       },
@@ -7893,7 +8841,10 @@
       "description": "Aranlock 04 x 11.3",
       "category": "",
       "image": "media/aranlock 4mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "68"
       },
@@ -7912,7 +8863,10 @@
       "description": "Aranlock 05 x 11.3",
       "category": "",
       "image": "media/aranlock 5mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "80"
       },
@@ -7931,7 +8885,10 @@
       "description": "Aranlock 08 x 15",
       "category": "",
       "image": "media/aranlock 8mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "128"
       },
@@ -7950,7 +8907,9 @@
       "description": "Bambu Lab nozzle series- 0.4 mm [X1, P1 only]",
       "category": "",
       "image": "media/BL0002 Hotend X1 P1 04mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7969,7 +8928,9 @@
       "description": "Bambu Lab nozzle series- 0.2 mm [X1, P1 only]",
       "category": "",
       "image": "media/BL0003 Hotend X1 P1 02mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -7988,7 +8949,9 @@
       "description": "Bambu Lab nozzle series- 0.6 mm [X1, P1 only]",
       "category": "",
       "image": "media/BL0007 Hotend X1 P1 06mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8007,7 +8970,9 @@
       "description": "Bambu Lab nozzle series- 0.8 mm [X1, P1 only]",
       "category": "",
       "image": "media/BL0008 Hotend X1 P1 08mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8026,7 +8991,9 @@
       "description": "Bambu Lab High Temperature Plate Sticker (Smooth PEI) - Exclusively for X1, P1",
       "category": "",
       "image": "media/Plate Sticker Smooth PEI for X1 P1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8045,7 +9012,9 @@
       "description": "Bambu Lab Anti-shock Foot Pads - Exclusively for X1, P1",
       "category": "",
       "image": "media/Anti Shock Pads 1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8064,7 +9033,9 @@
       "description": "Bambu textured PEI printing platform (gold) X1 P1 A1 series",
       "category": "",
       "image": "media/Textured PEI GOLD X1 P1 A1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8083,7 +9054,9 @@
       "description": "Bambu Lab AMS Hub",
       "category": "",
       "image": "media/AMS 01.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8102,7 +9075,9 @@
       "description": "Hot end silicone sleeve-P1,X1",
       "category": "",
       "image": "media/Silicone Hotend Sock P1 X1 series.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8121,7 +9096,9 @@
       "description": "Bambu Lab extruder components - X1 only (SIN STOCK)",
       "category": "",
       "image": "media/BL0051 Extruder Unit X1 02.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8140,7 +9117,9 @@
       "description": "Bambu Low Temperature Printing Platform Sticker - Exclusively for X1 and P1 (SIN STOCK)",
       "category": "",
       "image": "media/Plate Sticker Low Temp for X1 P1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8159,7 +9138,9 @@
       "description": "Bambu Lab low temperature printing platform (SIN STOCK)",
       "category": "",
       "image": "media/Printing Plataform Low Temp.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8178,7 +9159,9 @@
       "description": "Bambu Lab Hot End Kit - 0.4 mm [Exclusively for X1C]",
       "category": "",
       "image": "media/BL0068 Hotend X1C 04mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8197,7 +9180,9 @@
       "description": "Bambu Lab Hot End Kit - 0.6 mm [Exclusively for X1C]",
       "category": "",
       "image": "media/BL0069 Hotend X1C 06mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8216,7 +9201,9 @@
       "description": "Bambu Lab Hot End Kit - 0.8 mm [Exclusively for X1C]",
       "category": "",
       "image": "media/BL0070 Hotend X1C 08mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8235,7 +9222,9 @@
       "description": "Bambu Lab Hot End Kit - 0.2 mm [Exclusively for X1C]",
       "category": "",
       "image": "media/BL0071 Hotend X1C 02mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8254,7 +9243,9 @@
       "description": "Bambu Lab hardened steel nozzle series - 0.4 mm [A1 only]",
       "category": "",
       "image": "media/nozzle A1 04.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8273,7 +9264,9 @@
       "description": "Bambu Lab stainless steel nozzle series- 0.4 mm [A1 only]",
       "category": "",
       "image": "media/nozzle A1 04-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8292,7 +9285,9 @@
       "description": "Bambu Lab hardened steel nozzle series - 0.6 mm [A1 only]",
       "category": "",
       "image": "media/nozzle A1 06.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8311,7 +9306,9 @@
       "description": "Bambu Lab hardened steel nozzle series - 0.8 mm [A1 only]",
       "category": "",
       "image": "media/nozzle A1 08.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8330,7 +9327,9 @@
       "description": "Bambu Lab stainless steel nozzle series- 0.2 mm [A1 only]",
       "category": "",
       "image": "media/nozzle A1 SS 02.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8349,7 +9348,9 @@
       "description": "Bambu textured PEI printing platform (gold) A1 MINI series",
       "category": "",
       "image": "media/BL0077 Textured PEI GOLD A1 MINI.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8368,7 +9369,9 @@
       "description": "Bambu Lab Hot End Kit- 0.4 mm [Exclusively for X1E]",
       "category": "",
       "image": "media/BL0135 Hotend X1E 04.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8387,7 +9390,9 @@
       "description": "Bambu Lab Hot End Kit- 0.6 mm [Exclusively for X1E]",
       "category": "",
       "image": "media/BL0136 Hotend X1E 06.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8406,7 +9411,9 @@
       "description": "Bambu Lab Hot End Kit- 0.8 mm [Exclusively for X1E]",
       "category": "",
       "image": "media/BL0137 Hotend X1E 08.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8425,7 +9432,9 @@
       "description": "Bambu Lab Hot End Kit- 0.2 mm [Exclusively for X1E]",
       "category": "",
       "image": "media/BL0138 Hotend X1E 02.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8444,7 +9453,9 @@
       "description": "Bambu Lab hot end kit- 0.4 mm [P1 only]",
       "category": "",
       "image": "media/BL0139 Hotend kit P1 04mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8463,7 +9474,9 @@
       "description": "Bambu Lab hot end kit- 0.6 mm [P1 only]",
       "category": "",
       "image": "media/BL0140 Hotend kit P1 06mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8482,7 +9495,9 @@
       "description": "Bambu Lab hot end kit- 0.8 mm [P1 only]",
       "category": "",
       "image": "media/BL0141 Hotend kit P1 08mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8501,7 +9516,9 @@
       "description": "Bambu Lab hot end kit- 0.2 mm [P1 only]",
       "category": "",
       "image": "media/BL0142 Hotend kit P1 02mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8520,7 +9537,9 @@
       "description": "Bambu 3D effect sticker set (with steel printing platform) for X1 series P1 series A1",
       "category": "",
       "image": "media/BL0150 ED Effect sticker set.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8539,7 +9558,9 @@
       "description": "Bambu Lab Smooth PEI Printing Platform X1 P1 A1 Series",
       "category": "",
       "image": "media/BL0160 Plate Sticker Smooth PEI for X1 P1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8558,7 +9579,9 @@
       "description": "Bambu double-sided textured PEI printing platform X1 P1 A1 series",
       "category": "",
       "image": "media/BL0161 Textured PEI DOUBLE SIDED X1 P1 A1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8577,7 +9600,9 @@
       "description": "Bambu double-sided textured PEI printing platform A1 MINI series",
       "category": "",
       "image": "media/BL0162 Textured PEI DOUBLE SIDED A1 MINI.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8596,7 +9621,9 @@
       "description": "Bambu Lab Smooth PEI Printing Platform A1 MINI Series",
       "category": "",
       "image": "media/Textured PEI A1 MINI.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8615,7 +9642,10 @@
       "description": "Resorte 16x7.0 Al 0.80",
       "category": "",
       "image": "media/resorte 16.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "930"
       },
@@ -8634,7 +9664,10 @@
       "description": "Resorte 18x8.6 Al 0.75",
       "category": "",
       "image": "media/resorte 18.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "858"
       },
@@ -8653,7 +9686,9 @@
       "description": "Rodamiento de agujas para extrusores 3mm x 5mm x 7mm",
       "category": "",
       "image": "media/K030507_00.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "95"
       },
@@ -8682,7 +9717,9 @@
       "description": "Agujas para destapar nozzles 0.2mm tubo x 10u",
       "category": "",
       "image": "media/FF004.png",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8701,7 +9738,9 @@
       "description": "Agujas para destapar nozzles 0.3mm tubo x 10u",
       "category": "",
       "image": "media/FF004-2.png",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8720,7 +9759,9 @@
       "description": "Agujas para Nozzle 0.4mm x10u",
       "category": "",
       "image": "media/FF004-3.png",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -8739,7 +9780,9 @@
       "description": "Bloque SUPER VOLCANO",
       "category": "",
       "image": "media/Captura de pantalla 2025-07-09 120248.png",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "2"
       },
@@ -8758,7 +9801,9 @@
       "description": "Cartucho SUPER VOLCANO 24V 80W",
       "category": "",
       "image": "media/cartucho supervolcano.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8777,7 +9822,10 @@
       "description": "Cooler 40x40x10  12V SUNON MAGLEV modelo MF40101v1 12V",
       "category": "",
       "image": "media/SUNON 4010.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8796,7 +9844,10 @@
       "description": "Cooler 30x30x10 12V Hydraulic",
       "category": "",
       "image": "media/HA012_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "29"
       },
@@ -8820,7 +9871,10 @@
       "description": "Cooler 30x30x10 12V Double Ball",
       "category": "",
       "image": "media/HA013_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8844,7 +9898,10 @@
       "description": "Cooler 30x30x10 24V Hydraulic",
       "category": "",
       "image": "media/HA014_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "18"
       },
@@ -8868,7 +9925,10 @@
       "description": "Cooler 30x30x10 24V Double Ball",
       "category": "",
       "image": "media/HA015_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8892,7 +9952,10 @@
       "description": "Cooler 40x40x10 12V Double Ball",
       "category": "",
       "image": "media/HA027_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8916,7 +9979,10 @@
       "description": "Cooler 40x40x10 24V Oil Containing",
       "category": "",
       "image": "media/HA028_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8940,7 +10006,10 @@
       "description": "Cooler 40x40x10 24V Double Ball",
       "category": "",
       "image": "media/HA029_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -8964,7 +10033,10 @@
       "description": "Cooler Blower 40x40x20 12V Hydraulic",
       "category": "",
       "image": "media/HA034_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -8988,7 +10060,10 @@
       "description": "Cooler Blower 40x40x20 12V Double Ball",
       "category": "",
       "image": "media/HA035_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9012,7 +10087,10 @@
       "description": "Cooler Blower 40x40x20 24V Hydraulic",
       "category": "",
       "image": "media/HA037_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -9036,7 +10114,10 @@
       "description": "Cooler Blower 40x40x20 24V Double Ball",
       "category": "",
       "image": "media/HA038_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -9060,7 +10141,10 @@
       "description": "Cooler 50x50x10 12V Oil Containing",
       "category": "",
       "image": "media/HA043_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "40"
       },
@@ -9084,7 +10168,10 @@
       "description": "Cooler 50x50x10 12V Double Ball",
       "category": "",
       "image": "media/HA044_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "15"
       },
@@ -9108,7 +10195,10 @@
       "description": "Cooler 50x50x10 24V Oil Containing",
       "category": "",
       "image": "media/HA045_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9132,7 +10222,10 @@
       "description": "Cooler 50x50x10 24V Double Ball",
       "category": "",
       "image": "media/HA046_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "78"
       },
@@ -9156,7 +10249,10 @@
       "description": "Cooler Blower 50x50x15 12V Hydraulic",
       "category": "",
       "image": "media/HA056_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9180,7 +10276,10 @@
       "description": "Cooler Blower 50x50x15 12V Double Ball 0.06A",
       "category": "",
       "image": "media/HA057_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9204,7 +10303,10 @@
       "description": "Cooler Blower 50x50x15 12V Double Ball 0.28A",
       "category": "",
       "image": "media/HA058_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9228,7 +10330,10 @@
       "description": "Cooler Blower 50x50x15 24V Oil Containing",
       "category": "",
       "image": "media/HA059_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9252,7 +10357,10 @@
       "description": "Cooler Blower 50x50x15 24V Hydraulic Centrifugal",
       "category": "",
       "image": "media/HA060_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9276,7 +10384,10 @@
       "description": "Cooler 50x50x20 12V Oil Containing",
       "category": "",
       "image": "media/HA063_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9300,7 +10411,10 @@
       "description": "Cooler 50x50x20 12V Double Ball",
       "category": "",
       "image": "media/HA064_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9324,7 +10438,10 @@
       "description": "Cooler 50x50x20 24V Oil Containing",
       "category": "",
       "image": "media/HA065_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9348,7 +10465,10 @@
       "description": "Cooler 50x50x20 24V Double Ball",
       "category": "",
       "image": "media/HA066_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9372,7 +10492,10 @@
       "description": "Cooler Blower 75x75x30 12V Oil Containing",
       "category": "",
       "image": "media/HA081_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9396,7 +10519,10 @@
       "description": "Cooler Blower 75x75x30 12V Double Ball",
       "category": "",
       "image": "media/HA082_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9420,7 +10546,10 @@
       "description": "Cooler Blower 75x75x30 24V Oil Containing",
       "category": "",
       "image": "media/HA083_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9444,7 +10573,10 @@
       "description": "Cooler Blower 75x75x30 24V Double Ball",
       "category": "",
       "image": "media/HA084_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "16"
       },
@@ -9468,7 +10600,10 @@
       "description": "Cooler 80x80x10 12V Oil Containing",
       "category": "",
       "image": "media/HA089_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9492,7 +10627,10 @@
       "description": "Cooler 80x80x10 12V Double Ball",
       "category": "",
       "image": "media/HA090_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9516,7 +10654,10 @@
       "description": "Cooler 80x80x10 24V Oil Containing",
       "category": "",
       "image": "media/HA091_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9540,7 +10681,10 @@
       "description": "Cooler 80x80x10 24V Double Ball",
       "category": "",
       "image": "media/HA092_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9564,7 +10708,10 @@
       "description": "Cooler 80x80x25 12V Oil Containing",
       "category": "",
       "image": "media/HA097_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9588,7 +10735,10 @@
       "description": "Cooler 80x80x25 12V Double Ball",
       "category": "",
       "image": "media/HA098_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9612,7 +10762,10 @@
       "description": "Cooler 80x80x25 24V Oil Containing",
       "category": "",
       "image": "media/HA099_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9636,7 +10789,10 @@
       "description": "Cooler 80x80x25 24V Double Ball",
       "category": "",
       "image": "media/HA100_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9660,7 +10816,10 @@
       "description": "Cooler 40x40x28 SUNON PMD1238PQB1-A DC12V 3.6W Double Ball",
       "category": "",
       "image": "media/HA120_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "15"
       },
@@ -9684,7 +10843,10 @@
       "description": "Cooler 80x80x25  12V  0.12A modelo 3F-85 Tipo de rodamiento: Hydraumatic Volumen de aire: 38CFM Ruido: 18dBA \u002B 10% Velocidad: 2.200 RPM \u002B 10%",
       "category": "",
       "image": "media/HA123_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "8"
       },
@@ -9708,7 +10870,10 @@
       "description": "Cooler 60x60x15 12V Oil Containing",
       "category": "",
       "image": "media/HA146_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "16"
       },
@@ -9732,7 +10897,10 @@
       "description": "Cooler 60x60x15 24V Oil Containing",
       "category": "",
       "image": "media/HA147_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9756,7 +10924,10 @@
       "description": "Cooler 40x40x20 12V",
       "category": "",
       "image": "media/HA149.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9775,7 +10946,10 @@
       "description": "Cooler 40x40x20 24V",
       "category": "",
       "image": "media/HA150.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9818,7 +10992,11 @@
       "description": "JK28HS32-0674 NEMA11  Stepper Motor With 300MM Cable Round Shaft 1.8\u00A1",
       "category": "",
       "image": "media/JA001.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9837,7 +11015,11 @@
       "description": "JK28HS45-0674 NEMA11  Stepper Motor With 300MM Cable Round Shaft 1.8\u00A1",
       "category": "",
       "image": "media/JA002.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9856,7 +11038,11 @@
       "description": "JK28HS51-0674 NEMA11  Stepper Motor With 300MM Cable Round Shaft 1.8\u00A1",
       "category": "",
       "image": "media/JA003.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9875,7 +11061,11 @@
       "description": "JK35HS34-1004 NEMA14  34mm 2 Phase Hybrid Stepper Motor With 300MM Cable Round Shaft 1.8\u00A1",
       "category": "",
       "image": "media/JA004.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9894,7 +11084,11 @@
       "description": "JK42HS34-0404 NEMA17 eje redondo 1.8\u00BC",
       "category": "",
       "image": "media/JA005.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9913,7 +11107,11 @@
       "description": "JK42HS40-1204D ?17HS3001-20B? NEMA17 Stepper Motor D Shaft 1.8 \u00A1",
       "category": "",
       "image": "media/JA007.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9932,7 +11130,11 @@
       "description": "JK42HS40-1704 ?17HS4401? NEMA17 Stepper Motor With 500MM Cable Round Shaft 1.8 \u00A1",
       "category": "",
       "image": "media/JA008.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9951,7 +11153,11 @@
       "description": "JK42HS48-1684-01 NEMA17 Stepper Motor With 300MM Cable Round Shaft 1.8 \u00A1",
       "category": "",
       "image": "media/JA009.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9970,7 +11176,11 @@
       "description": "JK42HS60-1704A NEMA17 Stepper Motor Motor Cable Length 30-50 Random D Shaft 1.8 \u00A1",
       "category": "",
       "image": "media/JA010.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        16,
+        17
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -9989,7 +11199,9 @@
       "description": "Barrel MK8 rosca M6 largo 40mm",
       "category": "",
       "image": "media/KN829.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10008,7 +11220,10 @@
       "description": "Acople Flexible medidas a pedido minimo 20 unidades 3mm, 4mm, 5mm, 6mm 6.3mm, 7mm, 8mm, 10mm",
       "category": "",
       "image": "media/KR459.png",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        34
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10027,7 +11242,9 @@
       "description": "Nozzle MK8 6mm 0.4 mm",
       "category": "",
       "image": "media/MK8_6mm_00.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "100"
       },
@@ -10046,7 +11263,9 @@
       "description": "Nozzle MK8 6mm 0.6 mm",
       "category": "",
       "image": "media/MK8_6mm_00-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "100"
       },
@@ -10065,7 +11284,9 @@
       "description": "Nozzle MK8 6mm 0.8 mm",
       "category": "",
       "image": "media/MK8_6mm_00-3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "100"
       },
@@ -10108,7 +11329,10 @@
       "description": "Termocontraible 02.5 mm",
       "category": "",
       "image": "media/NC019_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        39
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -10132,7 +11356,10 @@
       "description": "Termocontraible 04 mm",
       "category": "",
       "image": "media/NC020.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        39
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -10151,7 +11378,10 @@
       "description": "Termocontraible 05 mm",
       "category": "",
       "image": "media/NC021_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        39
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -10175,7 +11405,10 @@
       "description": "Termocontraible 22mm",
       "category": "",
       "image": "media/NC023.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        39
+      ],
       "attributes": {
         "Stock": ""
       },
@@ -10194,7 +11427,10 @@
       "description": "Cadena para cables 10 x 10 1 metro con terminales",
       "category": "",
       "image": "media/NC028_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        38
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10218,7 +11454,10 @@
       "description": "Cadena para cables 8 x 8 1 metro con terminales",
       "category": "",
       "image": "media/NC029_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        38
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10242,7 +11481,10 @@
       "description": "Cadena para cables 10 x 15 1 metro con terminales",
       "category": "",
       "image": "media/NC030_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        38
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10323,7 +11565,11 @@
       "description": "LJ12A3-4-Z/BX NPN 6-36V Sensor Inductivo 4mm",
       "category": "",
       "image": "media/ND039_3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        36,
+        37
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10352,7 +11598,10 @@
       "description": "Resorte 22x9.0 Al 1.00",
       "category": "",
       "image": "media/resorte 22.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "330"
       },
@@ -10371,7 +11620,10 @@
       "description": "Resorte 14x7.0 Al 1.00",
       "category": "",
       "image": "media/resorte 14.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "896"
       },
@@ -10390,7 +11642,10 @@
       "description": "Resorte 20x7.5 Al 1.25",
       "category": "",
       "image": "media/resorte 20.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        40
+      ],
       "attributes": {
         "Stock": "856"
       },
@@ -10409,7 +11664,9 @@
       "description": "Extrusor Dual Drive",
       "category": "",
       "image": "media/XJ509.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -10428,7 +11685,9 @@
       "description": "Extrusor Dual Drive Repuesto Engranajes y rodamiendos de agujas",
       "category": "",
       "image": "media/XN572.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10447,7 +11706,9 @@
       "description": "Hotend tipo CR10",
       "category": "",
       "image": "media/CR10 extrusor.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10466,7 +11727,10 @@
       "description": "Blower 40 x 40 x 10  24V",
       "category": "",
       "image": "media/blower 40x40x10 24V.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10485,7 +11749,9 @@
       "description": "Cartucho para Artillery Hornet 24V",
       "category": "",
       "image": "media/XO368 cartucho artillery.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "5"
       },
@@ -10504,7 +11770,9 @@
       "description": "Termistor NTC100K  NTC3950 con conector XH2.54",
       "category": "",
       "image": "media/XO369 termistor con XH2.54.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10523,7 +11791,9 @@
       "description": "Termistor para Artillery SW-X1/X2 Genius/Pro100k",
       "category": "",
       "image": "media/XO370 artillery-thermistor-sidewinder-x1-332804-en.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "7"
       },
@@ -10542,7 +11812,9 @@
       "description": "Nozzle Ender3 s1 0.2 mm",
       "category": "",
       "image": "media/nozzle Ender3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -10561,7 +11833,9 @@
       "description": "Nozzle Ender3 s1 0.3 mm",
       "category": "",
       "image": "media/nozzle Ender3-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10580,7 +11854,9 @@
       "description": "Nozzle Ender3 s1 0.4 mm",
       "category": "",
       "image": "media/nozzle Ender3-3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10599,7 +11875,9 @@
       "description": "Nozzle Ender3 s1 0.6 mm",
       "category": "",
       "image": "media/nozzle Ender3-4.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10618,7 +11896,9 @@
       "description": "Nozzle Ender3 s1 0.8 mm",
       "category": "",
       "image": "media/nozzle Ender3-5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10637,7 +11917,9 @@
       "description": "Nozzle Ender3 s1 1.0 mm",
       "category": "",
       "image": "media/nozzle Ender3-6.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "42"
       },
@@ -10656,7 +11938,9 @@
       "description": "Nozzle BIQU B1 UM2 0.2 mm",
       "category": "",
       "image": "media/nozzle biqu.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10675,7 +11959,9 @@
       "description": "Nozzle BIQU B1 UM2 0.3 mm",
       "category": "",
       "image": "media/nozzle biqu-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "22"
       },
@@ -10694,7 +11980,9 @@
       "description": "Nozzle BIQU B1 UM2 0.4 mm",
       "category": "",
       "image": "media/nozzle biqu-3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10713,7 +12001,9 @@
       "description": "Nozzle BIQU B1 UM2 0.6 mm",
       "category": "",
       "image": "media/nozzle biqu-4.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10732,7 +12022,9 @@
       "description": "Nozzle BIQU B1 UM2 0.8 mm",
       "category": "",
       "image": "media/nozzle biqu-5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10751,7 +12043,9 @@
       "description": "Nozzle BIQU B1 UM2 1.0 mm",
       "category": "",
       "image": "media/nozzle biqu-6.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10770,7 +12064,9 @@
       "description": "Bloque Volcano  para termistor tipo PT100",
       "category": "",
       "image": "media/XO383.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10794,7 +12090,10 @@
       "description": "Cadena para cables 10 x 20 1 metro con teminales",
       "category": "",
       "image": "media/cadena cables 10x20.webp",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        38
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10809,11 +12108,14 @@
     {
       "internalCode": "XO390",
       "sku": "XO390",
-      "title": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 8",
-      "description": "Conector neum\u2021tico Racor Rosca M\u017Dtrica 8",
+      "title": "Conector neumatico Racor M8",
+      "description": "Conector neumatico Racor Rosca Metrica 8",
       "category": "",
       "image": "media/XO390 conector neumatico M8.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7,
+        35
+      ],
       "attributes": {
         "Stock": "56"
       },
@@ -10832,7 +12134,9 @@
       "description": "Bloque y barrel para CR10",
       "category": "",
       "image": "media/bloque y barrel CR10.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "30"
       },
@@ -10851,7 +12155,9 @@
       "description": "hotend completo para Ender 3v3 KE",
       "category": "",
       "image": "media/bloque completo Ender 3v3 KE 1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10870,7 +12176,9 @@
       "description": "hotend completo para Ender 3v3 SE",
       "category": "",
       "image": "media/bloque completo Ender 3v3 SE 1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "2"
       },
@@ -10889,7 +12197,10 @@
       "description": "Cooler 25x25x10 24V Hydraulic",
       "category": "",
       "image": "media/K3928.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "24"
       },
@@ -10908,7 +12219,9 @@
       "description": "Nozzle ender 3v3 SE 0.2mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 SE 01.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10927,7 +12240,9 @@
       "description": "Nozzle ender 3v3 SE 0.4mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 SE 01-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10951,7 +12266,9 @@
       "description": "Nozzle ender 3v3 SE 0.6mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 SE 01-3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10975,7 +12292,9 @@
       "description": "Nozzle ender 3v3 SE 0.8mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 SE 01-4.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -10999,7 +12318,9 @@
       "description": "Nozzle ender 3v3 SE 1.0mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 SE 01-5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -11023,7 +12344,9 @@
       "description": "Nozzle ender 3v3 KE 0.2mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 KE 01.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11047,7 +12370,9 @@
       "description": "Nozzle ender 3v3 KE 0.4 mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 KE 01-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11071,7 +12396,9 @@
       "description": "Nozzle ender 3v3 KE 0.6 mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 KE 01-3.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "9"
       },
@@ -11095,7 +12422,9 @@
       "description": "Nozzle ender 3v3 KE 0.8 mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 KE 01-4.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "9"
       },
@@ -11119,7 +12448,9 @@
       "description": "Nozzle ender 3v3 KE 1.0 mm",
       "category": "",
       "image": "media/Nozzle ender 3v3 KE 01-5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -11143,7 +12474,9 @@
       "description": "Nozzle 0,4 mm y barrel de titanio y cobre todo en uno K1C K1 Max mejorada de alto flujo para impresora 3D Ender-3 V3",
       "category": "",
       "image": "media/nozzle barrel bimetalico ender 3V3 KE.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11162,7 +12495,9 @@
       "description": "barrel Ender 3v3 SE",
       "category": "",
       "image": "media/throat ender 3v3 SE 1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11186,7 +12521,9 @@
       "description": "barrel Ender 3 NEO",
       "category": "",
       "image": "media/Barrel Ender 3 NEO 1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11210,7 +12547,9 @@
       "description": "Bloque Ender 3v3 SE",
       "category": "",
       "image": "media/Ender 3v3 SE bloque.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "5"
       },
@@ -11229,7 +12568,9 @@
       "description": "Bloque Ender 3 CR6",
       "category": "",
       "image": "media/Ender 3 NEO Block.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "5"
       },
@@ -11248,7 +12589,9 @@
       "description": "Silicona para bloque Ender 3V3 KE",
       "category": "",
       "image": "media/Silicona Ender 3v3 KE.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11267,7 +12610,9 @@
       "description": "Silicona para bloque Ender 3V3 SE",
       "category": "",
       "image": "media/Ender 3v3 SE silicona.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11286,7 +12631,9 @@
       "description": "Silicona para bloque Volcano",
       "category": "",
       "image": "media/Silicona volcano.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "14"
       },
@@ -11305,7 +12652,9 @@
       "description": "Silicona para bloque Volcano PT100",
       "category": "",
       "image": "media/Silicona volcano PT100.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "5"
       },
@@ -11324,7 +12673,9 @@
       "description": "Silicona para bloque E3D V5",
       "category": "",
       "image": "media/Silicona E3D V5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
@@ -11343,7 +12694,9 @@
       "description": "Silicona para bloque E3D V6  PT100",
       "category": "",
       "image": "media/Silicona E3D V6 PT100.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "3"
       },
@@ -11362,7 +12715,9 @@
       "description": "Silicona para bloque MK8 CR10",
       "category": "",
       "image": "media/Silicona MK8 CR10.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11381,7 +12736,10 @@
       "description": "Cooler SUNON MAGLEV 40*40*20 12V MF4020V2-1000C-A99",
       "category": "",
       "image": "media/cooler sunon 4020.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "20"
       },
@@ -11405,7 +12763,10 @@
       "description": "Cooler SUNON MAGLEV 80*80*25 12V MF80251V1-1000C-A99",
       "category": "",
       "image": "media/SUNON 8025.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        21,
+        30
+      ],
       "attributes": {
         "Stock": "4"
       },
@@ -11424,7 +12785,9 @@
       "description": "Extrusor HGX-LITE Kit con Motor",
       "category": "",
       "image": "media/HGX EXTRUDER.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "3"
       },
@@ -11453,7 +12816,9 @@
       "description": "Full Metal Filament Drive Gear for K1, K1 Max, K1C Extruder Nickel Plated DLC Coating High Hardness Wear",
       "category": "",
       "image": "media/engranajes.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "9"
       },
@@ -11472,7 +12837,11 @@
       "description": "Correa GT2-12mm por metro fibra de vidrio (pedir multiplos de 50 metros)",
       "category": "",
       "image": "media/correa 10mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11491,7 +12860,11 @@
       "description": "Correa GT2-15mm por metro fibra de vidrio (pedir multiplos de 50 metros)",
       "category": "",
       "image": "media/correa 10mm-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        33
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11510,7 +12883,11 @@
       "description": "Polea GT2-10mm 20 Dientes eje 5 mm",
       "category": "",
       "image": "media/Polea 20T-10mm eje5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11529,7 +12906,11 @@
       "description": "Polea GT2-10mm 40 Dientes eje 5 mm",
       "category": "",
       "image": "media/Polea 40T-10mm eje5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11548,7 +12929,11 @@
       "description": "Polea GT2-15mm 20 Dientes eje 5 mm",
       "category": "",
       "image": "media/Polea 20T-12mm eje5.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11567,7 +12952,11 @@
       "description": "Polea GT2-15mm 40 Dientes eje 5 mm",
       "category": "",
       "image": "media/Polea 40T-10mm eje5-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11586,7 +12975,11 @@
       "description": "Polea GT2-15mm 40 Dientes eje 10 mm",
       "category": "",
       "image": "media/Polea 40T-10mm eje10.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        5,
+        7,
+        32
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11605,7 +12998,9 @@
       "description": "Nozzle Volcano CHT High Flow Copper Three-eyes M6 Threaded Brass 0.8 mm",
       "category": "",
       "image": "media/Nozzle Volcano CHT 0.8mm.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11624,7 +13019,9 @@
       "description": "Nozzle SUPER VOLCANO 1.2 MM",
       "category": "",
       "image": "media/nozzle supervolcano.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11648,7 +13045,9 @@
       "description": "Extrusor doble engranaje Rojo",
       "category": "",
       "image": "media/1727148884674.jpg.jpeg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "3"
       },
@@ -11672,7 +13071,9 @@
       "description": "Cartucho SUPER VOLCANO 12V 80W",
       "category": "",
       "image": "media/cartucho supervolcano-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "5"
       },
@@ -11691,7 +13092,9 @@
       "description": "Silicona para bloque E3D V6",
       "category": "",
       "image": "media/silicona v6 -1.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "80"
       },
@@ -11715,7 +13118,9 @@
       "description": "Bambu lab Hotend Silicone Sock / Hotend Silicone Sock-A1 Series x3 unidades",
       "category": "",
       "image": "media/Silicone Hotend Sock A1 series.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11734,7 +13139,9 @@
       "description": "Barrel MK8 30mm con tefl\u2014n (con rebaje central)",
       "category": "",
       "image": "media/ZP012_2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "0"
       },
@@ -11752,51 +13159,15 @@
       ]
     },
     {
-      "internalCode": "ZP016",
-      "sku": "ZP016",
-      "title": "Aislante para Hotend",
-      "description": "Aislante para Hotend",
-      "category": "",
-      "image": "media/ZP016.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "Stock": ""
-      },
-      "media": [
-        {
-          "fileName": "media/ZP016.jpg",
-          "role": "image",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "internalCode": "ZP055",
-      "sku": "ZP055",
-      "title": "Aislante cama caliente 200x200",
-      "description": "Aislante cama caliente 200x200",
-      "category": "",
-      "image": "media/ZP055.jpg",
-      "categoryIds": [],
-      "attributes": {
-        "Stock": ""
-      },
-      "media": [
-        {
-          "fileName": "media/ZP055.jpg",
-          "role": "image",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
       "internalCode": "ym438",
       "sku": "ym438",
       "title": "Nozzle SUPER VOLCANO 0.8 MM",
       "description": "Nozzle SUPER VOLCANO 0.8 MM",
       "category": "",
       "image": "media/nozzle supervolcano-2.jpg",
-      "categoryIds": [],
+      "categoryIds": [
+        7
+      ],
       "attributes": {
         "Stock": "10"
       },
