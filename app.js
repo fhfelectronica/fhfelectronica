@@ -6,6 +6,10 @@ const state = {
   expandedCategories: new Set(),
   page: 1,
   pageSize: 500,
+  defaultSortMode: "sku",
+  sortMode: "default",
+  sortOptions: [],
+  randomSeed: "",
   mediaVersion: "",
   ordering: {},
   cart: new Map(),
@@ -23,6 +27,8 @@ const mobileCategoriesButton = document.querySelector("#mobileCategoriesButton")
 const closeMobileCategoriesButton = document.querySelector("#closeMobileCategoriesButton");
 const activeCategoryLabel = document.querySelector("#activeCategoryLabel");
 const countLabel = document.querySelector("#countLabel");
+const sortSelect = document.querySelector("#sortSelect");
+const mobileSortSelect = document.querySelector("#mobileSortSelect");
 const contactLinks = document.querySelector("#contactLinks");
 const mobileContactLinks = document.querySelector("#mobileContactLinks");
 const contactButton = document.querySelector("#contactButton");
@@ -52,8 +58,12 @@ async function loadCatalog() {
   state.categories = Array.isArray(catalog.categories) ? catalog.categories : [];
   state.products = Array.isArray(catalog.products) ? catalog.products : [];
   state.pageSize = Math.max(25, Number(catalog.pageSize) || 500);
+  state.defaultSortMode = normalizeSortMode(catalog.defaultSortMode);
+  state.sortOptions = Array.isArray(catalog.sortOptions) ? catalog.sortOptions : [];
+  state.randomSeed = Math.random().toString(36).slice(2);
   state.mediaVersion = encodeURIComponent(catalog.generatedAt || Date.now());
   state.ordering = catalog.ordering || {};
+  configureSortSelectors();
   renderContactLinks();
   configureOrdering();
   renderDesktopCategories();
@@ -156,7 +166,7 @@ function createMobileCategory(category) {
 function renderProducts() {
   const search = normalize(state.search);
   const allowedCategoryIds = state.categoryId ? descendantIds(state.categoryId) : null;
-  const products = state.products.filter(product => {
+  const products = sortProducts(state.products.filter(product => {
     const productCategoryIds = Array.isArray(product.categoryIds) ? product.categoryIds : [];
     const matchesCategory = !allowedCategoryIds ||
       productCategoryIds.some(id => allowedCategoryIds.has(id));
@@ -168,7 +178,7 @@ function renderProducts() {
       ...Object.values(product.attributes || {})
     ].join(" "));
     return matchesCategory && (!search || text.includes(search));
-  });
+  }));
 
   const totalPages = Math.max(1, Math.ceil(products.length / state.pageSize));
   state.page = Math.min(Math.max(1, state.page), totalPages);
@@ -198,6 +208,70 @@ function renderProducts() {
     configureProductOrderControls(node.querySelector(".order-controls"), product);
     productsGrid.appendChild(node);
   }
+}
+
+const collator = new Intl.Collator("es", { numeric: true, sensitivity: "base" });
+
+function sortProducts(products) {
+  const mode = effectiveSortMode();
+  const sorted = [...products];
+  if (mode === "random") {
+    return sorted.sort((a, b) => randomRank(a) - randomRank(b));
+  }
+  if (mode.startsWith("attribute:")) {
+    const attributeName = mode.slice("attribute:".length);
+    return sorted.sort((a, b) => compareSortValues(a.attributes?.[attributeName], b.attributes?.[attributeName]));
+  }
+  const key = mode === "name" ? "title" : "sku";
+  return sorted.sort((a, b) => compareSortValues(a[key], b[key]));
+}
+
+function effectiveSortMode() {
+  return state.sortMode === "default" ? state.defaultSortMode : normalizeSortMode(state.sortMode);
+}
+
+function normalizeSortMode(value) {
+  const mode = String(value || "sku").toLowerCase();
+  return ["sku", "name", "random"].includes(mode) ? mode : "sku";
+}
+
+function configureSortSelectors() {
+  const fallbackOptions = [
+    { value: "default", label: "Predeterminado" },
+    { value: "sku", label: "SKU" },
+    { value: "name", label: "Nombre" },
+    { value: "random", label: "Aleatorio" }
+  ];
+  const options = state.sortOptions.length ? state.sortOptions : fallbackOptions;
+  fillSortSelect(sortSelect, options);
+  fillSortSelect(mobileSortSelect, options);
+}
+
+function fillSortSelect(select, options) {
+  select.replaceChildren();
+  for (const option of options) {
+    const item = document.createElement("option");
+    item.value = option.value;
+    item.textContent = option.label;
+    select.appendChild(item);
+  }
+  select.value = state.sortMode;
+}
+
+function compareSortValues(left, right) {
+  return collator.compare(String(left || ""), String(right || ""));
+}
+
+function randomRank(product) {
+  return hashString(`${state.randomSeed}|${product.sku || product.internalCode || product.title || ""}`);
+}
+
+function hashString(value) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index++) {
+    hash = Math.imul(hash ^ value.charCodeAt(index), 16777619);
+  }
+  return hash >>> 0;
 }
 
 function renderContactLinks() {
@@ -516,6 +590,23 @@ searchInput.addEventListener("input", event => {
   state.search = event.target.value;
   state.page = 1;
   renderProducts();
+});
+
+function changeSortMode(value) {
+  state.sortMode = value;
+  if (sortSelect.value !== value) sortSelect.value = value;
+  if (mobileSortSelect.value !== value) mobileSortSelect.value = value;
+  state.page = 1;
+  renderProducts();
+  productsGrid.scrollTop = 0;
+}
+
+sortSelect.addEventListener("change", event => {
+  changeSortMode(event.target.value);
+});
+
+mobileSortSelect.addEventListener("change", event => {
+  changeSortMode(event.target.value);
 });
 
 previousPageButton.addEventListener("click", () => {

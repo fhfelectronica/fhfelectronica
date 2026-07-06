@@ -1,7 +1,30 @@
 {
-  "generatedAt": "2026-07-05T20:33:47.5455714-03:00",
+  "generatedAt": "2026-07-06T18:26:52.4250097-03:00",
   "productCount": 508,
   "pageSize": 500,
+  "defaultSortMode": "random",
+  "sortOptions": [
+    {
+      "value": "default",
+      "label": "Predeterminado"
+    },
+    {
+      "value": "sku",
+      "label": "SKU"
+    },
+    {
+      "value": "name",
+      "label": "Nombre"
+    },
+    {
+      "value": "random",
+      "label": "Aleatorio"
+    },
+    {
+      "value": "attribute:Stock",
+      "label": "Stock"
+    }
+  ],
   "ordering": {
     "enabled": true,
     "apiUrl": "https://pedidos-api.fhfelectronica.com.ar",

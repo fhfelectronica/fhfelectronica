@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FHF Electronica</title>
   <link rel="icon" href="assets/fhf-electronica-icon.jpg" type="image/jpeg">
-  <link rel="stylesheet" href="styles.css?v=1783294431">
+  <link rel="stylesheet" href="styles.css?v=1783373216">
 </head>
 <body>
   <div class="signal"></div>
@@ -41,6 +41,10 @@
     <aside class="side-panel">
       <section class="sidebar">
         <div class="sidebar-title">Categorías</div>
+        <div class="sort-box">
+          <label for="sortSelect">Orden</label>
+          <select id="sortSelect"></select>
+        </div>
         <nav id="desktopCategories" class="category-menu"></nav>
       </section>
     </aside>
@@ -64,6 +68,10 @@
     <div class="mobile-panel-header">
       <strong>Categorías</strong>
       <button id="closeMobileCategoriesButton" type="button">Cerrar</button>
+    </div>
+    <div class="sort-box mobile-sort-box">
+      <label for="mobileSortSelect">Orden</label>
+      <select id="mobileSortSelect"></select>
     </div>
     <nav id="mobileCategories" class="mobile-categories"></nav>
   </aside>
@@ -112,6 +120,6 @@
     </form>
   </dialog>
 
-  <script src="app.js?v=1783294431"></script>
+  <script src="app.js?v=1783373216"></script>
 </body>
 </html>
