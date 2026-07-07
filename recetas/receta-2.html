@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Galletitas</title>
+  <style>
+    :root{--ink:#183128;--muted:#66756e;--green:#4F9B68;--paper:#fffdf7;--line:#dce7de}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#f8fbf2,#fffdf7);color:var(--ink);font-family:Segoe UI,system-ui,sans-serif;font-size:16px}
+    .page{max-width:940px;margin:0 auto;padding:34px 22px 60px}.intro{text-align:center;margin-bottom:22px}.intro p{color:var(--muted);line-height:1.55}
+    .ad-placeholder{display:grid;place-items:center;min-height:110px;margin:0 0 24px;border:1px dashed #9bb9a2;border-radius:18px;background:linear-gradient(135deg,#f8fbf2,#edf7ef);color:#6c7b70;font-size:13px;font-weight:700;letter-spacing:.08em;text-align:center;text-transform:uppercase}
+    .preview{background:white;border:1px solid var(--line);border-radius:24px;box-shadow:0 12px 38px #193b2414;overflow:hidden}.preview-header{padding:24px 28px;border-bottom:1px solid var(--line)}
+    .eyebrow{margin:0 0 8px;color:var(--green);font-size:11px;font-weight:800;letter-spacing:.15em}.preview h1{font:700 38px/1.05 Georgia,serif;margin:0 0 12px}.summary{color:var(--muted);line-height:1.5;white-space:pre-line}
+    .print-body{padding:24px 28px}.print-image{height:260px;margin-bottom:20px;border-radius:18px;background:#e4eee6;overflow:hidden}.print-image img{width:100%;height:100%;object-fit:cover}.placeholder{display:grid;place-items:center;background:linear-gradient(135deg,#cfead5,#f2e9ca)}.placeholder span{font:700 74px Georgia;color:#4f9b68}
+    dl{margin:0}.detail{padding:12px 0;border-top:1px dashed var(--line)}dt{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}dd{margin:7px 0 0;line-height:1.6;white-space:pre-line}a{color:#287345}
+    .actions{display:flex;gap:12px;justify-content:center;margin-top:24px;flex-wrap:wrap}.action{appearance:none;border:1px solid #79ad86;background:#edf7ef;color:#285b38;border-radius:12px;padding:12px 18px;font:800 14px Segoe UI,sans-serif;cursor:pointer;text-decoration:none}.action.primary{background:var(--green);border-color:var(--green);color:white}.action:hover{filter:brightness(.97)}
+    @page{size:A4 portrait;margin:10mm}
+    @media print{
+      html,body{width:190mm;min-height:277mm;background:#fff;color:#111;font-size:10.5pt}
+      .intro,.ad-placeholder,.actions{display:none!important}.page{max-width:none;margin:0;padding:0}.preview{border:0;border-radius:0;box-shadow:none;overflow:visible;zoom:var(--print-scale,1)}.preview-header{padding:0 0 4mm;border-bottom:0}.preview h1{font-size:24pt;margin-bottom:3mm}.summary{margin:0;line-height:1.35}.print-body{padding:0}.print-image{float:left;width:58mm;height:52mm;border-radius:4mm;margin:0 7mm 5mm 0}.detail{break-inside:avoid;padding:2.2mm 0}dt{font-size:8.5pt}dd{font-size:10pt;line-height:1.35}a{color:#111;text-decoration:none}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="intro">
+      <p class="eyebrow">RECETA COMPLETA</p>
+      <h1>Galletitas</h1>
+      <p>Revisá la receta completa y, si querés guardarla, usá el botón de abajo para imprimir o descargar como PDF.</p>
+    </section>
+    <aside class="ad-placeholder" aria-label="Publicidad en receta">
+  <span>Espacio reservado para publicidad</span>
+</aside>
+    <article class="preview" id="printSheet">
+      <div class="preview-header">
+        <p class="eyebrow">RECETA &#183; PUBLICACI&#211;N</p>
+        <h1>Galletitas</h1>
+        <p class="summary">Galletas saludables</p>
+      </div>
+      <div class="print-body">
+        <div class="print-image"><img src="media/receta-2.jpg" alt="Galletitas"></div>
+        <dl><div class="detail"><dt>Introducci&#243;n / resumen</dt><dd>Galletas saludables</dd></div><div class="detail"><dt>Ingredientes</dt><dd>Harina
+Azucar
+Huevo
+</dd></div></dl>
+      </div>
+    </article>
+    <div class="actions">
+      <button class="action primary" type="button" onclick="printRecipe()">Imprimir / guardar PDF</button>
+    </div>
+  </main>
+  <script>
+    function printRecipe(){
+      const sheet=document.querySelector('#printSheet');
+      sheet.style.setProperty('--print-scale','1');
+      requestAnimationFrame(()=>{const printableHeight=1040,height=sheet.scrollHeight;const scale=Math.max(.55,Math.min(1,printableHeight/Math.max(height,1)));sheet.style.setProperty('--print-scale',scale.toFixed(3));requestAnimationFrame(()=>window.print())});
+    }
+  </script>
+</body>
+</html>
