@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T12:05:02.5983063-03:00",
-  "productCount": 508,
+  "generatedAt": "2026-07-10T20:17:06.7920564-03:00",
+  "productCount": 510,
   "pageSize": 500,
   "defaultSortMode": "random",
   "sortOptions": [
@@ -391,7 +391,7 @@
       "title": "disipador Aluminio 9x9x5mm",
       "description": "disipador de aluminio 9x9x5mm con pegamento para drivers A4988, DRV8825, etc",
       "category": "",
-      "image": "media/3A007_3.jpg",
+      "image": "media/3A007_4.jpg",
       "categoryIds": [
         1,
         3,
@@ -403,9 +403,14 @@
       },
       "media": [
         {
-          "fileName": "media/3A007_3.jpg",
+          "fileName": "media/3A007_4.jpg",
           "role": "image",
           "isPrimary": true
+        },
+        {
+          "fileName": "media/3A007_3.jpg",
+          "role": "image",
+          "isPrimary": false
         },
         {
           "fileName": "media/3A007-2.jpg",
@@ -683,7 +688,7 @@
       "title": "Fin de carrera optico",
       "description": "Fin de carrera optico con cable",
       "category": "",
-      "image": "media/3A036.png",
+      "image": "media/3A036_3.jpg",
       "categoryIds": [
         5,
         7,
@@ -695,7 +700,7 @@
       },
       "media": [
         {
-          "fileName": "media/3A036.png",
+          "fileName": "media/3A036_3.jpg",
           "role": "image",
           "isPrimary": true
         },
@@ -706,6 +711,11 @@
         },
         {
           "fileName": "media/3A036.jpg",
+          "role": "image",
+          "isPrimary": false
+        },
+        {
+          "fileName": "media/3A036.png",
           "role": "image",
           "isPrimary": false
         }
@@ -1645,7 +1655,7 @@
       "title": "Resorte Azul",
       "description": "Resorte Azul Alto 25 mm Ancho 8 mm Centro 4 mm",
       "category": "",
-      "image": "media/3A225_2.jpg",
+      "image": "media/3A225_3.jpg",
       "categoryIds": [
         7,
         40
@@ -1655,9 +1665,14 @@
       },
       "media": [
         {
-          "fileName": "media/3A225_2.jpg",
+          "fileName": "media/3A225_3.jpg",
           "role": "image",
           "isPrimary": true
+        },
+        {
+          "fileName": "media/3A225_2.jpg",
+          "role": "image",
+          "isPrimary": false
         },
         {
           "fileName": "media/3A225.jpg",
@@ -8026,6 +8041,25 @@
       ]
     },
     {
+      "internalCode": "AA071",
+      "sku": "AA071",
+      "title": "830 Ponits Soldless Breadboard \uFF08PP Materail\uFF09",
+      "description": "830 Ponits Soldless Breadboard \uFF08PP Materail\uFF09",
+      "category": "",
+      "image": "media/AA071.jpg",
+      "categoryIds": [],
+      "attributes": {
+        "Stock": ""
+      },
+      "media": [
+        {
+          "fileName": "media/AA071.jpg",
+          "role": "image",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
       "internalCode": "AA087",
       "sku": "AA087",
       "title": "28BYJ-48 5V 4-Phase Stepper Motor",
@@ -8634,6 +8668,30 @@
           "fileName": "media/AD008.jpg",
           "role": "image",
           "isPrimary": true
+        }
+      ]
+    },
+    {
+      "internalCode": "AD092",
+      "sku": "AD092",
+      "title": "Motor DC 3-6V Grade B Reducion 1:48 Velocidad 125rpm/min",
+      "description": "Robot Smart Car DC motor DIY 3-6V Grade B Reduction Ratio 1:48 Rotate Speed 125rpm/min",
+      "category": "",
+      "image": "media/AD092_01_2.jpg",
+      "categoryIds": [],
+      "attributes": {
+        "Stock": ""
+      },
+      "media": [
+        {
+          "fileName": "media/AD092_01_2.jpg",
+          "role": "image",
+          "isPrimary": true
+        },
+        {
+          "fileName": "media/AD092_01.jpg",
+          "role": "image",
+          "isPrimary": false
         }
       ]
     },
