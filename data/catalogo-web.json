@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:17:06.7920564-03:00",
+  "generatedAt": "2026-07-21T12:01:34.7389189-03:00",
   "productCount": 510,
   "pageSize": 500,
   "defaultSortMode": "random",
@@ -1115,7 +1115,7 @@
         7
       ],
       "attributes": {
-        "Stock": "47"
+        "Stock": "18"
       },
       "media": [
         {
@@ -1661,7 +1661,7 @@
         40
       ],
       "attributes": {
-        "Stock": "30"
+        "Stock": "10"
       },
       "media": [
         {
@@ -9984,7 +9984,7 @@
         30
       ],
       "attributes": {
-        "Stock": "18"
+        "Stock": "8"
       },
       "media": [
         {
